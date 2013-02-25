@@ -1,26 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <resources>
+
+   <!-- Translate from here -->
+   
+   <!-- Translate from here -->
+   
+    <string-array name="pref_theme_type_entries">
+      <item>Пузырьки</item>
+      <item>Список</item>
+   </string-array>    
+   
     <string-array name="pref_entries_mms_expiry">
         <item>Один час</item>
         <item>Три часа</item>
         <item>Один день</item>
         <item>Одна неделя</item>
     </string-array>
+
+   
     <string-array name="pref_entries_mms_priority">
         <item>Низкий</item>
         <item>Средний</item>
         <item>Высокий</item>
     </string-array>
+
     <string-array name="pref_entries_mms_resubmission_mode">
         <item>Ограниченный</item>
         <item>Предупреждение</item>
         <item>Свободный</item>
     </string-array>
+
+   
     <string-array name="pref_entries_mms_creation_mode">
         <item>Ограниченный</item>
         <item>Предупреждение</item>
         <item>Свободный</item>
     </string-array>
+
     <string-array name="pref_notif_repeat_times_entries">
         <item>1</item>
         <item>2</item>
@@ -30,6 +47,7 @@
         <item>10</item>
         <item>Бесконечно</item>
     </string-array>
+
     <string-array name="pref_led_pattern_entries">
         <item>Стандартно</item>
         <item>Быстро</item>
@@ -37,6 +55,7 @@
         <item>Медленно</item>
         <item>Свой…</item>
     </string-array>
+
     <string-array name="pref_vibrate_pattern_entries">
         <item>Стандартная</item>
         <item>Нормальная</item>
@@ -45,6 +64,7 @@
         <item>Ряд длинных</item>
         <item>Свой…</item>
     </string-array>
+
     <string-array name="default_smiley_names">
         <item>Счастливый</item>
         <item>Грустный</item>
@@ -64,11 +84,14 @@
         <item>Смеюсь</item>
         <item>Озадачен</item>
     </string-array>
+
     <string-array name="pref_display_pic_entries">
         <item>Не отображать</item>
         <item>Маленькие</item>
         <item>Большие</item>
     </string-array>
+
+<!-- ? -->
     <string-array name="rate_entries">
         <item>Медленный</item>
         <item>Замедленный</item>
@@ -76,27 +99,14 @@
         <item>Ускоренный</item>
         <item>Быстрый</item>
     </string-array>
+
+   
     <string-array name="pref_font_size_entries">
         <item>Большой</item>
         <item>Средний (по умолч.)</item>
         <item>Маленький</item>
     </string-array>
-    <string-array name="pref_desire_led_color_values">
-        <item>Синий</item>
-        <item>Зелёный</item>
-        <item>Оранжевый</item>
-        <item>Голубой</item>
-        <item>Белый</item>
-    </string-array>
-    <string-array name="pref_evo_led_color_values">
-        <item>Зелёный</item>
-        <item>Оранжевый</item>
-    </string-array>
-    <string-array name="pref_sidekick4g_led_color_values">
-        <item>Синий</item>
-        <item>Зелёный</item>
-        <item>Красный</item>
-    </string-array>
+
     <string-array name="pref_led_color_entries">
         <item>Синий</item>
         <item>Зелёный</item>
@@ -105,24 +115,32 @@
         <item>Пурпурный</item>
         <item>Голубой</item>
     </string-array>
+
+   
     <string-array name="pref_date_format_entries">
         <item>По умолчанию</item>
         <item>Дата и время (24ч.)</item>
         <item>Дата и время (12ч.)</item>
     </string-array>
+
     <string-array name="pref_background_type_entries">
         <item>Тёмное</item>
         <item>Светлое</item>
     </string-array>
+
     <string-array name="actionkey_entries">
-        <item>Ввод</item>
+        <item>Enter</item>
         <item>Смайлик</item>
     </string-array>
+
+   
     <string-array name="sendkey_shortcut_entries">
         <item>Ввод</item>
-        <item>Alt+Ввод</item>
+        <item>Alt+Enter</item>
         <item>Нет</item>
     </string-array>
+
+   
     <string-array name="pref_timeout_entries">
         <item>10 секунд</item>
         <item>20 секунд</item>
@@ -132,19 +150,12 @@
         <item>5 минут</item>
         <item>10 минут</item>
     </string-array>
-    <string-array name="pref_app_language_entries">
-        <item>Английский</item>
-        <item>Упрощённый Китайский</item>
-        <item>Обычный Китайский</item>
-        <item>Испанский</item>
-        <item>Турецкий</item>
-        <item>Французский</item>
-        <item>Немецкий</item>
-        <item>Польский</item>
-        <item>Итальянский</item>
-        <item>Шведский</item>
-        <item>Голландский</item>
-    </string-array>
+
+	<!-- Add from Version 2.2 -->
+
+	
+  	 
+  	 <!--  add from version 2.4 -->
     <string-array name="pref_light_trackball_timeout">
         <item>Никогда</item>
         <item>2 секунды</item>
@@ -153,19 +164,24 @@
         <item>20 секунд</item>
         <item>1 минута</item>
     </string-array>
+
     <string-array name="quick_text_list">
         <item>Где ты?</item>
         <item>Чем занимаешься?</item>
         <item>Срочно ответь!</item>
         <item>Увидимся позже.</item>
-        <item>Я нормально, а ты как?</item>
+        <item>Только регистрируюсь.</item>
         <item>Я, наверное, опоздаю.</item>
         <item>Перезвоню попозже.</item>
         <item>Я уже скоро!</item>
-        <item>Еду, скоро буду...</item>
+        <item>Посмотри-ка вот это!</item>
     </string-array>
+
+  	 
+  	
+  	 
     <string-array name="language_entries">
-        <item>Бурский язык [af]</item>
+        <item>Африкаанс (Бурский) [af]</item>
         <item>Боснийский [bs]</item>
         <item>Китайский (Кантонский) [zh-yue]</item>
         <item>Китайский (мандаринское наречие) [zh]</item>
@@ -203,6 +219,10 @@
         <item>Вьетнамский [vi]</item>
         <item>Валлийский [cy]</item>
     </string-array>
+
+  	
+  	
+      
     <string-array name="pref_fontpack_items">
         <item>Системный шрифт</item>
         <item>Handcent Font Pack1</item>
@@ -210,149 +230,40 @@
         <item>Handcent Font Pack3</item>
         <item>Handcent Font Pack4</item>
     </string-array>
+
+    
+	
+	
     <string-array name="popup_window_mode_entries">
         <item>Полный режим</item>
         <item>Упрощённый</item>
         <item>Без быстрого ответа</item>
     </string-array>
+
+    
+    
     <string-array name="vibrate_type_entries">
         <item>Всегда</item>
         <item>Никогда</item>
         <item>Только в режиме вибрации</item>
     </string-array>
+
     <string-array name="input_mode_entries">
         <item>Обычный</item>
         <item>Упрощённый</item>
     </string-array>
+
     <string-array name="pref_mms_user_agent_entries">
-        <item>Android</item>
+        <item>Android (стандартный)</item>
         <item>Nokia N95</item>
         <item>iPhone (3.0)</item>
         <item>BlackBerry 8800</item>
         <item>Sony Ericsson W800i</item>
         <item>SoftBank X01T</item>
         <item>Свой…</item>
-    </string-array>
-    <string-array name="pref_auto_reset_counter_entries">
-        <item>Вручную</item>
-        <item>В начале месяца</item>
-        <item>В начале дня</item>
-        <item>Указать день…</item>
-    </string-array>
-    <string-array name="pref_max_mms_size_new_entries">
-        <item>По умолчанию</item>
-        <item>100 Кб</item>
-        <item>200 Кб</item>
-        <item>300 Кб</item>
-        <item>500 Кб</item>
-        <item>600 Кб</item>
-        <item>1 Мб</item>
-        <item>1.2 Мб</item>
-        <item>2 Мб (Только EVO)</item>
-        <item>5 Мб (Только EVO)</item>
-    </string-array>
-    <string-array name="pref_split160_ex_entries">
-        <item>Не разделять</item>
-        <item>Простое</item>
-        <item>Простое и кол-во</item>
-        <item>По словам</item>
-        <item>По словам и кол-во</item>       <!-- ? -->
-    </string-array>
-    <string-array name="pref_sent_notification_entries">
-        <item>Отключено</item>
-        <item>При отправке</item>
-        <item>"При получении
-(зависит от оператора)"</item>
-    </string-array>
-    <string-array name="pref_max_mms_size_new_values">
-        <item>Стандартный</item>
-        <item>200</item>
-        <item>300</item>
-        <item>500</item>
-        <item>1024</item>
-    </string-array>
-    <string-array name="custom_background_types">
-        <item>Изображение</item>
-        <item>Выбранный цвет</item>
-        <item>Цвет темы</item>
-    </string-array>
-    <string-array name="custom_convlist_background_types">
-        <item>Изображение</item>
-        <item>Выбранный цвет</item>
-    </string-array>
-    <string-array name="pref_security_lock_level_entries">
-        <item>Только Handcent SMS</item>
-        <item>Handcent SMS и стандартный мессенджер</item>
-    </string-array>
-    <string-array name="pref_desire_led_color_entries">
-        <item>Синий</item>
-        <item>Зеленый</item>
-        <item>Рыжий</item>
-        <item>Розовый</item>
-        <item>Голубой</item>
-    </string-array>
-    <string-array name="pref_security_lock_type_entries">
-        <item>Нет</item>
-        <item>Защитный шаблон</item>
-        <item>Защитный пин-код</item>
-    </string-array>
-    <string-array name="pref_message_timestamp_adjust_values">
-        <item>стандартный</item>
-        <item>-11</item>
-        <item>-10</item>
-        <item>-9</item>
-        <item>-8</item>
-        <item>-7</item>
-        <item>-6</item>
-        <item>-5</item>
-        <item>-4</item>
-        <item>-3</item>
-        <item>-2</item>
-        <item>-1</item>
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-        <item>11</item>
-    </string-array>
-    <string-array name="pref_filter_status_entries">
-        <item>Отключено</item>
-        <item>Блокир. уведомления</item>
-        <item>Блокир. и в чёрный список</item>
-    </string-array>
-    <string-array name="pref_filter_options">
-        <item>Без учёта регистра</item>
-        <item>С учётом регистра</item>
-        <item>Рег. выражение</item>
-    </string-array>
-    <string-array name="ecard_custom_menu_values">
-        <item>Шрифт</item>
-        <item>Цвет шрифта</item>
-        <item>Вставить быстрый текст</item>
-        <item>Сброс</item>
-    </string-array>
-    <string-array name="skin_type_entries">
-        <item>iPhone</item>
-        <item>Hero</item>
-        <item>iPhone (новый)</item>
-        <item>Свой</item>
-    </string-array>
-    <string-array name="search_types">
-        <item>По имени контакта и номеру телефона</item>
-        <item>По содержимому сообщения</item>
-    </string-array>
-    <string-array name="smileys_type_entries">
-        <item>Handcent</item>
-        <item>Системный</item>
-        <item>Свой</item>
-    </string-array>
+  </string-array>
+
+
     <string-array name="notif_icon_desc_entries">
         <item>По умолчанию</item>
         <item>Зелёная иконка</item>
@@ -392,6 +303,8 @@
         <item>Фиолетовое уведомление</item>
         <item>Белое уведомление</item>
     </string-array>
+    
+    <!-- add from version 2.9.11 -->
     <string-array name="pref_message_timestamp_adjust_entries">
         <item>По умолчанию</item>
         <item>-11 ч</item>
@@ -418,29 +331,234 @@
         <item>+10 ч</item>
         <item>+11 ч</item>
     </string-array>
+  
+  
+    <string-array name="pref_app_language_entries">
+        <item>Английский</item>
+        <item>Упрощённый Китайский</item>
+        <item>Обычный Китайский</item>
+        <item>Испанский</item>
+        <item>Турецкий</item>
+        <item>Французский</item>
+        <item>Немецкий</item>
+        <item>Польский</item>
+        <item>Итальянский</item>
+        <item>Шведский</item>
+        <item>Голландский</item>
+      <item>Русский</item>
+      <item>Датский</item>
+      <item>Корейский</item>
+      <item>Португальский</item>
+      <item>Греческий</item>
+      <item>Болгарский</item>
+      <item>Арабский</item>
+      <item>Японский</item>
+      <item>Сербский (Латинский)</item>
+      <item>Иврит</item>
+      <item>Чешский</item>
+      <item>Словацкий</item>
+      <item>Норвежский</item>
+    </string-array>
+
+    <string-array name="pref_auto_reset_counter_entries">
+        <item>Вручную</item>
+        <item>В начале месяца</item>
+        <item>В начале дня</item>
+        <item>Указать день…</item>
+    </string-array>
+
+    <string-array name="pref_max_mms_size_new_entries">
+        <item>По умолчанию</item>
+        <item>100 Кб</item>
+        <item>200 Кб</item>
+        <item>300 Кб</item>
+        <item>500 Кб</item>
+        <item>600 Кб</item>
+        <item>1 Мб</item>
+        <item>1.2 Мб</item>
+        <item>2 Мб (Только EVO)</item>
+        <item>5 Мб (Только EVO)</item>
+    </string-array>
+
+    <string-array name="pref_split160_ex_entries">
+        <item>Не разделять</item>
+        <item>Простое</item>
+        <item>Простое и доб. счётчик</item>
+        <item>По словам</item>
+        <item>По словам и доб. счётчик</item>
+    </string-array>
+
+    <string-array name="pref_sent_notification_entries">
+        <item>Отключено</item>
+        <item>При отправке</item>
+        <item>При получении\n(нужна поддержка оператора)</item>
+    </string-array>
+   
+   <string-array name="pref_blur_social_picture_source_entries">
+   		<item>По умолчанию</item>
+    	<item>Google</item>
+    	<item>Facebook</item>
+    	<item>Myspace</item>
+    	<item>Twitter</item>
+    </string-array>
+   
+    
+
+    <string-array name="custom_background_types">
+        <item>Из скина</item>
+        <item>Изображение</item>
+        <item>Выбрать цвет</item>
+   </string-array>
+   
+   <string-array name="custom_convlist_background_types">
+        <item>Из скина</item>
+        <item>Изображение</item>
+        <item>Выбрать цвет</item>
+   </string-array>
+
+   
+   <string-array name="pref_security_lock_level_entries">
+      <item>Защищать Handcent SMS</item>
+      <item>Защищать Handcent SMS и стандартный  мессенджер</item>
+    </string-array>
+   
+   <!-- add by version 3.1 -->
+    <string-array name="pref_max_mms_size_new_values">
+        <item>Стандартный</item>
+   	   <item>100</item>
+       <item>200</item>
+       <item>300</item>
+       <item>500</item>
+       <item>600</item>
+       <item>1024</item>
+       <item>1200</item>
+       <item>2048</item>
+       <item>5000</item>
+    </string-array>
+
+
+   
+    <string-array name="pref_security_lock_type_entries">
+        <item>Нет</item>
+        <item>Защитный шаблон</item>
+        <item>Защитный пин-код</item>
+    </string-array>
+
+
+    <string-array name="pref_desire_led_color_entries">
+        <item>Синий</item>
+        <item>Зелёный</item>
+        <item>Оранжевый</item>
+        <item>Розовый</item>
+        <item>Голубой</item>
+    </string-array>
+
+	
+    <string-array name="pref_evo_led_color_entries">
+        <item>Зелёный</item>
+        <item>Оранжевый</item>
+    </string-array>
+
+    <string-array name="pref_sidekick4g_led_color_entries">
+        <item>Синий</item>
+        <item>Зелёный</item>
+        <item>Красный</item>
+    </string-array>
+
+   <string-array name="pref_maximum_num_of_messages_entries">
+      <item>20 сообщений</item>
+      <item>30 сообщений</item>
+      <item>50 сообщений</item>
+   </string-array>
+   
+   <string-array name="pref_widget_show_mode_entries">
+      <item>Показывать все сообщения</item>
+      <item>Показывать непрочитанные</item>
+   </string-array>
+   
+   <string-array name="pref_greek_mode_entries">
+   		<item>По умолч. (авто)</item>
+   		<item>Включено</item>
+   		<item>Отключено</item>
+   	</string-array>
+   	
+   	<string-array name="pref_czech_mode_entries">
+   		<item>По умолч. (авто)</item>
+   		<item>Включено</item>
+   		<item>Отключено</item>
+   	</string-array>
+
+    <string-array name="pref_filter_status_entries">
+        <item>Отключено</item>
+        <item>Блокир. уведомления</item>
+        <item>Блокир. и в чёрный список</item>
+    </string-array>
+
+    <string-array name="pref_filter_options">
+        <item>Без учёта регистра</item>
+        <item>С учётом регистра</item>
+        <item>Рег. выражение</item>
+    </string-array>
+
+    <string-array name="ecard_custom_menu_values">
+        <item>Шрифт</item>
+        <item>Цвет шрифта</item>
+        <item>Вставить быстрый текст</item>
+        <item>Сброс</item>
+    </string-array>
+
+    <string-array name="skin_type_entries">
+      <item>По умолчанию</item>
+      <item>Тёмный</item>
+      <item>Рождество 2012</item>
+    </string-array>
+
+    <!-- add from 3.5.1 -->
+    <string-array name="search_types">
+        <item>По имени контакта и телефону</item>
+        <item>По тексту сообщения</item>
+    </string-array>
+
+    <string-array name="smileys_type_entries">
+        <item>Handcent</item>
+        <item>Системный</item>
+        <item>Свой</item>
+    </string-array>
+
+    <string-array name="emoji_encoding_entries">
+    	<item>iPhone/SoftBank (iOS6)</item>
+    	<item>Handcent</item>
+    	<item>iOS5</item>
+    </string-array>
+
     <string-array name="emoji_send_type_entries">
         <item>Спросить</item>
         <item>Всегда в MMS</item>
         <item>Всегда в SMS</item>
     </string-array>
+
     <string-array name="screen_display_mode_entries">
         <item>Нормальный</item>
         <item>Ночной</item>
         <item>Авто</item>
     </string-array>
+
     <string-array name="default_smileys_entries">
         <item>По умолчанию (оба)</item>
         <item>Только стандартные</item>
         <item>Только emoji</item>
     </string-array>
+
     <string-array name="full_editor_launch_method_entries">
         <item>Тап</item>
         <item>Долгий тап</item>
     </string-array>
+
     <string-array name="str_enable_disable_entries">
         <item>Вкл.</item>
         <item>Выкл.</item>
     </string-array>
+
     <string-array name="str_repeat_type_entries">
         <item>Каждый день</item>
         <item>Каждую неделю</item>
@@ -448,6 +566,7 @@
         <item>Каждый год</item>
         <item>Каждый N-й день</item>
     </string-array>
+
     <string-array name="str_repeat_daily_hour_entries">
         <item>00ч</item>
         <item>01ч</item>
@@ -474,6 +593,7 @@
         <item>22ч</item>
         <item>23ч</item>
     </string-array>
+
     <string-array name="str_repeat_weekly_day_entries">
         <item>Вс</item>
         <item>Пн</item>
@@ -483,6 +603,7 @@
         <item>Пт</item>
         <item>Сб</item>
     </string-array>
+
     <string-array name="str_repeat_yearly_month_entries">
         <item>Янв</item>
         <item>Фев</item>
@@ -497,17 +618,20 @@
         <item>Ноя</item>
         <item>Дек</item>
     </string-array>
+
     <string-array name="pref_default_app_entries">
         <item>Отключить</item>
         <item>SMS</item>
         <item>MMS</item>
         <item>Оба (SMS и MMS)</item>
     </string-array>
+
     <string-array name="pref_message_counter_style_entries">
         <item>Обычный</item>
         <item>Упрощённый</item>
         <item>Отключить</item>
     </string-array>
+
     <string-array name="pref_dealy_send_entries">
         <item>Отключить</item>
         <item>1 секунда</item>
@@ -518,14 +642,17 @@
         <item>5 секунд</item>
         <item>7 секунд</item>
     </string-array>
+
     <string-array name="pref_contact_select_scroller_entries">
         <item>Стиль iPhone</item>
         <item>Стиль Android</item>
     </string-array>
+
     <string-array name="pref_enable_text_counter_entries">
         <item>Да</item>
         <item>Нет</item>
     </string-array>
+
     <string-array name="pref_scene_default_entries">
         <item>Обычный</item>
         <item>Совещание</item>
@@ -534,6 +661,7 @@
         <item>Свободен</item>
         <item>Свой…</item>
     </string-array>
+
     <string-array name="pref_driving_audio_output_entries">
         <item>Авто (Bluetooth или динамик)</item>
         <item>Гарнитура</item>
@@ -541,32 +669,110 @@
         <item>Bluetooth гарнитура</item>
         <item>Bluetooth стерео</item>
     </string-array>
+
     <string-array name="operservice_des_handcentim">
         <item>Вы только что сделали первый шаг к использованию мощной Сети Handcent, предназначенной для отправки и получения неограниченного количества персональных и групповых SMS и MMS совершенно бесплатно, а также со 100%-ной совместимостью между Android телефонами и iPhone. Последующие простые шаги проведут вас через процесс привязки вашего телефона к Сети Handcent в считанные секунды!</item>
     </string-array>
+
     <string-array name="operservice_title_handcentim">
         <item>Добро пожаловать в Мастер настройки Handcent Messenger!</item>
     </string-array>
+
     <string-array name="pref_message_sort_type_entries">
         <item>По времени</item>
         <item>По порядку получения / отправки</item>
     </string-array>
+
     <string-array name="custom_popup_background_types">
+        <item>Из скина</item>
         <item>Изображение</item>
         <item>Выбрать цвет</item>
-        <item>Из оболочки</item>
-    </string-array>
-    <string-array name="select_dialog_items">
-        <item>1 секунда</item>
-        <item>2 секунды</item>
-        <item>3 секунды</item>
-        <item>4 секунды</item>
-        <item>5 секунд</item>
-        <item>6 секунд</item>
-        <item>7 секунд</item>
-        <item>8 секунд</item>
-        <item>9 секунд</item>
-        <item>10 секунд</item>
-        <item>Другое…</item>
+   </string-array>	
+   
+   	<string-array name="pref_hctalk_mode_entries">
+		<item>Всегда включено</item>
+		<item>Всегда отключено</item>
+		<item>Автоматически</item>
+	</string-array>
+	
+		<string-array name="pref_close_dialog_entries">
+		<item>Оба</item>
+		<item>Только верхнее меню</item>
+		<item>Только кнопка Отмена</item>
+	</string-array>
+	<string-array name="pref_close_dialog_entries_values">
+		<item>Оба</item>
+		<item>Закрыть</item>
+		<item>Отмена</item>
+	</string-array>
+
+	<string-array name="pref_switch_effect_entries">
+      <item>Классическая</item>
+      <item>Куб вогнутый</item>
+      <item>Куб выпуклый</item>
+      <item>Перекат</item>
+      <item>Волна</item>
+      <item>Масштабирование</item>
+      <item>Отскок</item>
+      <item>Ветер</item>
+      <item>Сжатие</item>
+      <item>Стопка</item>
+   </string-array>
+   
+   <string-array name="emotion_comments">
+   		<item>Улыбка</item>
+   		<item>Ой…</item>
+   		<item>Устал, сонный</item>
+   		<item>Слёзы</item>
+   		<item>Плачет, грустный</item>
+   		<item>В замешательстве</item>
+   		<item>Поражён</item>
+   		<item>В шоке</item>
+   		<item>Ауч!</item>
+   		<item>Счастливый</item>
+   		<item>В отрыве</item>
+   		<item>Рад</item>
+   		<item>Злой</item>
+   		<item>Умер</item>
+   		<item>Скучает</item>
+   		<item>Обожаю!</item>
+   		<item>Грустный</item>
+   		<item>Скептик</item>
+   		<item>Недоверчивый</item>
+   		<item>Серьёзно</item>
+   		<item>Рыдает</item>
+   		<item>А то!</item>
+   		<item>Смущён</item>
+   		<item>Я всё напутал</item>
+   		<item>Серьёзный</item>
+   		<item>Чё?</item>
+   		<item>Поёт</item>
+   		<item>Спит сидя / сдаётся</item>
+   		<item>Ух ты!</item>
+   		<item>Расплавился / грустный</item>
+   		<item>Котэ</item>
+   		<item>Грустный</item>
+   		<item>Унылый</item>
+   		<item>Чёрт!</item>
+   		<item>Слюнки текут</item>
+   		<item>Бесконечная печалька</item>
+   		<item>Бабло рулит</item>
+   		<item>Псих</item>
+   		<item>Чё пялишься?</item>
+   		<item>Неееееет</item>
+   		<item>Тьфу!</item>
+   		<item>Подмигивает</item>
+   		<item>Завидует</item>
+   		<item>Сонный</item>
+   		<item>Не спал</item>
+   		<item>Косится</item> 
+   		<item>Хитрый</item>
+   		<item>Ты с ума сошёл!</item>
+   </string-array>  	
+   	<string-array name="pref_schedule_task_sort_type_entries">
+		<item>По времени запуска</item>
+		<item>По времени создания</item>
     </string-array>
 </resources>
+
+
