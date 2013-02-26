@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+   <!-- Translate from here -->
+   
+   <!-- Translate from here -->
+   
+    <string-array name="pref_theme_type_entries">
+      <item>Bubble</item>
+      <item>List</item>
+   </string-array>    
+   
+   <string-array name="pref_entries_mms_expiry">
+      <item>One hour</item>
+      <item>Three hours</item>
+      <item>One day</item>
+      <item>One week</item>
+    </string-array>
+	
+   
+   <string-array name="pref_entries_mms_priority">
+      <item>Low</item>
+      <item>Medium</item>
+      <item>High</item>
+    </string-array>
+   
+     <string-array name="pref_entries_mms_resubmission_mode">
+      <item>Restricted</item>
+      <item>Warning</item>
+      <item>Free</item>
+    </string-array>
+   
+   
+   	 <string-array name="pref_entries_mms_creation_mode">
+      <item>Restricted</item>
+      <item>Warning</item>
+      <item>Free</item>
+    </string-array>
+    
+    <string-array name="pref_notif_repeat_times_entries">
+      <item>1</item>
+      <item>2</item>
+      <item>3</item>
+      <item>4</item>
+      <item>5</item>
+      <item>10</item>
+      <item>Keep repeating</item>
+   </string-array>
+   
+     <string-array name="pref_led_pattern_entries">
+      <item>Default</item>
+      <item>Fast</item>
+      <item>Normal</item>
+      <item>Slow</item>
+      <item>Custom</item>
+   </string-array>   
+   
+    <string-array name="pref_vibrate_pattern_entries">
+      <item>Default</item>
+      <item>Normal</item>
+      <item>Long Vibrate</item>
+      <item>Multiple Short</item>
+      <item>Multiple Long</item>
+      <item>Custom</item>
+   </string-array>  
+   
+   <string-array name="default_smiley_names">
+        <item>Happy</item>
+        <item>Sad</item>
+        <item>Winking</item>
+        <item>Tongue sticking out</item>
+        <item>Surprised</item>
+        <item>Kissing</item>
+        <item>Yelling</item>
+        <item>Cool</item>
+        <item>Money mouth</item>
+        <item>Foot in mouth</item>
+        <item>Embarrassed</item>
+        <item>Angel</item>
+        <item>Undecided</item>
+        <item>Crying</item>
+        <item>Lips are sealed</item>
+        <item>Laughing</item>
+        <item>Confused</item>
+    </string-array>
+   
+   <string-array name="pref_display_pic_entries">
+      <item>Don\'t display</item>
+      <item>Small</item>
+      <item>Large</item>
+   </string-array> 
+   
+   <string-array name="rate_entries">
+        <item>Very slow</item>
+        <item>Slow</item>
+        <item>Normal</item>
+        <item>Fast</item>
+        <item>Very fast</item>
+    </string-array>
+   
+   
+   <string-array name="pref_font_size_entries">
+      <item>Big</item>
+      <item>Normal (default)</item>
+      <item>Small</item>
+   </string-array> 
+   
+   <string-array name="pref_led_color_entries">
+      <item>Blue</item>
+      <item>Green</item>
+      <item>Red</item>
+      <item>Orange</item>
+      <item>Magenta</item>
+      <item>Cyan</item>
+      <item>Custom</item>
+   </string-array>
+   
+   
+   <string-array name="pref_date_format_entries">
+      <item>Default</item>
+      <item>Full date &amp; time\n (24-hour)</item>
+      <item>Full date &amp; time\n (12-hour)</item>
+   </string-array>     
+   
+    <string-array name="pref_background_type_entries">
+      <item>Black</item>
+      <item>Light</item>
+   </string-array>   
+   
+    <string-array name="actionkey_entries">
+      <item>Enter</item>
+      <item>Smile</item>
+   </string-array> 
+   
+   
+   <string-array name="sendkey_shortcut_entries">
+      <item>Enter</item>
+      <item>ALT+Enter</item>
+      <item>None</item>
+   </string-array> 
+   
+   
+   	<string-array name="pref_timeout_entries">
+		<item>10 seconds</item>
+		<item>20 seconds</item>
+		<item>30 seconds</item>
+		<item>1 minute</item>
+		<item>2 minutes</item>
+		<item>5 minutes</item>
+		<item>10 minutes</item>
+	</string-array>
+	
+	<!-- Add from Version 2.2 -->
+
+	
+  	 
+  	 <!--  add from version 2.4 -->
+  	 <string-array name="pref_light_trackball_timeout">
+		<item>Never</item>
+		<item>2 seconds</item>
+		<item>5 seconds</item>
+		<item>10 seconds</item>
+		<item>20 seconds</item>
+		<item>1 minutes</item>
+	 </string-array>
+	 
+	 <string-array name="quick_text_list">
+	 	<item>Where are you?</item>
+		<item>What are you up to?</item>
+		<item>Urgent! Please reply...</item>
+		<item>Let\'s catch up soon.</item>
+		<item>Just checking in...</item>
+		<item>I\'m running late.</item>
+		<item>I\'ll get back to you.</item>
+		<item>I\'ll be right there.</item>
+		<item>Check this out!</item>
+	 </string-array>
+	
+  	 
+  	
+  	 
+  	  <string-array name="language_entries">
+        <item>Afrikaans [af]</item>
+        <item>Bosnian [bs]</item>
+        <item>Chinese (Cantonese) [zh-yue]</item>
+        <item>Chinese (Mandarin) [zh]</item>
+        <item>Croatian [hr]</item>
+        <item>Czech [cz]</item>
+        <item>Dutch [nl]</item>
+        <item>English (American) [en-us]</item>
+        <item>English (British) [en-uk]</item>
+        <item>Esperanto [eo]</item>
+        <item>Finnish [fi]</item>
+        <item>French [fr]</item>
+        <item>German [de]</item>
+        <item>Greek [el]</item>
+        <item>Hindi [hi]</item>
+        <item>Hungarian [hu]</item>
+        <item>Icelandic [is]</item>
+        <item>Indonesian [id]</item>
+        <item>Italian [it]</item>
+        <item>Kurdish [ku]</item>
+        <item>Latin [la]</item>
+        <item>Macedonian [mk]</item>
+        <item>Norwegian [no]</item>
+        <item>Polish [pl]</item>
+        <item>Portuguese [pt]</item>
+        <item>Romanian [ro]</item>
+        <item>Russian [ru]</item>
+        <item>Serbian [sr]</item>
+        <item>Slovak [sk]</item>
+        <item>Spanish [es]</item>
+        <item>Spanish (Latin America) [es-la]</item>
+        <item>Swahili [sw]</item>
+        <item>Swedish [sv]</item>
+        <item>Tamil [ta]</item>
+        <item>Turkish [tr]</item>
+        <item>Vietnamese [vi]</item>
+        <item>Welsh [cy]</item>
+    </string-array>
+    
+  	
+  	
+      
+     <string-array name="pref_fontpack_items">
+     <item>Use system default font</item>
+     <item>Handcent Font Pack1</item>
+     <item>Handcent Font Pack2</item>
+     <item>Handcent Font Pack3</item>
+     <item>Handcent Font Pack4</item>
+     </string-array>
+     
+    
+	
+	
+	<string-array name="popup_window_mode_entries">
+        <item>Full mode</item>
+        <item>Lite mode</item>
+        <item>Without quick reply</item>
+    </string-array> 
+    
+    
+    
+    <string-array name="vibrate_type_entries">
+       <item>Always</item>
+       <item>Never</item>
+       <item>Only when device is set to vibrate mode</item>
+    </string-array>  
+    
+    <string-array name="input_mode_entries">
+    	<item>Normal</item>
+    	<item>Lite</item>
+    </string-array>  
+    
+   <string-array name="pref_mms_user_agent_entries">
+    <item>Default Android</item>
+    <item>Nokia N95</item>
+    <item>iPhone (3.0)</item>
+    <item>BlackBerry 8800</item>
+    <item>Sony Ericsson W800i</item>
+    <item>SoftBank X01T</item>
+    <item>Custom...</item>
+  </string-array>
+
+    <string-array name="notif_icon_desc_entries">
+       <item>default</item>
+       <item>green</item>
+       <item>orange</item>
+       <item>pink</item>
+       <item>purple</item>
+       <item>red</item>
+       <item>black</item>
+       <item>aqua envelope icon</item>
+       <item>blue envelope icon</item>
+       <item>green envelope icon</item>
+       <item>grey envelope icon</item>
+       <item>orange envelope icon</item>
+       <item>pink envelope icon</item>
+       <item>purple envelope icon</item>
+       <item>red envelope icon</item>
+       <item>white envelope icon</item>
+       <item>yellow envelope icon</item>
+       <item>black pop icon</item>
+       <item>orange pop icon</item>
+       <item>purple pop icon</item>
+       <item>pink pop icon</item>
+       <item>red pop icon</item>
+       <item>blue pop icon</item>
+       <item>green pop icon</item>
+       <item>privacy icon</item>
+       <item>black privacy icon</item>
+       <item>green privacy icon</item>
+       <item>pink privacy icon</item>
+       <item>red privacy icon</item>
+       <item>purple privacy icon</item>
+       <item>blue notify icon</item>
+       <item>black notify icon</item>
+       <item>gray notify icon</item>
+       <item>green notify icon</item>
+       <item>pink notify icon</item>
+       <item>purple notify icon</item>
+       <item>white notify icon</item>
+    </string-array>  
+    
+    <!-- add from version 2.9.11 -->
+    <string-array name="pref_message_timestamp_adjust_entries">
+      <item>Default</item>
+      <item>-11 hours</item>
+      <item>-10 hours</item>
+      <item>-9  hours</item>
+      <item>-8  hours</item>
+      <item>-7  hours</item>
+      <item>-6  hours</item>
+      <item>-5  hours</item>
+      <item>-4  hours</item>
+      <item>-3  hours</item>
+      <item>-2  hours</item>
+      <item>-1  hour</item>
+      <item>0</item>
+      <item>+1  hour</item>
+      <item>+2  hours</item>
+      <item>+3  hours</item>
+      <item>+4  hours</item>
+      <item>+5  hours</item>
+      <item>+6  hours</item>
+      <item>+7  hours</item>
+      <item>+8  hours</item>
+      <item>+9  hours</item>
+      <item>+10 hours</item>
+      <item>+11 hours</item>
+   </string-array>
+  
+  
+  <string-array name="pref_app_language_entries">
+      <item>English</item>
+      <item>Simplified Chinese</item>
+      <item>Traditional Chinese</item>
+      <item>Spanish</item>
+      <item>Turkish</item>
+      <item>French</item>
+      <item>German</item>
+      <item>Polish</item>
+      <item>Italian</item>
+      <item>Swedish</item>
+      <item>Dutch</item>     
+      <item>Russian</item>
+      <item>Danish</item>
+      <item>Korean</item>
+      <item>Português</item>
+      <item>Greek</item>
+      <item>Hungarian</item>
+      <item>Arabic</item>
+      <item>Japanese</item>
+      <item>Serbian (Latin)</item>
+      <item>Hebrew</item>
+      <item>Czech</item>
+      <item>Slovak</item>
+      <item>Norwegian</item>
+  </string-array>  
+  
+    <string-array name="pref_auto_reset_counter_entries">
+      <item>Manual Reset</item>
+      <item>Begin of the month</item>
+      <item>Begin of the day</item>
+      <item>Custom day...</item>
+    </string-array>
+  
+  <string-array name="pref_max_mms_size_new_entries">
+       <item>default</item>
+       <item>100K</item>
+       <item>200K</item>
+       <item>300K</item>
+       <item>500K</item>
+       <item>600K</item>
+       <item>1M</item>
+       <item>1.2M</item>
+       <item>2M (EVO Only)</item>
+       <item>5M (EVO Only)</item>
+   </string-array> 
+   
+   <string-array name="pref_split160_ex_entries">
+   		<item>Don\'t split</item>
+   		<item>Simple Split</item>
+   		<item>Simple split &amp; add counter</item>
+   		<item>Split by word</item>
+   		<item>Split by word &amp; add counter</item>
+   </string-array>
+   
+   <string-array name="pref_sent_notification_entries">
+   		<item>Disable</item>
+   		<item>Notify when sent</item>
+   		<item>Notify when message is received\n(needs carrier support)</item>
+   </string-array> 
+   
+   <string-array name="pref_blur_social_picture_source_entries">
+   		<item>Default</item>
+    	<item>Google</item>
+    	<item>Facebook</item>
+    	<item>Myspace</item>
+    	<item>Twitter</item>
+    </string-array>
+   
+    
+  
+    <string-array name="custom_background_types">
+      <item>Skin</item>    
+      <item>Image</item>
+      <item>Custom Color</item>
+   </string-array>
+   
+   <string-array name="custom_convlist_background_types">
+      <item>Skin</item>   
+      <item>Image</item>
+      <item>Custom Color</item>
+   </string-array>
+
+   
+   <string-array name="pref_security_lock_level_entries">
+      <item>Protect Handcent SMS only</item>
+      <item>Protect Handcent SMS and stock messaging client</item>
+   </string-array>
+   
+   <!-- add by version 3.1 -->
+   <string-array name="pref_max_mms_size_new_values">
+   	   <item>default</item>
+   	   <item>100</item>
+       <item>200</item>
+       <item>300</item>
+       <item>500</item>
+       <item>600</item>
+       <item>1024</item>
+       <item>1200</item>
+       <item>2048</item>
+       <item>5000</item>
+   </string-array> 
+   
+   
+   
+   <string-array name="pref_security_lock_type_entries">
+      <item>None</item>
+      <item>Pattern Lock</item>
+      <item>NumPin Lock</item>
+   </string-array>
+   
+   
+   <string-array name="pref_desire_led_color_entries">
+   		<item>Blue</item>
+   		<item>Green</item>
+   		<item>Amber</item>
+   		<item>Pink</item>
+   		<item>LightBlue</item>
+   </string-array>
+	
+	
+	<string-array name="pref_evo_led_color_entries">
+   		<item>Green</item>
+   		<item>Amber</item>
+   </string-array>
+   
+   <string-array name="pref_sidekick4g_led_color_entries">
+   		<item>Blue</item>
+   		<item>Green</item>
+   		<item>Red</item>
+   </string-array>
+	
+   <string-array name="pref_maximum_num_of_messages_entries">
+      <item>20 messages</item>
+      <item>30 messages</item>
+      <item>50 messages</item>
+   </string-array>
+   
+   <string-array name="pref_widget_show_mode_entries">
+      <item>Show all messages</item>
+      <item>Only show unread messages</item>
+   </string-array>
+   
+   <string-array name="pref_greek_mode_entries">
+   		<item>Default(Auto Detect)</item>
+   		<item>Enable</item>
+   		<item>Disable</item>
+   	</string-array>
+   	
+   	<string-array name="pref_czech_mode_entries">
+   		<item>Default(Auto Detect)</item>
+   		<item>Enable</item>
+   		<item>Disable</item>
+   	</string-array>
+   	
+   	<string-array name="pref_filter_status_entries">
+   		<item>Disable</item>
+		<item>Block Notification only</item>
+		<item>Block &amp; Add to blacklist</item>
+	</string-array>
+	
+	<string-array name="pref_filter_options">
+		<item>Match IgnoreCase</item>
+		<item>Match Case</item>
+		<item>Regex</item>
+	</string-array>
+	
+	<string-array name="ecard_custom_menu_values">
+		<item>Font</item>
+		<item>Font color</item>
+		<item>Insert quicktext</item>
+		<item>Reset</item>
+	</string-array>
+	
+	<string-array name="skin_type_entries">
+      <item>Default</item>
+      <item>Black</item>
+      <item>Christmas 2012</item>
+    </string-array> 
+    
+    <!-- add from 3.5.1 -->
+    <string-array name="search_types">
+    	<item>By contact name &amp; phone number</item>
+    	<item>By message content</item>
+    </string-array>
+    
+    <string-array name="smileys_type_entries">
+    	<item>Handcent</item>
+    	<item>System default</item>
+    	<item>Custom</item>
+    </string-array>
+    
+    <string-array name="emoji_encoding_entries">
+    	<item>iPhone/SoftBank(iOS6)</item>
+    	<item>Handcent</item>
+    	<item>iOS5</item>
+    </string-array>
+    
+    <string-array name="emoji_send_type_entries">
+		<item>Ask me before send</item>
+		<item>Always with MMS</item>
+		<item>Always with SMS</item>
+	</string-array>
+
+	<string-array name="screen_display_mode_entries">
+		<item>Normal mode</item>
+		<item>Night mode</item>
+		<item>Smart mode</item>
+	</string-array>
+	
+	<string-array name="default_smileys_entries">
+		<item>Default(Show both)</item>
+		<item>Show standard smileys ONLY</item>
+		<item>Show emoji ONLY</item>
+	</string-array>
+	
+	<string-array
+		name="chinese_tts_role_entries">
+		<item>Female</item>
+		<item>Male</item>
+	</string-array>
+	
+	<string-array
+		name="chinese_tts_speed_entries">
+		<item>Very slow</item>
+		<item>Slow</item>
+		<item>Medium</item>
+		<item>Fast</item>
+		<item>Very fast</item>
+	</string-array>
+	
+	<string-array
+		name="chinese_tts_volume_entries">
+		<item>Silent</item>
+		<item>Very soft</item>
+		<item>Soft</item>
+		<item>Medium</item>
+		<item>Loud</item>
+		<item>Very loud</item>
+	</string-array>
+	
+	<string-array
+		name="chinese_asr_rate_entries">
+		<item>8K</item>
+		<item>11K</item>
+		<item>16K</item>
+		<item>22K</item>
+	</string-array>
+	
+	<string-array name="full_editor_launch_method_entries">
+		<item>Click</item>
+		<item>Long press</item>
+	</string-array>
+	
+	<string-array name="str_enable_disable_entries">
+		<item>Enable</item>
+		<item>Disable</item>
+	</string-array>
+
+	<string-array name="str_repeat_type_entries">
+		<item>Daily</item>
+		<item>Weekly</item>
+		<item>Monthly</item>
+		<item>Yearly</item>
+		<item>Every (X) day</item>
+	</string-array>	
+	
+	<string-array name="str_repeat_daily_hour_entries">
+		<item>00h</item>
+		<item>01h</item>
+		<item>02h</item>
+		<item>03h</item>
+		<item>04h</item>
+		<item>05h</item>
+		<item>06h</item>
+		<item>07h</item>
+		<item>08h</item>
+		<item>09h</item>
+		<item>10h</item>
+		<item>11h</item>
+		<item>12h</item>
+		<item>13h</item>
+		<item>14h</item>
+		<item>15h</item>
+		<item>16h</item>
+		<item>17h</item>
+		<item>18h</item>
+		<item>19h</item>
+		<item>20h</item>
+		<item>21h</item>
+		<item>22h</item>
+		<item>23h</item>
+	</string-array>
+	<string-array name="str_repeat_weekly_day_entries">
+		<item>Sun</item>
+		<item>Mon</item>
+		<item>Tue</item>
+		<item>Wed</item>
+		<item>Thu</item>
+		<item>Fri</item>
+		<item>Sat</item>
+	</string-array>
+	<string-array name="str_repeat_monthly_day_entries">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+		<item>11</item>
+		<item>12</item>
+		<item>13</item>
+		<item>14</item>
+		<item>15</item>
+		<item>16</item>
+		<item>17</item>
+		<item>18</item>
+		<item>19</item>
+		<item>20</item>
+		<item>21</item>
+		<item>22</item>
+		<item>23</item>
+		<item>24</item>
+		<item>25</item>
+		<item>26</item>
+		<item>27</item>
+		<item>28</item>
+		<item>29</item>
+		<item>30</item>
+		<item>31</item>
+	</string-array>
+	<string-array name="str_repeat_yearly_month_entries">
+		<item>Jan</item>
+		<item>Feb</item>
+		<item>Mar</item>
+		<item>Apr</item>
+		<item>May</item>
+		<item>Jun</item>
+		<item>Jul</item>
+		<item>Aug</item>
+		<item>Sep</item>
+		<item>Oct</item>
+		<item>Nov</item>
+		<item>Dec</item>
+	</string-array>		
+	
+	<string-array name="pref_default_app_entries">
+		<item>Disable</item>
+		<item>SMS</item>
+		<item>MMS</item>
+		<item>All (SMS &amp; MMS)</item>
+	</string-array>
+	
+	<string-array name="pref_message_counter_style_entries">
+		<item>Normal</item>
+		<item>Lite</item>
+		<item>Disable</item>
+	</string-array>
+	
+	<string-array name="pref_dealy_send_entries">
+		<item>Disable</item>
+		<item>1 seconds</item>
+		<item>1.5 seconds</item>
+		<item>2 seconds</item>
+		<item>2.5 seconds</item>
+		<item>3 seconds</item>
+		<item>5 seconds</item>
+		<item>7 seconds</item>
+	</string-array>
+	
+	<string-array name="pref_contact_select_scroller_entries">
+		<item>iPhone style</item>
+		<item>Android style</item>
+	</string-array>
+	
+	<string-array name="pref_enable_text_counter_entries">
+		<item>Yes</item>
+		<item>No</item>
+	</string-array>
+	
+	<string-array name="pref_scene_default_entries">
+		<item>Normal</item>
+		<item>Meeting</item>
+		<item>Driving</item>
+		<item>Sleeping</item>
+		<item>Idel</item>
+		<item>Custom</item>
+	</string-array>
+	
+	<string-array name="pref_driving_audio_output_entries">
+		<item>Auto (Bluetooth or speak)</item>
+		<item>Earpiece</item>
+		<item>Speak</item>
+		<item>Bluetooth headset</item>
+		<item>Bluetooth stereo audio</item>
+	</string-array>
+	
+	<string-array name="operservice_des_handcentim">
+		<item>You’ve just taken the first step toward using the powerful Handcent Network to send and receive unlimited individual and group SMS and MMS messages absolutely free while enjoying 100% cross-platform support between Android and iPhone messaging features. The following simple steps will quickly guide you through the process of linking your device to the Handcent Network and have you connected in just a moment!</item>
+	</string-array>		
+		<string-array name="operservice_title_handcentim">
+		<item>Welcome to the Handcent Messenger Setup Wizard!</item>
+	</string-array>
+
+	<string-array name="pref_message_sort_type_entries">
+		<item>By time</item>
+		<item>By order of messages sent/received</item>
+	</string-array>	
+	
+    <string-array name="custom_popup_background_types">
+      <item>Skin</item>    
+      <item>Image</item>
+      <item>Custom Color</item>
+   </string-array>	
+   
+   	<string-array name="pref_hctalk_mode_entries">
+		<item>Enable always</item>
+		<item>Disable always</item>
+		<item>Smart Mode</item>
+	</string-array>
+	
+		<string-array name="pref_close_dialog_entries">
+		<item>Both</item>
+		<item>Only Top Closed Menu</item>
+		<item>Only Button Cancel Menu</item>
+	</string-array>
+	<string-array name="pref_close_dialog_entries_values">
+		<item>both</item>
+		<item>close</item>
+		<item>cancel</item>
+	</string-array>
+
+	<string-array name="pref_switch_effect_entries">
+      <item>Classic</item>
+      <item>Box in</item>
+      <item>Box out</item>
+      <item>Roll</item>
+      <item>Wave</item>
+      <item>One scale</item>
+      <item>Bounce</item>
+      <item>Wind</item>
+      <item>Bulldoze</item>
+      <item>Stack</item>
+   </string-array>
+   
+   <string-array name="emotion_comments">
+   		<item>smile</item>
+   		<item>uh.. oh</item>
+   		<item>sick, sleepy, tired</item>
+   		<item>tears</item>
+   		<item>cry, sad</item>
+   		<item>dizzy</item>
+   		<item>amazed</item>
+   		<item>astonished</item>
+   		<item>ouch</item>
+   		<item>happy</item>
+   		<item>happier</item>
+   		<item>glad</item>
+   		<item>pissed off</item>
+   		<item>dead</item>
+   		<item>boring</item>
+   		<item>i love it</item>
+   		<item>sad</item>
+   		<item>incredulous</item>
+   		<item>incredible</item>
+   		<item>seriously</item>
+   		<item>crying bad</item>
+   		<item>duh</item>
+   		<item>confused</item>
+   		<item>i messed it up</item>
+   		<item>serious</item>
+   		<item>what?</item>
+   		<item>singing</item>
+   		<item>sleeping on the desk, giving up</item>
+   		<item>wow</item>
+   		<item>melted, sad</item>
+   		<item>cat, kittie</item>
+   		<item>sad</item>
+   		<item>blue mood</item>
+   		<item>d*mn!</item>
+   		<item>drooling</item>
+   		<item>infinite sadness</item>
+   		<item>money talks</item>
+   		<item>mad</item>
+   		<item>what r u looking</item>
+   		<item>noooooo</item>
+   		<item>yuck!</item>
+   		<item>wink</item>
+   		<item>jealous</item>
+   		<item>sleepy</item>
+   		<item>didn\'t sleep</item>
+   		<item>look awry</item> 
+   		<item>feint</item>
+   		<item>you\'re crazy</item>
+   </string-array>  	
+   	<string-array name="pref_schedule_task_sort_type_entries">
+		<item>By running time</item>
+		<item>By create time</item>
+	</string-array>		
+</resources>
+	
+
