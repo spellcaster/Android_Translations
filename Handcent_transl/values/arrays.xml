@@ -260,47 +260,47 @@
     <item>BlackBerry 8800</item>
     <item>Sony Ericsson W800i</item>
     <item>SoftBank X01T</item>
-    <item>Custom...</item>
+    <item>Custom…</item>
   </string-array>
 
     <string-array name="notif_icon_desc_entries">
-       <item>default</item>
-       <item>green</item>
-       <item>orange</item>
-       <item>pink</item>
-       <item>purple</item>
-       <item>red</item>
-       <item>black</item>
-       <item>aqua envelope icon</item>
-       <item>blue envelope icon</item>
-       <item>green envelope icon</item>
-       <item>grey envelope icon</item>
-       <item>orange envelope icon</item>
-       <item>pink envelope icon</item>
-       <item>purple envelope icon</item>
-       <item>red envelope icon</item>
-       <item>white envelope icon</item>
-       <item>yellow envelope icon</item>
-       <item>black pop icon</item>
-       <item>orange pop icon</item>
-       <item>purple pop icon</item>
-       <item>pink pop icon</item>
-       <item>red pop icon</item>
-       <item>blue pop icon</item>
-       <item>green pop icon</item>
-       <item>privacy icon</item>
-       <item>black privacy icon</item>
-       <item>green privacy icon</item>
-       <item>pink privacy icon</item>
-       <item>red privacy icon</item>
-       <item>purple privacy icon</item>
-       <item>blue notify icon</item>
-       <item>black notify icon</item>
-       <item>gray notify icon</item>
-       <item>green notify icon</item>
-       <item>pink notify icon</item>
-       <item>purple notify icon</item>
-       <item>white notify icon</item>
+       <item>Default</item>
+       <item>Green</item>
+       <item>Orange</item>
+       <item>Pink</item>
+       <item>Purple</item>
+       <item>Red</item>
+       <item>Black</item>
+       <item>Aqua envelope icon</item>
+       <item>Blue envelope icon</item>
+       <item>Green envelope icon</item>
+       <item>Grey envelope icon</item>
+       <item>Orange envelope icon</item>
+       <item>Pink envelope icon</item>
+       <item>Purple envelope icon</item>
+       <item>Red envelope icon</item>
+       <item>White envelope icon</item>
+       <item>Yellow envelope icon</item>
+       <item>Black pop icon</item>
+       <item>Orange pop icon</item>
+       <item>Purple pop icon</item>
+       <item>Pink pop icon</item>
+       <item>Red pop icon</item>
+       <item>Blue pop icon</item>
+       <item>Green pop icon</item>
+       <item>Privacy icon</item>
+       <item>Black privacy icon</item>
+       <item>Green privacy icon</item>
+       <item>Pink privacy icon</item>
+       <item>Red privacy icon</item>
+       <item>Purple privacy icon</item>
+       <item>Blue notify icon</item>
+       <item>Black notify icon</item>
+       <item>Gray notify icon</item>
+       <item>Green notify icon</item>
+       <item>Pink notify icon</item>
+       <item>Purple notify icon</item>
+       <item>White notify icon</item>
     </string-array>  
     
     <!-- add from version 2.9.11 -->
@@ -363,7 +363,7 @@
       <item>Manual Reset</item>
       <item>Begin of the month</item>
       <item>Begin of the day</item>
-      <item>Custom day...</item>
+      <item>Custom day…</item>
     </string-array>
   
   <string-array name="pref_max_mms_size_new_entries">
@@ -423,7 +423,7 @@
    
    <!-- add by version 3.1 -->
    <string-array name="pref_max_mms_size_new_values">
-   	   <item>default</item>
+   	   <item>Default</item>
    	   <item>100</item>
        <item>200</item>
        <item>300</item>
@@ -476,13 +476,13 @@
    </string-array>
    
    <string-array name="pref_greek_mode_entries">
-   		<item>Default(Auto Detect)</item>
+   		<item>Default (Auto Detect)</item>
    		<item>Enable</item>
    		<item>Disable</item>
    	</string-array>
    	
    	<string-array name="pref_czech_mode_entries">
-   		<item>Default(Auto Detect)</item>
+   		<item>Default (Auto Detect)</item>
    		<item>Enable</item>
    		<item>Disable</item>
    	</string-array>
@@ -525,7 +525,7 @@
     </string-array>
     
     <string-array name="emoji_encoding_entries">
-    	<item>iPhone/SoftBank(iOS6)</item>
+    	<item>iPhone/SoftBank (iOS6)</item>
     	<item>Handcent</item>
     	<item>iOS5</item>
     </string-array>
@@ -543,7 +543,7 @@
 	</string-array>
 	
 	<string-array name="default_smileys_entries">
-		<item>Default(Show both)</item>
+		<item>Default (Show both)</item>
 		<item>Show standard smileys ONLY</item>
 		<item>Show emoji ONLY</item>
 	</string-array>
@@ -757,7 +757,7 @@
 		<item>Smart Mode</item>
 	</string-array>
 	
-		<string-array name="pref_close_dialog_entries">
+	<string-array name="pref_close_dialog_entries">
 		<item>Both</item>
 		<item>Only Top Closed Menu</item>
 		<item>Only Button Cancel Menu</item>
@@ -836,5 +836,3 @@
 		<item>By create time</item>
 	</string-array>		
 </resources>
-	
-

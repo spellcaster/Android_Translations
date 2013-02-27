@@ -1,27 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-	<!-- Dont translate-->	
+	<!--Dont translate-->
 	<string name="app_label">Handcent SMS Pro</string>
- 
-	<!-- need translate -->
-	<!-- Conversation List -->
-	<!-- Command name to open a Compose screen; displays on main Messaging screen -->
+	<!--need translate-->
+	<!--Conversation List-->
+	<!--Command name to open a Compose screen; displays on main Messaging screen-->
 	<string name="new_message">New message</string>
-	<!-- Summary text under new message command; displays on main Messaging 
-		screen -->
+	<!--Summary text under new message command; displays on main Messaging 
+		screen-->
 	<string name="create_new_message">Compose new message</string>
-	<!-- Individual message context menu item -->
+	<!--Individual message context menu item-->
 	<string name="menu_call_back">
 		Call
 		<xliff:g id="name">%s</xliff:g>
 	</string>
-	<!-- Menu item -->
+	<!--Menu item-->
 	<string name="menu_compose_new">Compose</string>
-
 	<string name="menu_mark_all_read">Mark all read</string>
 	<string name="delivery_report">Delivery report</string>
-	<!-- Menu item -->
+	<!--Menu item-->
 	<string name="menu_preferences">Settings</string>
 	<string name="menu_send_email">
 		Send email to
@@ -32,9 +29,9 @@
 		<xliff:g id="name">%s</xliff:g>
 		to Contacts
 	</string>
-	<!-- Menu item -->
+	<!--Menu item-->
 	<string name="menu_delete_all">Delete threads</string>
-	<!-- Context menu item -->
+	<!--Context menu item-->
 	<string name="menu_delete">Delete</string>
 	<string name="menu_undelivered_messages">Undelivered</string>
 	<string name="menu_delete_undelivered_messages">Delete undelivered messages</string>
@@ -53,7 +50,7 @@
 	</string>
 	<string name="time_stamp_full_time_12">%G-\%%m-\%%d \%%I:\%%M \%%p</string>
 	<string name="time_stamp_full_time_24">%G-\%%m-\%%d \%%H:\%%M</string>
-	<!-- Message that appears on screen while SIM card messages are retrieved -->
+	<!--Message that appears on screen while SIM card messages are retrieved-->
 	<string name="refreshing">Refreshing\u2026</string>
 	<string name="has_draft">Draft</string>
 	<string name="broadcast_from_to">
@@ -61,16 +58,15 @@
 	</string>
 	<string name="anonymous_recipient">Anonymous</string>
 	<string name="no_subject_view">(No subject)</string>
-
-	<!-- Message List -->
+	<!--Message List-->
 	<string name="messagelist_sender_self">Me</string>
 	<string name="view_picture">View picture</string>
 	<string name="view_slideshow">View slideshow</string>
-	<!-- Individual message context menu item -->
+	<!--Individual message context menu item-->
 	<string name="view_message_details">View message details</string>
-	<!-- Individual message context menu item -->
+	<!--Individual message context menu item-->
 	<string name="view_delivery_report">View report</string>
-	<!-- Individual message context menu item -->
+	<!--Individual message context menu item-->
 	<string name="delete_message">Delete message</string>
 	<string name="sent_on">
 		"Sent:
@@ -88,19 +84,19 @@
 		"
 	</string>
 	<string name="kilobyte">KB</string>
-	<!-- Dialog box title -->
+	<!--Dialog box title-->
 	<string name="undelivered_msg_dialog_title">Undelivered message</string>
-	<!-- Dialog box message -->
+	<!--Dialog box message-->
 	<string name="undelivered_msg_dialog_body">
 		Unable to send this message.\nAttempt made:
 		<xliff:g id="message">%s</xliff:g>
 		.
 	</string>
-	<!-- Dialog box message -->
+	<!--Dialog box message-->
 	<string name="undelivered_sms_dialog_body">Unable to send this message.</string>
-	<!-- Menu item -->
+	<!--Menu item-->
 	<string name="delete_thread">Delete thread</string>
-	<!-- Individual message context menu item -->
+	<!--Individual message context menu item-->
 	<string name="menu_forward">Forward</string>
 	<string name="download">Download</string>
 	<string name="downloading">Downloading</string>
@@ -110,67 +106,60 @@
 	</string>
 	<string name="drm_protected_text">* DRM protected text *</string>
 	<string name="insufficient_drm_rights">Insufficient DRM rights detected.</string>
-	<!-- Individual message context menu item -->
+	<!--Individual message context menu item-->
 	<string name="copy_message_text">Copy message text</string>
-	<!-- Header for context menu on an individual message -->
+	<!--Header for context menu on an individual message-->
 	<string name="message_options">Message options</string>
 	<string name="view_flat_slideshow">View Flat SlideShow</string>
-	<!-- Edit Slide Text -->
-	<!-- Button text on edit slide screen -->
+	<!--Edit Slide Text-->
+	<!--Button text on edit slide screen-->
 	<string name="done">Done</string>
-
-
-
-
-
-
-	<!-- Slideshow edit screen -->
-	<!-- Menu items: -->
+	<!--Slideshow edit screen-->
+	<!--Menu items:-->
 	<string name="move_up">Move up</string>
 	<string name="move_down">Move down</string>
 	<string name="remove_slide">Remove slide</string>
 	<string name="add_slide">Add slide</string>
 	<string name="discard_slideshow">Discard slideshow</string>
-	<!-- Context menu items -->
+	<!--Context menu items-->
 	<string name="remove_text">Remove text</string>
 	<string name="add_picture">Add picture</string>
 	<string name="remove_picture">Remove picture</string>
-	<!-- Menu item and title of "Add music" dialog options -->
+	<!--Menu item and title of "Add music" dialog options-->
 	<string name="add_music">Add sound</string>
 	<string name="remove_music">Remove sound</string>
 	<string name="add_video">Add video</string>
 	<string name="remove_video">Remove video</string>
-	<!-- text -->
+	<!--text-->
 	<string name="add_slide_hint">Select to create new slide</string>
-
-	<!-- Compose Message Activity -->
+	<!--Compose Message Activity-->
 	<string name="to_hint">To:</string>
-	<!-- Label in Compose screen for to text field -->
+	<!--Label in Compose screen for to text field-->
 	<string name="compose_title">New message</string>
 	<string name="subject_hint">Subject</string>
-	<!-- Menu item -->
+	<!--Menu item-->
 	<string name="add_attachment">Attach</string>
-	<!-- Menu item -->
+	<!--Menu item-->
 	<string name="add_subject">Add subject</string>
-	<!-- Menu item -->
+	<!--Menu item-->
 	<string name="discard">Discard</string>
 	<string name="replace">Replace</string>
 	<string name="remove">Remove</string>
-	<!-- Button label on Compose screen -->
+	<!--Button label on Compose screen-->
 	<string name="send">Send</string>
-	<!-- Menu item -->
+	<!--Menu item-->
 	<string name="all_threads">All threads</string>
-	<!-- Hint text in message text field when keyboard is revealed -->
+	<!--Hint text in message text field when keyboard is revealed-->
 	<string name="type_to_compose_text_enter_to_send">Type to compose</string>
 	<string name="type_to_reply_text_enter_to_send">Type to reply</string>
 	<string name="view">View</string>
-	<!-- Hint text in message text field when keyboard is not revealed -->
+	<!--Hint text in message text field when keyboard is not revealed-->
 	<string name="open_keyboard_to_compose_message">Open keyboard to compose message</string>
-	<!-- Dialog title -->
+	<!--Dialog title-->
 	<string name="image_too_large">Picture too large</string>
-	<!-- Dialog message text -->
+	<!--Dialog message text-->
 	<string name="ask_for_automatically_resize">Automatically resize picture before sending?</string>
-	<!-- Toast while a picture is being resize down -->
+	<!--Toast while a picture is being resize down-->
 	<string name="compressing">Compressing\u2026</string>
 	<string name="unsupported_media_format">
 		Unsupported
@@ -188,8 +177,8 @@
 		<xliff:g id="name">%1$s</xliff:g>
 		to your message.
 	</string>
-	<!-- Error message indicating that the picture being attached and resized 
-		could not be resized -->
+	<!--Error message indicating that the picture being attached and resized 
+		could not be resized-->
 	<string name="failed_to_resize_image">Picture not resized.</string>
 	<string name="resize_image_error_information">Sorry, but even when resized this picture is too
 		large to send.</string>
@@ -208,45 +197,40 @@
 	<string name="cannot_send_message_reason">Your message has no valid recipients.</string>
 	<string name="cannot_forward_drm_obj">The DRM object included in the message cannot be
 		forwarded.</string>
-
-	<!-- Toasts: -->
+	<!--Toasts:-->
 	<string name="converting_to_picture_message">Converting to MMS message\u2026</string>
 	<string name="converting_to_text_message">Converting to SMS message\u2026</string>
 	<string name="cannot_add_slide_anymore">Cannot add more slides.</string>
 	<string name="cannot_save_message">Cannot save message.</string>
 	<string name="cannot_load_message">Cannot load message.</string>
 	<string name="message_saved_as_draft">Message saved as draft.</string>
-
-	<!-- Audio attachment view -->
+	<!--Audio attachment view-->
 	<string name="cannot_play_audio">Cannot play audio.</string>
-
-	<!-- Slide editor screen -->
-	<!-- Button name -->
+	<!--Slide editor screen-->
+	<!--Button name-->
 	<string name="preview">Preview</string>
-	<!-- Button name -->
+	<!--Button name-->
 	<string name="preview_slideshow">Preview</string>
-	<!-- Button name -->
+	<!--Button name-->
 	<string name="replace_image">Replace picture</string>
-	<!-- Menu item -->
+	<!--Menu item-->
 	<string name="duration_sec">
 		Duration (
 		<xliff:g id="duration">%s</xliff:g>
 		sec)
 	</string>
-	<!-- Duration dialog box title -->
+	<!--Duration dialog box title-->
 	<string name="duration_selector_title">Duration for slide\u0020</string>
 	<string name="layout_selector_title">Slideshow layout\u0020</string>
-	<!-- Menu item -->
+	<!--Menu item-->
 	<string name="layout_top">Layout (top)</string>
-	<!-- Menu item -->
+	<!--Menu item-->
 	<string name="layout_bottom">Layout (bottom)</string>
-	<!-- Hint in slide text field -->
+	<!--Hint in slide text field-->
 	<string name="type_to_compose_text_or_leave_blank">Type to compose text or leave blank</string>
-
-
-	<!-- Change duration screen -->
+	<!--Change duration screen-->
 	<string name="secs">secs</string>
-	<!-- Duration dialog options -->
+	<!--Duration dialog options-->
 	<string-array name="select_dialog_items">
 		<item>1 second</item>
 		<item>2 seconds</item>
@@ -260,261 +244,230 @@
 		<item>10 seconds</item>
 		<item>Other\u2026</item>
 	</string-array>
-
-	<!-- Recipients editor -->
+	<!--Recipients editor-->
 	<string name="menu_view_contact">View contact</string>
 	<string name="menu_add_to_contacts">Add to Contacts</string>
-
 	<string name="hidden_sender_address">Hidden sender address</string>
-	<!-- Dialog box button names -->
+	<!--Dialog box button names-->
 	<string name="yes">OK</string>
 	<string name="no">Cancel</string>
-
 	<string name="play">Play</string>
 	<string name="edit">Edit</string>
-	<!-- "Picture too large" dialog box button name -->
+	<!--"Picture too large" dialog box button name-->
 	<string name="resize">Resize</string>
 	<string name="try_to_send">Try to send</string>
-
-	<!-- Preferences screen -->
-	<string name="preferences_title">"Settings"</string>
-	<!-- Settings screen, menu item -->
-	<string name="restore_default">"Restore default settings"</string>
-
-	<!-- Settings screen, section heading -->
+	<!--Preferences screen-->
+	<string name="preferences_title">Settings</string>
+	<!--Settings screen, menu item-->
+	<string name="restore_default">Restore default settings</string>
+	<!--Settings screen, section heading-->
 	<string name="pref_notification_settings_title">Notification settings</string>
-	<!-- Settings screen, section heading -->
+	<!--Settings screen, section heading-->
 	<string name="pref_mms_settings_title">MMS settings</string>
-	<!-- Settings screen, section heading -->
+	<!--Settings screen, section heading-->
 	<string name="pref_sms_settings_title">SMS settings</string>
-
-	<!-- This must be one of the values in the array "pref_entry_values_mms_max_size". -->
+	<!--This must be one of the values in the array "pref_entry_values_mms_max_size".-->
 	<string name="pref_default_mms_max_size">500000</string>
-
-	<!-- This must be one of the values in the array "pref_entry_values_mms_creation_mode". -->
+	<!--This must be one of the values in the array "pref_entry_values_mms_creation_mode".-->
 	<string name="pref_default_mms_creation_mode">restricted</string>
-
-	<!-- This must be one of the values in the array "pref_entry_values_mms_resubmission_mode". -->
+	<!--This must be one of the values in the array "pref_entry_values_mms_resubmission_mode".-->
 	<string name="pref_default_mms_resubmission_mode">restricted</string>
-
-	<!-- Settings screen, setting summary text -->
+	<!--Settings screen, setting summary text-->
 	<string name="pref_summary_manage_sim_messages">Manage messages stored on your SIM card</string>
-	<!-- Settings screen, setting summary text -->
+	<!--Settings screen, setting summary text-->
 	<string name="pref_summary_mms_delivery_reports">Request a delivery report for each MMS you send</string>
-	<!-- Settings screen, setting summary text -->
+	<!--Settings screen, setting summary text-->
 	<string name="pref_summary_mms_read_reports">Request a read report for each message you send</string>
-	<!-- Settings screen, setting summary text -->
+	<!--Settings screen, setting summary text-->
 	<string name="pref_summary_sms_delivery_reports">Request a delivery report from carrier</string>
-	<!-- Settings screen, setting option name -->
+	<!--Settings screen, setting option name-->
 	<string name="pref_title_manage_sim_messages">Manage SIM card messages</string>
-	<!-- Settings screen, setting option name -->
+	<!--Settings screen, setting option name-->
 	<string name="pref_title_mms_delivery_reports">Delivery reports</string>
-	<!-- Settings screen, setting option name -->
+	<!--Settings screen, setting option name-->
 	<string name="pref_title_mms_read_reports">Read reports</string>
-	<!-- Settings screen, setting option name -->
+	<!--Settings screen, setting option name-->
 	<string name="pref_title_sms_delivery_reports">Delivery reports</string>
-	<!-- Settings screen, setting option name -->
+	<!--Settings screen, setting option name-->
 	<string name="pref_title_notification_enabled">Notifications</string>
 	<string name="pref_summary_notification_enabled">Display message notifications in status bar</string>
-	<!-- Settings screen, setting option name -->
+	<!--Settings screen, setting option name-->
 	<string name="pref_title_notification_vibrate">Vibrate</string>
-	<!-- Settings screen, setting summary text -->
+	<!--Settings screen, setting summary text-->
 	<string name="pref_summary_notification_vibrate">Vibrate for incoming messages</string>
-	<!-- Settings screen, setting option name -->
+	<!--Settings screen, setting option name-->
 	<string name="pref_title_notification_ringtone">Notification sound</string>
-
-	<!-- Preference entries for auto retrieval -->
-	<!-- Settings screen, setting option name -->
+	<!--Preference entries for auto retrieval-->
+	<!--Settings screen, setting option name-->
 	<string name="pref_title_mms_auto_retrieval">Auto retrieve</string>
-	<!-- Settings screen, setting summary text -->
+	<!--Settings screen, setting summary text-->
 	<string name="pref_summary_mms_auto_retrieval">Automatically retrieve messages</string>
-	<!-- Settings screen, setting option name -->
+	<!--Settings screen, setting option name-->
 	<string name="pref_title_mms_retrieval_during_roaming">Roaming auto retrieve</string>
-	<!-- Settings screen, setting summary text -->
+	<!--Settings screen, setting summary text-->
 	<string name="pref_summary_mms_retrieval_during_roaming">Automatically retrieve messages while roaming</string>
-
-
-	<!-- Preference title -->
-
-
-
-	<!-- Labels -->
+	<!--Preference title-->
+	<!--Labels-->
 	<string name="to_label">To\u0020</string>
-
-	<!-- Confirm Delete -->
-	<!-- Delete confirmation dialog title -->
+	<!--Confirm Delete-->
+	<!--Delete confirmation dialog title-->
 	<string name="confirm_dialog_title">Delete</string>
-	<!-- Delete entire thread confirmation dialog message -->
+	<!--Delete entire thread confirmation dialog message-->
 	<string name="confirm_delete_conversation">The entire thread will be deleted.</string>
-	<!-- Delete all threads confirmation dialog message -->
+	<!--Delete all threads confirmation dialog message-->
 	<string name="confirm_delete_all_conversations">All threads will be deleted.</string>
-	<!-- Delete message confirmation dialog message -->
+	<!--Delete message confirmation dialog message-->
 	<string name="confirm_delete_message">The message will be deleted.</string>
-	<!-- Delete entire thread confirmation dialog message -->
+	<!--Delete entire thread confirmation dialog message-->
 	<string name="confirm_delete_all_messages">The entire thread will be deleted.</string>
-
-	<!-- When the user tries to view message details and some error occurs while 
-		retrieving those details, this message will be shown. -->
+	<!--When the user tries to view message details and some error occurs while 
+		retrieving those details, this message will be shown.-->
 	<string name="cannot_get_details">Cannot get details</string>
-	<!-- Title of "Message details" dialog -->
+	<!--Title of "Message details" dialog-->
 	<string name="message_details_title">Message details</string>
-	<!-- Label in "Message details" dialog -->
+	<!--Label in "Message details" dialog-->
 	<string name="message_type_label">Type:\u0020</string>
-	<!-- "Type" value in "Message details" dialog -->
+	<!--"Type" value in "Message details" dialog-->
 	<string name="text_message">SMS message</string>
-	<!-- "Type" value in "Message details" dialog -->
+	<!--"Type" value in "Message details" dialog-->
 	<string name="multimedia_message">MMS message</string>
-	<!-- "Type" value in "Message details" dialog -->
+	<!--"Type" value in "Message details" dialog-->
 	<string name="multimedia_notification">MMS notification</string>
-	<!-- Label in "Message details" dialog showing who sent the message. -->
+	<!--Label in "Message details" dialog showing who sent the message.-->
 	<string name="from_label">From:\u0020</string>
-	<!-- Label in "Message details" dialog -->
+	<!--Label in "Message details" dialog-->
 	<string name="to_address_label">To:\u0020</string>
-	<!-- Label in "Message details" dialog -->
+	<!--Label in "Message details" dialog-->
 	<string name="bcc_label">Bcc:\u0020</string>
-	<!-- Label in "Message details" dialog -->
+	<!--Label in "Message details" dialog-->
 	<string name="sent_label">Sent:\u0020</string>
-	<!-- Label in "Message details" dialog -->
+	<!--Label in "Message details" dialog-->
 	<string name="received_label">Received:\u0020</string>
-	<!-- Label in "Message details" dialog -->
+	<!--Label in "Message details" dialog-->
 	<string name="saved_label">Saved:\u0020</string>
-	<!-- Label in "Message details" dialog -->
+	<!--Label in "Message details" dialog-->
 	<string name="subject_label">Subject:\u0020</string>
-	<!-- Label in "Message details" dialog -->
+	<!--Label in "Message details" dialog-->
 	<string name="message_size_label">Message size:\u0020</string>
-	<!-- Label in "Message details" dialog -->
+	<!--Label in "Message details" dialog-->
 	<string name="priority_label">Priority:\u0020</string>
-	<!-- "Priority" value in "Message details" dialog -->
+	<!--"Priority" value in "Message details" dialog-->
 	<string name="priority_high">High</string>
-	<!-- "Priority" value in "Message details" dialog -->
+	<!--"Priority" value in "Message details" dialog-->
 	<string name="priority_normal">Normal</string>
-	<!-- "Priority" value in "Message details" dialog -->
+	<!--"Priority" value in "Message details" dialog-->
 	<string name="priority_low">Low</string>
-	<!-- Label in "Message details" dialog -->
+	<!--Label in "Message details" dialog-->
 	<string name="message_class_label">Message class:\u0020</string>
-
-	<!-- Menu title for editing a message -->
+	<!--Menu title for editing a message-->
 	<string name="menu_edit">Edit</string>
-	<!-- Menu title the user can use for trying to resend a message. -->
+	<!--Menu title the user can use for trying to resend a message.-->
 	<string name="menu_retry_sending">Retry sending</string>
-	<!-- Menu title the user can use for trying to resend all the messages. -->
+	<!--Menu title the user can use for trying to resend all the messages.-->
 	<string name="menu_retry_sending_all">Retry sending all</string>
-	<!-- Menu title for deleting undelivered messages or messages on the SIM 
-		card. -->
+	<!--Menu title for deleting undelivered messages or messages on the SIM 
+		card.-->
 	<string name="menu_delete_messages">Delete messages</string>
-	<!-- Dialog text displayed when trying to resend an unsent message. -->
+	<!--Dialog text displayed when trying to resend an unsent message.-->
 	<string name="retrying_dialog_body">
 		This message
 		<xliff:g id="message">%s</xliff:g>
 		was not sent due to a connection problem.\r\nRetrying to send\u2026
 	</string>
-
-	<!-- Manage SIM Messages -->
-	<!-- Menu title to copy a selected message from the SIM card to the phone. -->
+	<!--Manage SIM Messages-->
+	<!--Menu title to copy a selected message from the SIM card to the phone.-->
 	<string name="sim_copy_to_phone_memory">Copy to device memory</string>
-	<!-- Menu title to delete a selected messaged from the SIM card. -->
+	<!--Menu title to delete a selected messaged from the SIM card.-->
 	<string name="sim_delete">Delete</string>
-	<!-- Title of screen displaying messages on SIM card -->
+	<!--Title of screen displaying messages on SIM card-->
 	<string name="sim_manage_messages_title">SMS messages on SIM card</string>
-	<!-- Context menu item but currently commented out in 1.0. -->
+	<!--Context menu item but currently commented out in 1.0.-->
 	<string name="sim_view">View</string>
-	<!-- Message that appears on the "SMS messges on SIM card" screen when there 
-		are no messages on the SIM card -->
+	<!--Message that appears on the "SMS messges on SIM card" screen when there 
+		are no messages on the SIM card-->
 	<string name="sim_empty">No messages on the SIM card.</string>
-
-	<!-- Delivery Header View -->
-	<!-- Title of "Report" window -->
+	<!--Delivery Header View-->
+	<!--Title of "Report" window-->
 	<string name="delivery_header_title">Report</string>
-
-	<!-- Delivery Report Activity -->
-	<!-- Status in "Report" window -->
+	<!--Delivery Report Activity-->
+	<!--Status in "Report" window-->
 	<string name="status_none">(None)</string>
-	<!-- Status in "Report" window -->
+	<!--Status in "Report" window-->
 	<string name="status_pending">Pending</string>
-	<!-- Status in "Report" window -->
+	<!--Status in "Report" window-->
 	<string name="status_read">Read</string>
-	<!-- Status in "Report" window -->
+	<!--Status in "Report" window-->
 	<string name="status_received">Received</string>
-	<!-- Status in "Report" window -->
+	<!--Status in "Report" window-->
 	<string name="status_failed">Unsuccessful</string>
-	<!-- Status in "Report" window -->
+	<!--Status in "Report" window-->
 	<string name="status_unread">Unread</string>
-	<!-- Status in "Report" window -->
+	<!--Status in "Report" window-->
 	<string name="status_rejected">Rejected</string>
-	<!-- Label in "Report" window -->
+	<!--Label in "Report" window-->
 	<string name="recipient_label">Recipient:\u0020</string>
-	<!-- Label in "Report" window -->
+	<!--Label in "Report" window-->
 	<string name="status_label">Status:\u0020</string>
-
-
-	<!-- Attachment Type Selector Adapter. This string is an option in the "Attach" 
-		dialog, "Add music" dialog -->
+	<!--Attachment Type Selector Adapter. This string is an option in the "Attach" 
+		dialog, "Add music" dialog-->
 	<string name="attach_image">Pictures</string>
-	<!-- Attachment Type Selector Adapter. This string is an option in the "Attach" 
-		dialog, "Add music" dialog -->
+	<!--Attachment Type Selector Adapter. This string is an option in the "Attach" 
+		dialog, "Add music" dialog-->
 	<string name="attach_take_photo">Camera</string>
-	<!-- Attachment Type Selector Adapter. This string is an option in the "Attach" 
-		dialog, "Add music" dialog -->
+	<!--Attachment Type Selector Adapter. This string is an option in the "Attach" 
+		dialog, "Add music" dialog-->
 	<string name="attach_video">Video</string>
-	<!-- Attachment Type Selector Adapter. This string is an option in the "Attach" 
-		dialog, "Add music" dialog -->
+	<!--Attachment Type Selector Adapter. This string is an option in the "Attach" 
+		dialog, "Add music" dialog-->
 	<string name="attach_sound">Audio</string>
-	<!-- Attachment Type Selector Adapter. This string is an option in the "Attach" 
-		dialog, "Add music" dialog -->
+	<!--Attachment Type Selector Adapter. This string is an option in the "Attach" 
+		dialog, "Add music" dialog-->
 	<string name="attach_record_sound">Record audio</string>
-
-	<!-- Layout Selector Adapter. Slideshow layout dialog option for aligning 
-		an icon. -->
+	<!--Layout Selector Adapter. Slideshow layout dialog option for aligning 
+		an icon.-->
 	<string name="select_bottom_text">Text on bottom</string>
-	<!-- Layout Selector Adapter. Slideshow layout dialog option for aligning 
-		an icon. -->
+	<!--Layout Selector Adapter. Slideshow layout dialog option for aligning 
+		an icon.-->
 	<string name="select_top_text">Text on top</string>
-
-	<!-- Delivery Report Notification dialog title. -->
+	<!--Delivery Report Notification dialog title.-->
 	<string name="notification_multiple">
 		<xliff:g id="count">%s</xliff:g>
 		unread messages.
 	</string>
-	<!-- Delivery Report Notification dialog title. -->
+	<!--Delivery Report Notification dialog title.-->
 	<string name="notification_multiple_title">New messages</string>
-
-	<!-- Sim Full Notification dialog title. -->
+	<!--Sim Full Notification dialog title.-->
 	<string name="sim_full_title">SIM card full</string>
-	<!-- Sim Full Notification dialog text. -->
+	<!--Sim Full Notification dialog text.-->
 	<string name="sim_full_body">Delete some messages to make room for more.</string>
-
-	<!-- Multimedia type used in building other messages. For instance: Sorry, 
-		you cannot add this audio to your message. -->
+	<!--Multimedia type used in building other messages. For instance: Sorry, 
+		you cannot add this audio to your message.-->
 	<string name="type_audio">audio</string>
-	<!-- Multimedia type used in building other messages. For instance: Sorry, 
-		you cannot add this picture to your message. -->
+	<!--Multimedia type used in building other messages. For instance: Sorry, 
+		you cannot add this picture to your message.-->
 	<string name="type_picture">picture</string>
-	<!-- Multimedia type used in building other messages. For instance: Sorry, 
-		you cannot add this video to your message. -->
+	<!--Multimedia type used in building other messages. For instance: Sorry, 
+		you cannot add this video to your message.-->
 	<string name="type_video">video</string>
-
-	<!-- Dialog title for the Read Report dialog. -->
+	<!--Dialog title for the Read Report dialog.-->
 	<string name="confirm">Confirm</string>
-	<!-- Dialog text for the Read Report dialog. -->
+	<!--Dialog text for the Read Report dialog.-->
 	<string name="message_send_read_report">A read report will be sent.</string>
-
-	<!-- URL list activity title -->
+	<!--URL list activity title-->
 	<string name="url_list_label">Select link</string>
-
-	<!-- This is the text of a toast message briefly displayed when a problem 
-		occurs while sending. -->
+	<!--This is the text of a toast message briefly displayed when a problem 
+		occurs while sending.-->
 	<string name="message_queued">Currently unable to send your message; it will be
 		sent when the service becomes available.</string>
-
-	<!-- Download Manager -->
-	<!-- When an error occurs downloading a new message and a subject isn't 
-		available, substitute this default subject. -->
+	<!--Download Manager-->
+	<!--When an error occurs downloading a new message and a subject isn't 
+		available, substitute this default subject.-->
 	<string name="no_subject">(No subject)</string>
-	<!-- When an error occurs downloading a new message and the sender is unknown, 
-		substitute this default text. -->
+	<!--When an error occurs downloading a new message and the sender is unknown, 
+		substitute this default text.-->
 	<string name="unknown_sender">Unknown sender</string>
-	<!-- When an error occurs downloading a new message, display this message. 
-		An example: Download of message Wanna get pizza from dorkman was unsuccessful. -->
+	<!--When an error occurs downloading a new message, display this message. 
+		An example: Download of message Wanna get pizza from dorkman was unsuccessful.-->
 	<string name="dl_failure_notification">
 		Download of message
 		<xliff:g id="subject">%s</xliff:g>
@@ -522,81 +475,60 @@
 		<xliff:g id="from">%s</xliff:g>
 		was unsuccessful.
 	</string>
-
-	<!-- This is the confirm rate limit alert dialog title. -->
+	<!--This is the confirm rate limit alert dialog title.-->
 	<string name="rate_limit_surpassed">Confirm</string>
-	<!-- This is the confirm rate limit alert dialog text. -->
+	<!--This is the confirm rate limit alert dialog text.-->
 	<string name="confirm_rate_limit">A large number of multimedia messages are being
 		sent. Is this OK?</string>
-
-	<!-- Message Failed Notification -->
-	<!-- Dialog box title when receiving a message failed. -->
+	<!--Message Failed Notification-->
+	<!--Dialog box title when receiving a message failed.-->
 	<string name="message_download_failed_title">Message not downloaded</string>
-	<!-- Dialog box title when sending a message failed. -->
+	<!--Dialog box title when sending a message failed.-->
 	<string name="message_send_failed_title">Message not sent</string>
-	<!-- Dialog box message text when failure occurs sending a message. -->
+	<!--Dialog box message text when failure occurs sending a message.-->
 	<string name="message_failed_body">Select to review the message and try again.</string>
-	<!-- Dialog box message when there's a problem retrieving messages. -->
+	<!--Dialog box message when there's a problem retrieving messages.-->
 	<string name="download_later">Currently unable to download. Please try again
 		later.</string>
-
-	<!-- Title for audio file picker -->
+	<!--Title for audio file picker-->
 	<string name="select_audio">Select audio</string>
-	<!-- Menu title to copy an attachment to the SD card -->
+	<!--Menu title to copy an attachment to the SD card-->
 	<string name="copy_to_sdcard">Copy attached to SD card</string>
-	<!-- Toast message on successful copy to SD card -->
+	<!--Toast message on successful copy to SD card-->
 	<string name="copy_to_sdcard_success">Attachment copied to SD card</string>
-	<!-- Toast message on failed copy to SD card -->
+	<!--Toast message on failed copy to SD card-->
 	<string name="copy_to_sdcard_fail">Copying attachment to SD card failed</string>
-	<!-- Menu item -->
+	<!--Menu item-->
 	<string name="menu_insert_smiley">Insert smiley</string>
-
-	<!-- This is the dialog title for the "Select link" dialog, shown when the 
+	<!--This is the dialog title for the "Select link" dialog, shown when the 
 		user clicks on a chat in the chat history view if there are links in the 
-		chat message. The dialog displays the links if there are any -->
+		chat message. The dialog displays the links if there are any-->
 	<string name="select_link_title">Select Action</string>
 	<string name="save_to_sdcard">Save to SD Card</string>
-
-	<!-- Don't Translate -->
-	
-
-	<!-- End Don't Translate -->
-
-	<!-- please translate from here -->
-
-	<!-- select contacts windows -->
-
+	<!--Don't Translate-->
+	<!--End Don't Translate-->
+	<!--please translate from here-->
+	<!--select contacts windows-->
 	<string name="menu_search">Search</string>
 	<string name="menu_about">About</string>
-
-
-
-
-
 	<string name="menu_end_select">End select</string>
 	<string name="menu_select_all">Select all</string>
 	<string name="menu_cancel_all">Cancel all</string>
 	<string name="menu_clear_log">Clear send log</string>
-
 	<string name="contact_table_name">Contact</string>
 	<string name="group_table_name">Group</string>
 	<string name="recent_table_name">Recent</string>
-
-
-	<!-- preference setting xml -->
+	<!--preference setting xml-->
 	<string name="pref_app_cat_title">Application settings</string>
 	<string name="pref_app_theme_title">Theme</string>
 	<string name="pref_app_theme_summary">Set a dark or light application theme</string>
-
 	<string name="pref_app_conversationstyle_title">Conversation style</string>
 	<string name="pref_app_conversationstyle_summary">Select conversation style (including
 		Handcent/iPhone/Android styles)</string>
-
 	<string name="pref_app_datetimeformat_title">Date &amp; time format</string>
 	<string name="pref_app_datetimeformat_summary">Select date &amp; time display format</string>
 	<string name="pref_app_fontsize_title">Font size</string>
 	<string name="pref_app_fontsize_summary">Set the font size of messages</string>
-
 	<string name="pref_app_bubble_title">Conversation settings</string>
 	<string name="pref_app_bubble_summary">Set bubble color, background color and background
 		picture</string>
@@ -605,34 +537,25 @@
 	<string name="pref_app_dispimg_title">Display contact pictures</string>
 	<string name="pref_app_dispimg_summary">Whether or not to display contact pictures and
 		their size</string>
-
 	<string name="pref_app_autorotate_title">Auto-rotate</string>
 	<string name="pref_app_autorotate_summary">Automatically switch orientation when rotating
 		device</string>
 	<string name="pref_app_autoratate_alert">Notice</string>
-
-	<!-- string name="pref_smsrec_cat_title">SMS Receive settings</string -->
-
-
+	<!--string name="pref_smsrec_cat_title">SMS Receive settings</string-->
 	<string name="pref_smsrec_led_title">LED notify setting</string>
 	<string name="pref_smsrec_led_summary">Setting LED enable, color, flash frequency</string>
-
-	<!-- string name="pref_smssend_cat_title">Send SMS settings</string -->
-
+	<!--string name="pref_smssend_cat_title">Send SMS settings</string-->
 	<string name="pref_smssend_enablesig_title">Enable signature</string>
 	<string name="pref_smssend_enablesig_summary">Add a personal signature to your messages</string>
-
 	<string name="pref_smssend_personsig_title">Personal signature</string>
 	<string name="pref_smssend_personsig_summary">Signature content</string>
-
 	<string name="pref_smsrec_ringtone_summary">Set your notification sound for incoming messages</string>
-
 	<string name="pref_bubblecontent_cat_title">Bubble content options</string>
 	<string name="pref_bubblecontent_hyperlink_title">Smart links</string>
 	<string name="pref_bubblecontent_hyperlink_summary">Convert phone numbers, URLs, addresses, etc. into
 		hyperlinks</string>
 	<string name="pref_datefont_color_title">Date font color</string>
-	<!-- string name="pref_bubblecolor_cat_title">Bubble color options</string> 
+	<!--string name="pref_bubblecolor_cat_title">Bubble color options</string> 
 		<string name="pref_bubblerecvsms_color_title">Received SMS color</string> 
 		<string name="pref_bubblerecvsms_color_summary">Set bubble color for received 
 		messages</string> <string name="pref_bubblesendsms_color_title">Sent SMS 
@@ -662,14 +585,12 @@
 		<string name="pkey_bubble_send_usegrad_title">Use gradient color</string> 
 		<string name="pkey_bubble_send_usegrad_summary">Enable draw bubble with gradient 
 		color,else draw with start color only</string> <string name="grad_start_color_title">Gradient 
-		start color</string> <string name="grad_end_color_title">Gradient end color</string -->
-
+		start color</string> <string name="grad_end_color_title">Gradient end color</string-->
 	<string name="pref_vibrate_cat_title">Vibrate settings</string>
 	<string name="pref_vibrate_cat_summary">Enable and set vibrate pattern</string>
 	<string name="pref_vibrate_pattern_title">Vibrate pattern</string>
 	<string name="pref_vibrate_pattern_summary">Set the vibration pattern</string>
 	<string name="pref_vibrate_pattern_default">Default</string>
-
 	<string name="pref_led_cat_title">LED settings</string>
 	<string name="pref_led_blink_title">Blink LED</string>
 	<string name="pref_led_blink_summary">Blink LED when a message is received</string>
@@ -677,38 +598,26 @@
 	<string name="pref_led_color_summary">Set the color of the notification LED</string>
 	<string name="pref_led_freq_title">LED flash frequency</string>
 	<string name="pref_led_freq_summary">Select the flash frequency</string>
-
 	<string name="pref_retrievesms_cat_title">SMS retrieve settings</string>
 	<string name="pref_retrievemms_cat_title">MMS retrieval settings</string>
 	<string name="pref_msg_retrieve_title">Retrieve message settings</string>
 	<string name="pref_msg_retrieve_summary">Retrieve message options for SMS &amp; MMS</string>
-
 	<string name="pref_smssend_shortkey_title">Shortcut key to send</string>
 	<string name="pref_smssend_shortkey_summary">Shortcut key for quickly sending messages</string>
-
-
 	<string name="pref_keyboard_cat">Keyboard settings</string>
 	<string name="pref_keyboard_action_title">Action key-type</string>
 	<string name="pref_keyboard_action_summary">The type of action key (bottom right of onscreen
 		keyboard)</string>
-
 	<string name="pref_key_enable_smiley_title">Enable smileys</string>
 	<string name="pref_key_enable_smiley_summary">Display smileys in messages</string>
-
-
-
 	<string name="sms_content_search_hint">Search Messages</string>
-	<string name="notice_autorotate_content">The Setting is the same as "System setting"->"Sound
-		&amp; Display"->"Orientation." Toggling this setting will effect a
+	<string name="notice_autorotate_content">The Setting is the same as "System setting"-&gt;"Sound
+		&amp; Display"-&gt;"Orientation." Toggling this setting will effect a
 		global change of the auto-rotate behavior in all applications.</string>
-
-
-
-	<!-- popup strings -->
-	<!-- string name="new_text_at">New incoming at %s</string> <string name="unread_text_waiting"><u>%d 
-		other unread message(s)</u></string -->
+	<!--popup strings-->
+	<!--string name="new_text_at">New incoming at %s</string> <string name="unread_text_waiting"><u>%d 
+		other unread message(s)</u></string-->
 	<string name="mms_subject">Subject:</string>
-
 	<string name="button_close">Close</string>
 	<string name="button_reply">Reply</string>
 	<string name="button_inbox">Read</string>
@@ -719,150 +628,113 @@
 	<string name="button_previous">Previous</string>
 	<string name="button_unlock">Unlock</string>
 	<string name="button_tts">Text-to-Speech</string>
-
 	<string name="pref_enabled_title">Enable popup</string>
 	<string name="pref_enabled_summaryon">Popup is enabled</string>
 	<string name="pref_enabled_summaryoff">Popup is disabled</string>
-
 	<string name="pref_popup_setting_title">Popup settings</string>
 	<string name="pref_popup_setting__summary">Set various popup options</string>
-
-
 	<string name="pref_privacy_title">Privacy mode</string>
 	<string name="pref_privacy_summaryon">Message content will only be shown after unlock</string>
 	<string name="pref_privacy_summaryoff">Message content will be shown immediately</string>
-
 	<string name="pref_blur_title">Blur Background</string>
 	<string name="pref_blur_summaryon">The background behind the message window will be
 		blurred</string>
 	<string name="pref_blur_summaryoff">The background behind the message window will not
 		be blurred</string>
-
 	<string name="pref_markread_title">Mark Read</string>
 	<string name="pref_markread_summaryon">Messages will be marked as read when clicking
 		\"Close\"</string>
 	<string name="pref_markread_summaryoff">Messages will not be marked as read when clicking
 		\"Close\"</string>
-
 	<string name="pref_dimscreen_title">Dim popup screen</string>
 	<string name="pref_dimscreen_summaryon">Popup screen will be dim (saves battery)</string>
 	<string name="pref_dimscreen_summaryoff">Popup screen will be bright</string>
-
 	<string name="pref_timeout_title">Screen timeout</string>
 	<string name="pref_timeout_summary">The screen will sleep after this time</string>
-
 	<string name="pref_onlyShowOnKeyguard_title">Restrict popup</string>
 	<string name="pref_onlyShowOnKeyguard_summaryon">Popup window will only be shown when keyguard is
 		engaged</string>
 	<string name="pref_onlyShowOnKeyguard_summaryoff">Popup will always be shown</string>
-
 	<string name="pref_notif_repeat_title">Enable reminders</string>
 	<string name="pref_notif_repeat_summaryon">Unread message reminders are enabled</string>
 	<string name="pref_notif_repeat_summaryoff">Unread message reminders are disabled</string>
-
 	<string name="pref_notif_privacy_title">Privacy mode</string>
 	<string name="pref_notif_privacy_summary_on">Don\'t show message content in the notification bar</string>
 	<string name="pref_notif_privacy_summary_off">Show message content in the notification bar</string>
-
 	<string name="pref_reminder_setting_title">Reminders</string>
 	<string name="pref_reminder_setting_summary">Setting reminders such as reminder frequency,
 		number of reminders etc.</string>
-
-
-
 	<string name="pref_notif_repeat_interval_title">Reminder frequency</string>
 	<string name="pref_notif_repeat_interval_summary">The time period between notification reminders</string>
 	<string name="pref_notif_repeat_interval_dialogTitle">Interval (minutes)</string>
-
 	<string name="pref_notif_repeat_times_title">Number of reminders</string>
 	<string name="pref_notif_repeat_times_summary">The number of reminder notifications to play</string>
-
 	<string name="pref_notif_repeat_screen_on_title">Screen on for reminders</string>
 	<string name="pref_notif_repeat_screen_on_summaryon">Reminders will turn screen on again</string>
 	<string name="pref_notif_repeat_screen_on_summaryoff">Reminders will not turn screen on</string>
 	<string name="pref_notif_repeat_screen_on_warning">Warning: turning the screen on for reminders can
 		significantly impact battery life</string>
-
-
 	<string name="pref_speech_cat_title">Speech</string>
 	<string name="pref_speech_language_title">Language</string>
 	<string name="pref_speech_language_summary">Set the spoken language</string>
 	<string name="pref_speech_rate_title">Speech rate</string>
 	<string name="pref_speech_rate_summary">Set the speech rate</string>
-
-
 	<string name="pref_notif_test_title">Test notification</string>
 	<string name="pref_notif_test_summary">Test your notification</string>
 	<string name="pref_notif_test_message">Testing your notification now!</string>
-
 	<string name="no_found_myautotext_hint">You haven\'t set any autotexts. Please set autotext
-		by settings->Autotext setting->Autotext list setting->Add</string>
+		by settings-&gt;Autotext setting-&gt;Autotext list setting-&gt;Add</string>
 	<string name="insert_fast_words_title">Insert autotext</string>
-
 	<string name="pref_media_volume_title">Media volume</string>
 	<string name="pref_media_volume_summary">Set the speech volume</string>
-
-	<!-- string name="pref_background_cat_title">Background settings</string> 
+	<!--string name="pref_background_cat_title">Background settings</string> 
 		<string name="pref_usepic_title">Use picture</string> <string name="pref_usepic_summary">Use 
 		a custom background image</string> <string name="pref_selectpic_title">Select 
 		picture</string> <string name="pref_selectpic_summary">Select a picture as 
 		background</string> <string name="pref_use_themecolor_title">Use theme style</string> 
 		<string name="pref_use_themecolor_summary">Use current application theme 
 		as background</string> <string name="pref_custom_color_title">Custom color</string> 
-		<string name="pref_custom_color_summary">Set a custom background color</string -->
-
+		<string name="pref_custom_color_summary">Set a custom background color</string-->
 	<string name="bubble_setting_title">Bubble settings</string>
 	<string name="bubble_setting_summary">Set the bubble color, backgroud color and
 		background picture</string>
-
 	<string name="notification_setting_title">Notification settings</string>
 	<string name="notification_setting_summary">Customize the notifications</string>
-
 	<string name="autotext_setting_title">Autotext settings</string>
 	<string name="autotext_setting_summary">Autotext settings including auto-capitalize,
 		auto-punctuate, autotext, etc</string>
-
-	<!-- string name="popup_dialog_alert_title">Popup Alert</string> <string 
+	<!--string name="popup_dialog_alert_title">Popup Alert</string> <string 
 		name="popup_dialog_alert_summary">There is another incoming message.\nWill 
-		you replace current message?</string -->
-
+		you replace current message?</string-->
 	<string name="toast_message_sent">The quick reply message was sent!</string>
 	<string name="speak_message">Speak text</string>
-
 	<string name="pref_autotext_cat">Autotext settings</string>
 	<string name="pref_autocap_title">Auto-capitalize</string>
 	<string name="pref_autocap_summary_on">Capitalize the first letter in each new sentence</string>
 	<string name="pref_autocap_summary_off">Don\'t capitalize the first letter in each new
 		sentence</string>
-
 	<string name="pref_autotext_title">Autotext</string>
 	<string name="pref_autotext_summary_on">Enable auto-punctuate, auto-correct mistyped
 		words&amp;quick autotext</string>
 	<string name="pref_autotext_summary_off">Disable auto-punctuate, auto-correct mistyped
 		words&amp;quick autotext</string>
-
 	<string name="pref_autolist_title">Autotext list setting</string>
 	<string name="pref_autolist_summary">Edit the autotext list</string>
-
 	<string name="pref_notif_cat">Notification settings</string>
 	<string name="pref_popup_cat">Popup settings</string>
-
 	<string name="pref_popup_quickreply_title">Use quick reply</string>
 	<string name="pref_popup_quickreply_summaryon">Enable quick reply</string>
 	<string name="pref_popup_quickreply_summaryoff">Disable quick reply</string>
-
 	<string name="color_pref_color_red">Red</string>
 	<string name="color_pref_color_blue">Blue</string>
 	<string name="color_pref_color_green">Green</string>
 	<string name="color_pref_color_trans">Transparency</string>
 	<string name="color_pref_colorpreview">Color Preview:</string>
-
-	<!-- compse message windows -->
+	<!--compse message windows-->
 	<string name="compose_new_title">New Compose</string>
 	<string name="composs_longsms_mms_question">The SMS messages count is larger than 3. Do you
 		wish to convert message to MMS?</string>
-
-	<!-- group select dialog -->
+	<!--group select dialog-->
 	<string name="group_sele_end_select">End select</string>
 	<string name="group_sele_selectall_title">Please wait</string>
 	<string name="group_sele_selectall_content">Reading all contact</string>
@@ -871,33 +743,25 @@
 	<string name="group_sele_no_number">No Contact Number</string>
 	<string name="group_sele_confirm_title">Pressing the back button will discard your
 		selection\n\n If you want to return with your selection, please use
-		your device\'s "Menu" button</string>
+		your device\'s \"Menu\" button</string>
 	<string name="group_sele_confirm_discard">Discard selection</string>
-
 	<string name="cancel">Cancel</string>
-
 	<string name="group_select_wait_title">Please wait</string>
 	<string name="group_select_wait_content">Checking all contacts</string>
 	<string name="recent_dialog_confirm_title">Confirm</string>
 	<string name="recent_dialog_confirm_content">Send log &amp; Delivery report will be deleted</string>
 	<string name="menu_send_report_clear">Clear report</string>
-
 	<string name="send_report_starttime">Start time:</string>
 	<string name="send_report_endtime">End time:</string>
 	<string name="send_report_devinfo_title">Deliver detail info</string>
 	<string name="send_report_devinfo_status">Status:</string>
 	<string name="send_report_status_success">Success</string>
 	<string name="send_report_status_fail">Fail</string>
-
 	<string name="pref_smssend_splitthread_title">Send as split threads</string>
 	<string name="pref_smssend_splitthread_summary_on">Split thread for each person when sending group SMS</string>
 	<string name="pref_smssend_splitthread_summary_off">Send as one thread when sending group SMS</string>
-
-
 	<string name="delivery_report_nocontent_title">No delivery reports</string>
-
-	<!-- Add from version 2.2 -->
-
+	<!--Add from version 2.2-->
 	<string name="pref_app_language_title">Language</string>
 	<string name="pref_app_language_summary">Select the language of this application</string>
 	<string name="pref_app_language_dialog">Select language</string>
@@ -905,30 +769,23 @@
 	<string name="conversation_list_deleting">Deleting...</string>
 	<string name="confirm_delete_all_search">Delete all search results?</string>
 	<string name="confirm_delete_select">Delete selected items?</string>
-
 	<string name="pref_popup_delete_dialog_title">Delete Message</string>
 	<string name="pref_popup_delete_dialog_text">Are you sure?</string>
 	<string name="setting_all_thread_read">Marking all threads read...</string>
-
 	<string name="menu_batch_mode">Batch mode</string>
 	<string name="menu_cancel_batch">Cancel batch mode</string>
 	<string name="menu_delete_batch">Delete selected</string>
-
 	<string name="pref_popup_screen_on_title">Screen on for popup</string>
 	<string name="pref_popup_screen_on_summaryon">Popup will turn screen on</string>
 	<string name="pref_popup_screen_on_summaryoff">Popup will not turn screen on (saves battery)</string>
-
-	<!-- Add from version 2.3 -->
-
+	<!--Add from version 2.3-->
 	<string name="use_contact_pic_title">Use contact picture</string>
 	<string name="use_contact_pic_summary">Use Contact Picture as Background</string>
-
 	<string name="personalization_title">Personalization</string>
 	<string name="personalization_notif_title">Notification Settings</string>
 	<string name="personalization_bubble_title">Bubble Settings</string>
 	<string name="personalization_other_title">Other Settings</string>
 	<string name="personalization_signature_title">Signature Settings</string>
-
 	<string name="menu_blacklist">Blacklist</string>
 	<string name="menu_unblacklist">Unblacklist</string>
 	<string name="dialog_blacklist_title">Confirm</string>
@@ -942,31 +799,21 @@
 	<string name="pref_blacklist_cat">Blacklist</string>
 	<string name="blacklist_show_summaryon">Show blacklisted items</string>
 	<string name="blacklist_show_summaryoff">Hide blacklisted items</string>
-
-	<!-- Add from version 2.3.8 -->
-	
-	
+	<!--Add from version 2.3.8-->
 	<string name="pref_bubble_showname_title">Show names</string>
 	<string name="pref_bubble_showname_summaryon">Show names in front messages</string>
 	<string name="pref_bubble_showname_summaryoff">Don\'t show name in front of messages</string>
-
-
-
-
 	<string name="reset_dialog_message">Reset settings to default values?</string>
 	<string name="reset_title">Reset</string>
 	<string name="reset_summary">Reset to default values</string>
-
 	<string name="personal_bubble_options_cat_title">Bubble settings</string>
-
-	<!-- Add from version 2.4 -->
+	<!--Add from version 2.4-->
 	<string name="vibrate_pattern_help">Enter a custom vibrate pattern, in the
 		format:\nmillisOff, millisOn, etc.\n\nFor
 		example:\n0,1000\n0,500,200,500,200,500</string>
 	<string name="vibrate_pattern_ok">Custom vibrate pattern set</string>
 	<string name="vibrate_pattern_bad">The custom vibrate pattern invalid; using default
 		instead.</string>
-
 	<string name="led_pattern_help">Enter the time in milliseconds to turn the LED on
 		and off</string>
 	<string name="led_pattern_ok">Custom LED blink rate set</string>
@@ -974,14 +821,12 @@
 		instead.</string>
 	<string name="led_pattern_help_on">Time on:</string>
 	<string name="led_pattern_help_off">Time off:</string>
-
 	<string name="pref_notif_trackball_cat">Light trackball settings</string>
 	<string name="pref_notif_trackball_title">Light trackball</string>
 	<string name="pref_notif_trackball_summary">Light trackball when a message is received (for HTC
 		Hero &amp; Magic)</string>
 	<string name="pref_notif_trackball_dialog_title">Set lighten parameter</string>
 	<string name="menu_qucik_text">Quick text</string>
-
 	<string name="pref_app_quicktext_title">Quick Text settings</string>
 	<string name="pref_app_quicktext_summary">Manage quick text list</string>
 	<string name="quick_text_manager_tilte">Quick text manager</string>
@@ -993,84 +838,66 @@
 	<string name="quick_text_button_edit">Edit</string>
 	<string name="quick_text_delete_confirm">Delete the quick text?</string>
 	<string name="quick_text_select">Select quick text</string>
-
-	<!-- add from version 2.4.3 -->
+	<!--add from version 2.4.3-->
 	<string name="menu_savemms">Save MMS</string>
 	<string name="savemms_wait_title">Please wait</string>
 	<string name="savemms_wait_content">Checking all messages</string>
-
 	<string name="savemms_found_hint">
 		Found
 		<xliff:g id="objcount">%s</xliff:g>
 		object(s)
 	</string>
 	<string name="savemms_nofound_hint">Not found</string>
-
-	<!-- add from version 2.5.2 -->
+	<!--add from version 2.5.2-->
 	<string name="send_fail_dlg_message">This message has failed to send. Please select an
 		action for the message.</string>
 	<string name="retry">Retry</string>
 	<string name="manage_recipients_window_title">Recipients manager</string>
-
 	<string name="pref_bubble_showdate_title">Smart date &amp; time</string>
 	<string name="pref_bubble_showdate_summaryon">Show date &amp; time for every message</string>
 	<string name="pref_bubble_showdate_summaryoff">Hide date &amp; time for continuous messages</string>
-
-	<!-- add from version 2.6 -->
+	<!--add from version 2.6-->
 	<string name="pref_popup_openkeyboard_title">Auto open onscreen keyboard</string>
 	<string name="pref_popup_openkeyboard_summaryon">Automatically show onscreen keyboard</string>
 	<string name="pref_popup_openkeyboard_summaryoff">Don\'t automatically show onscreen keyboard</string>
-
 	<string name="pref_compose_openkeyboard_title">Auto onscreen keyboard</string>
 	<string name="pref_compose_openkeyboard_summaryon">Automatically show onscreen keyboard</string>
 	<string name="pref_compose_opnekeyboard_summaryoff">Don\'t automatically show onscreen keyboard</string>
-
 	<string name="pref_fontpack_list_title">Choose font package</string>
 	<string name="pref_app_choose_fontpack">Additional font packages</string>
 	<string name="pref_app_choose_fontpack_summary">Select a new font for conversation window</string>
 	<string name="pref_fontpack_install_market">A font package was not found. Install a font
 		package from the Google Play first.</string>
-
 	<string name="pref_fontpack_choosefont_title">Choose fonts</string>
-
-
 	<string name="show_earlier_messages">Show earlier messages</string>
 	<string name="conversation_list_setting_title">Conversation list settings</string>
 	<string name="conversation_list_setting_summary">Customize the main screen</string>
-	<!-- string name="enable_conversation_list_custom_title">Enable custom</string> 
+	<!--string name="enable_conversation_list_custom_title">Enable custom</string> 
 		<string name="enable_conversation_list_custom_summary">Enable custom conversation 
-		list</string> <string name="text_color_category_title">Text color settings</string -->
+		list</string> <string name="text_color_category_title">Text color settings</string-->
 	<string name="contact_font_color_title">Contact font color</string>
 	<string name="contact_font_color_summary">Set contact font color</string>
-
 	<string name="message_text_font_color_title">Subject font color</string>
 	<string name="message_text_font_color_summary">Set subject font color</string>
-
 	<string name="date_font_color_title">Date font color</string>
 	<string name="date_font_color_summary">Set date font color</string>
-
 	<string name="pref_client_deliveryreport_title">Handcent delivery report</string>
 	<string name="pref_client_deliveryreport_summary">Use an SMS report generated by Handcent instead of
 		a carrier report</string>
-
 	<string name="pref_fontpack_size_title">Font size</string>
 	<string name="pref_fontpack_size_dialog">Choose font size</string>
 	<string name="pref_fontpack_size_preivew">Preview Text</string>
 	<string name="pref_fontpack_dlg_fontsize">Font size:</string>
-
-	<!-- Add from Version 2.7 -->
-
+	<!--Add from Version 2.7-->
 	<string name="replace_music">Replace music</string>
 	<string name="recognition_prompt_text">Speak your quick reply</string>
 	<string name="call_phone">Call</string>
 	<string name="recognizer_not_present">Recognizer not present</string>
-
-	<!-- Add from version 2.7.3 -->
+	<!--Add from version 2.7.3-->
 	<string name="popup_window_mode_title">Window mode</string>
 	<string name="popup_window_mode_summary">Set popup window mode (Full/Lite/Without quick
 		reply)</string>
-
-	<!-- Add from version 2.8 -->
+	<!--Add from version 2.8-->
 	<string name="message_counter_zero">No messages sent</string>
 	<string name="message_counter_prompt">message sent</string>
 	<string name="message_counter_prompt_morethan_one">messages sent</string>
@@ -1080,108 +907,74 @@
 	<string name="menu_recognition">Speak</string>
 	<string name="recongize_speak_sms">Speak your messsage</string>
 	<string name="recongize_people_name">Speak contacts\' names</string>
-
-
 	<string name="widget_cat_title">Handcent Widget</string>
 	<string name="widget_show_zero_title">Show zero count</string>
 	<string name="widget_show_zero_summary">Show a zero on widget when all messages are read</string>
-
 	<string name="skin_type_title">Skin</string>
 	<string name="skin_type_summary">Change application skin</string>
-
-	<!-- add from verson 2.8.5 -->
+	<!--add from verson 2.8.5-->
 	<string name="show_earier_title">\"Show earlier\" button</string>
 	<string name="show_earier_summaryon">Enable \"Show earlier\" button</string>
 	<string name="show_earier_summaryoff">Disable \"Show earlier\" button</string>
 	<string name="recent_pepole_list_title">Recent message people</string>
-
-
 	<string name="bubble_transposition_title">Transposition</string>
 	<string name="bubble_transposition_summaryon">Inbox bubble to the right, Outbox bubble to the
 		left.</string>
 	<string name="bubble_transposition_summaryoff">Inbox bubble to the left, Outbox bubble to the
 		right.</string>
-
-
 	<string name="popup_backkey_title">Back key</string>
 	<string name="popup_backkey_summary">Mark current message as read when pressing back key</string>
-
-
 	<string name="auto_convert_mms_title">Auto Convert to MMS</string>
 	<string name="auto_convert_mms_summary_on">Automatically convert to MMS when length exceeds 3
 		messages</string>
 	<string name="auto_convert_mms_summary_off">Don\'t convert to MMS when length exceeds 3
 		messages</string>
-
 	<string name="yesterday">Yesterday</string>
-	<!-- add from version 2.8.6 -->
+	<!--add from version 2.8.6-->
 	<string name="pref_display_message_counter">Display message counter</string>
-
-	<!-- add from version 2.9 -->
+	<!--add from version 2.9-->
 	<string name="popup_confirm_deletion_title">Ask before deleting</string>
 	<string name="popup_confirm_deletion_summary">Confirm deletion of messages</string>
-
 	<string name="unable_diaplay_message">Handcent SMS is unable to display this message.</string>
-
 	<string name="divider_color_title">Divider color</string>
 	<string name="divider_color_summary">Set divider color</string>
-
-
 	<string name="use_android_tts_title">TTS Type</string>
 	<string name="use_android_tts_summaryon">Use Google text-to-speech service</string>
 	<string name="use_android_tts_summaryoff">Use Eyes-Free text-to-speech service</string>
-
 	<string name="pref_show_mobilenumber_only_title">Filter mobile contacts</string>
 	<string name="pref_show_mobilenumber_summaryon">Display contacts with mobile numbers only</string>
 	<string name="pref_show_mobilenumber_summaryoff">Display contacts with all types of phone numbers</string>
-
-	<!-- add from version 2.9.1 -->
-
+	<!--add from version 2.9.1-->
 	<string name="enabled_quick_compose_title">Quick compose</string>
 	<string name="enabled_quick_compose_summaryon">Enabled (use camera button for G1, for other
-		devices, long press Search button)</string>
+		devices long press Search button)</string>
 	<string name="enabled_quick_compose_summaryoff">Disabled</string>
-
-	<!-- add from version 2.9.2 -->
+	<!--add from version 2.9.2-->
 	<string name="pref_input_mode_title">Input mode</string>
 	<string name="pref_input_mode_summary">Display normal or lite input box when composing a
 		message</string>
-
-	<!-- add from version 2.9.4 -->
-
-
+	<!--add from version 2.9.4-->
 	<string name="pref_title_mms_user_agent">Custom user agent</string>
 	<string name="pref_mms_user_agent_custom_set">Custom user agent set to:\n</string>
 	<string name="pref_summary_mms_user_agent">This advanced option is used to spoof your device
 		to identify as another. This option is intended to help UK O2 users
 		download full-size MMS messages.</string>
-
-
 	<string name="menu_mark_as_read">Mark as read</string>
-
-
 	<string name="notif_icon_title">Notification icon</string>
 	<string name="notif_icon_summary">Select notification icon</string>
-
 	<string name="font_cat_title">Font</string>
-
 	<string name="popup_deletion_detail_title">Show message details</string>
 	<string name="popup_deletion_detail_summary">Show message details when deleting</string>
-
-	<!-- add from version 2.9.11 -->
-
+	<!--add from version 2.9.11-->
 	<string name="pref_message_timestamp_cat_title">Timestamp</string>
 	<string name="pref_message_timestamp_source_title">Timestamp source settting</string>
 	<string name="pref_message_timestamp_source_enable">Timestamp by receive time</string>
 	<string name="pref_message_timestamp_source_disable">Timestamp by wireless network </string>
 	<string name="pref_message_timestamp_changed_prompt">New incoming messsages will take effect after you
 		changed timestamp setting</string>
-
 	<string name="pref_message_timestamp_drift_title">Set delivery report offset</string>
 	<string name="pref_message_timestamp_drift_summary">Adjust time when you\'re using wireless network
 		time stamp (ex:delivery report)</string>
-
-
 	<string name="pref_notif_incall_cat">Notification on call</string>
 	<string name="pref_notif_sound_incall_title">Sound on call</string>
 	<string name="pref_notif_sound_incall_summary">Make a sound notification while you\'re on the
@@ -1189,27 +982,20 @@
 	<string name="pref_notif_vibrate_incall_titile">Vibrate on call</string>
 	<string name="pref_notif_vibrate_incall_summary">Make a vibrate notification while you\'re on the
 		phone</string>
-
-
 	<string name="other_retrieve_setting_cat">Other retrieval setting</string>
 	<string name="self_check_title">Self-check</string>
 	<string name="self_check_summary">Self-check when receiving a message, making sure
 		it\'s saved</string>
-
-	<!-- Implement at version 2.9.16 -->
+	<!--Implement at version 2.9.16-->
 	<string name="pref_split_160_title">Split 160</string>
 	<string name="pref_split_160_summary">Automatically split SMS when its length exceeds 160
 		characters (useful for CDMA network customers)</string>
-
-	<!-- add from version 2.9.17 -->
+	<!--add from version 2.9.17-->
 	<string name="menu_add_slideshow">Slideshow</string>
 	<string name="title_input_signatrue">Please input your signature</string>
 	<string name="pref_blur_ex_title">Blur background</string>
 	<string name="pref_blur_ex_summary">Enable blurred background for enhanced effect;
 		though, it may slow down popup performance.</string>
-
-
-
 	<string name="pref_display_message_counter_summaryon">Display message counter under text box</string>
 	<string name="pref_display_message_counter_summaryoff">Hide message counter</string>
 	<string name="disable_keyguard_title">Show when locked</string>
@@ -1219,31 +1005,22 @@
 		will be shown under the lock screen and require that the device is
 		unlocked to view it.</string>
 	<string name="pref_popup_autorotate_summary">Automatically reorient the screen for the popup</string>
-
-	<!-- add from Handcent SMS 2.9.24 -->
+	<!--add from Handcent SMS 2.9.24-->
 	<string name="pref_use_camera_title">Trigger camera button</string>
-	<string name="pref_use_camera_summary_on"> Show quick compose window by long pressing the
+	<string name="pref_use_camera_summary_on">Show quick compose window by long pressing the
 		camera button</string>
 	<string name="pref_use_camera_summary_off">Don\'t trigger camera button</string>
-
-
 	<string name="loading_title">Handcent greeting</string>
-
-
 	<string name="select_image_activity_title">Select Images</string>
 	<string name="attach_xmas">Handcent greeting</string>
 	<string name="no_internet_alert_title">Network connection alert</string>
 	<string name="no_internet_alert_message">No Internet connection was detected. Please review
 		your device\'s network settings.</string>
-
 	<string name="select_image_btn_title">Select</string>
 	<string name="previou_btn_title">Previous</string>
 	<string name="next_btn_title">Next</string>
-
 	<string name="release_notes_title">Release Notes</string>
-
-
-	<!-- add from version 2.9.27 -->
+	<!--add from version 2.9.27-->
 	<string name="quick_compose_not_enable">You haven\'t enabled the Quick Compose feature.
 		Please enable it from the Handcent settings menu to make it available
 		for use.</string>
@@ -1252,39 +1029,25 @@
 		notification icon</string>
 	<string name="pref_noti_shownum_summaryoff">Display the notification icon without the unread
 		messages counter</string>
-
-
-
-	<!-- add from version 2.9.29 -->
-
-
+	<!--add from version 2.9.29-->
 	<string name="categories_dialog_title">Categories</string>
-
-
 	<string name="current_password_title">Current Password:</string>
 	<string name="new_password_title">New Password:</string>
 	<string name="confirm_password_title">Confirm Password:</string>
-
-	<string name="clear_password_alert_message">Attention:clear password</string>
+	<string name="clear_password_alert_message">Attention: clear password</string>
 	<string name="auth_password_hint_message">Please input password:</string>
-
 	<string name="set_password_dialog_title">Set password</string>
 	<string name="clear_password_dialog_title">Clear password</string>
 	<string name="auth_password_dialog_title">Auth password</string>
 	<string name="blank_password_error">Blank password</string>
 	<string name="ne_new_confirm_password_error">Confirm password error</string>
 	<string name="wrong_password_error">Wrong password</string>
-
-
 	<string name="notif_screenon_title">Screen on</string>
 	<string name="notif_screenon_summary">Turn on the screen when popup option is disabled</string>
-
 	<string name="show_as_flatslideshow_title">View MMS mode</string>
 	<string name="show_as_flatslideshow_summaryon">View MMS as Flat Slideshow mode</string>
 	<string name="show_as_flatslideshow_summaryoff">View MMS as Default Slideshow mode</string>
-
-	<!-- add from version 2.9.30 -->
-
+	<!--add from version 2.9.30-->
 	<string name="pref_autoreset_send_counter">Auto reset sent counter</string>
 	<string name="pref_autoreset_send_counter_summary">Auto reset sent counter periodically</string>
 	<string name="menu_lock_message">Lock message</string>
@@ -1293,11 +1056,9 @@
 	<string name="confirm_delete_locked_message">Are you sure you want to delete this locked
 		message?</string>
 	<string name="delete_unlocked">Delete locked messages</string>
-
 	<string name="pref_mms_max_size">Maximum MMS size</string>
 	<string name="pref_mms_max_size_summary">Set maximum size of MMS messages</string>
-
-	<!-- add from version 2.9.31 -->
+	<!--add from version 2.9.31-->
 	<string name="pref_show_threadmessages_counter">Show message counter</string>
 	<string name="pref_show_threadmessages_counter_summary_on">Show thread message counter to the right of contact
 		name</string>
@@ -1310,48 +1071,35 @@
 	</string>
 	<string name="word_yes">Yes</string>
 	<string name="word_no">No</string>
-
 	<string name="title_custom_autoreset_day">Choose which day of the month</string>
-
-
-
-
-	<!-- add from version 2.9.32 -->
+	<!--add from version 2.9.32-->
 	<string name="pref_sent_messages_cate">Sent message notification</string>
 	<string name="pref_sent_notification_title">Sent notifications</string>
 	<string name="pref_sent_notification_summary">Show notification in status bar when messages are
 		sent or received</string>
 	<string name="pref_sent_noti_sound_summary">Set your notification sound for sent messages</string>
 	<string name="pref_sent_noti_vibrate_summary">Vibrate for sent messages</string>
-
 	<string name="pref_send_editor_category_title">Editor box settings</string>
 	<string name="pref_send_editor_initial_lines_title">Start lines of editor box</string>
 	<string name="pref_send_editor_initial_lines_summary_on">2 lines</string>
 	<string name="pref_send_editor_initial_lines_summary_off">1 line</string>
-
 	<string name="pref_lite_bubble_space_title">Lite space between bubble</string>
 	<string name="pref_lite_bubble_space_summary_on">Use lite spacing between the messages when they are
 		sent or received within a short time of one another</string>
 	<string name="pref_lite_bubble_space_summary_off">Use normal spacing between the messages when they
 		are sent or received within a short time of one another</string>
-
-
 	<string name="sent_notification_title">Sent status</string>
 	<string name="received_notification_title">Received status</string>
 	<string name="sent_notification_desc">Text to %s has been sent</string>
 	<string name="received_notification_desc">Text to %s has been received</string>
-
-	<!-- add from version 2.9.33 -->
+	<!--add from version 2.9.33-->
 	<string name="privacy_notification_text">You have a new message</string>
-
 	<string name="pref_social_network">Social network settings</string>
 	<string name="pref_social_network_source">Source settings</string>
 	<string name="pref_social_network_picture_source">Picture source</string>
 	<string name="pref_social_network_picture_source_summary">Select active picture source from your Social
 		networks</string>
-
-
-	<!-- add from version 2.9.34 -->
+	<!--add from version 2.9.34-->
 	<string name="music_title">Handcent music selection</string>
 	<string name="music_silentLabel">Silent</string>
 	<string name="music_defaultRingtoneLabel">Default ringtone</string>
@@ -1359,26 +1107,19 @@
 	<string name="music_ringtone">System ringtone</string>
 	<string name="music_pickerName">Music</string>
 	<string name="music_pickerTitle">Music - Select track</string>
-
 	<string name="music_loading">Loading</string>
 	<string name="music_noMusic">No music files or\nSD card not present.</string>
-
 	<string name="music_sortByTrack">Tracks</string>
 	<string name="music_sortByAlbum">Albums</string>
 	<string name="music_sortByArtist">Artists</string>
-
 	<string name="music_unknownArtistName">(Unknown Artist)</string>
 	<string name="music_unknownAlbumName">(Unknown Album)</string>
 	<string name="music_durationformat">
 		<xliff:g id="format">%2$d:%5$02d</xliff:g>
 	</string>
-
 	<string name="menu_force_delete">Force delete</string>
 	<string name="title_default_size">Default size</string>
-
-	
-
-	<!-- Add from 2.9.36 -->
+	<!--Add from 2.9.36-->
 	<string name="pref_socialnetwork_contact_cat">Social network contact setting</string>
 	<string name="pref_socialnetwork_show_contact">Show social contacts</string>
 	<string name="pref_socialnetwork_show_contact_summary">Show social network contacts when adding or
@@ -1389,9 +1130,7 @@
 	<string name="pref_save_directory_title">Set the sub directory name at \"Handcent\" folder </string>
 	<string name="pref_save_directory_invlidate">Invalid directory name, please check your input and
 		try again</string>
-
-
-	<!-- Add from 2.9.38 -->
+	<!--Add from 2.9.38-->
 	<string name="network_type_gsm">GSM</string>
 	<string name="network_type_cdma">CDMA</string>
 	<string name="network_type_confirm">Choose the network type that you want to send
@@ -1399,7 +1138,6 @@
 	<string name="pref_popup_text_counter">Enable text counter</string>
 	<string name="pref_popup_text_counter_summary_on">Show text counter at quick reply window</string>
 	<string name="pref_popup_text_counter_summary_off">Hide text counter at quick reply window</string>
-
 	<string name="text_scanning_font">Scanning font packages</string>
 	<string name="pref_scan_fontpackage_title">Scan external font packages</string>
 	<string name="text_scan_package">Scanning package</string>
@@ -1411,16 +1149,15 @@
 	<string name="pref_custom_size">Size</string>
 	<string name="pref_incoming_font">Incoming font</string>
 	<string name="pref_outgoing_font">Outgoing font</string>
-
 	<string name="lock_settings_title">Security Lock</string>
 	<string name="lock_type_title">Security Lock Type</string>
 	<string name="lock_pattern_type">Pattern Lock</string>
 	<string name="lock_none_type">None</string>
 	<string name="lockpattern_change_lock_pattern_label">Change security lock</string>
 	<string name="lockpattern_need_to_unlock">Confirm saved pattern</string>
-	<string name="lockpattern_need_to_unlock_footer"></string>
+	<string name="lockpattern_need_to_unlock_footer"/>
 	<string name="lockpattern_need_to_unlock_wrong">Sorry, try again:</string>
-	<string name="lockpattern_need_to_unlock_wrong_footer"></string>
+	<string name="lockpattern_need_to_unlock_wrong_footer"/>
 	<string name="lockpattern_recording_intro_header">Draw an unlock pattern</string>
 	<string name="lockpattern_recording_intro_footer">Press Menu for help.</string>
 	<string name="lockpattern_recording_inprogress">Release finger when done.</string>
@@ -1450,11 +1187,9 @@
 		<xliff:g id="number">%d</xliff:g>
 		seconds.
 	</string>
-
 	<string name="ui_sync_button_label_idle">Backup now</string>
 	<string name="ui_sync_button_label_done">Backup again</string>
 	<string name="ui_sync_button_label_error">Retry backup</string>
-
 	<string name="ui_sync_button_label_syncing">Stop backup</string>
 	<string name="ui_sync_button_label_canceling">Stopping\u2026</string>
 	<string name="resend">Resend</string>
@@ -1463,38 +1198,31 @@
 	<string name="pref_custom_contact_font">Contact font</string>
 	<string name="pref_custom_subject_font">Subject font</string>
 	<string name="pref_custom_date_font">Date font</string>
-
 	<string name="security_level_setting_title">Security Level</string>
 	<string name="security_level_setting_summary">Define security level</string>
 	<string name="lockpattern_need_to_unlock_use">Draw pattern to unlock</string>
-
 	<string name="confirm_save_button_title">Save</string>
 	<string name="confirm_discard_button_title">Discard</string>
 	<string name="confirm_settings_changed_desc">Do you want to save these changes?</string>
-
-	<!-- string name="disable_custom_setting_title">Disable custom setting</string> 
-		<string name="enable_custom_setting_title">Enable custom setting</string -->
+	<!--string name="disable_custom_setting_title">Disable custom setting</string> 
+		<string name="enable_custom_setting_title">Enable custom setting</string-->
 	<string name="background_custom_setting_title">Background</string>
 	<string name="hide_messages_counter_setting_title">Hide messages counter</string>
 	<string name="show_messages_counter_setting_title">Show messages counter</string>
-	<!-- string name="recv_bubble_start_color_setting_title">recv bubble start 
+	<!--string name="recv_bubble_start_color_setting_title">recv bubble start 
 		color</string> <string name="recv_bubble_end_color_setting_title">recv bubble 
 		end color</string> <string name="send_bubble_start_color_setting_title">send 
 		bubble start color</string> <string name="send_bubble_end_color_setting_title">send 
-		bubble end color</string -->
+		bubble end color</string-->
 	<string name="others_setting_title">Others</string>
-	<!-- string name="confirm_disable_custom_setting_title">Do you want to disable 
+	<!--string name="confirm_disable_custom_setting_title">Do you want to disable 
 		custom setting?</string> <string name="confirm_enable_custom_setting_title">Do 
-		you want to enable custom setting?</string -->
+		you want to enable custom setting?</string-->
 	<string name="confirm_reset_setting_title">Do you want to reset settings?</string>
 	<string name="confirm_hide_messages_counter_title">Do you want to hide messages counter?</string>
 	<string name="confirm_show_messages_counter_title">Do you want to show messages counter?</string>
-
-
 	<string name="pref_custom_look">Custom style</string>
 	<string name="pref_security_title">Security &amp; privacy</string>
-
-
 	<string name="incoming_background_color_title">Incoming background color</string>
 	<string name="outgoing_background_color_title">Outgoing background color</string>
 	<string name="incoming_background_start_color_title">Incoming background start color</string>
@@ -1507,39 +1235,29 @@
 	<string name="confirm_enable_smileys_title">Do you want to enable smileys in messages?</string>
 	<string name="confirm_disable_smileys_title">Do you want to disable smileys in messages?</string>
 	<string name="pref_receive_message_settings_title">Receive message settings</string>
-
 	<string name="pref_send_message_settings_title">Send message settings</string>
 	<string name="str_donate">Support us</string>
-
-	
 	<string name="test_button_title">Test</string>
 	<string name="test_ledcolor_notification_title">LED color testing</string>
 	<string name="test_ledcolor_alert_user_offscreen_summary">Your device can only preview the LED color when
 		the screen is off. Please turn off your screen now to test this
 		feature!</string>
-
 	<string name="menu_quick_menu">Quick menu</string>
-
-	<!-- add from version 3.1 -->
+	<!--add from version 3.1-->
 	<string name="quick_text_existed">Fail, quick text already existed</string>
 	<string name="quick_text_added">Quick text added</string>
 	<string name="quick_text_confirm">Do you want to add it to quick text?</string>
 	<string name="menu_add_to_quickText">Add to quick text</string>
-
 	<string name="pref_account_cat_title">Account</string>
 	<string name="account_picture_title">Account picture</string>
-
 	<string name="widget_show_name_title">Show widget name</string>
 	<string name="widget_show_name_summary">Show widget name below the icon</string>
-
 	<string name="pref_always_backto_mainscreen">Always back home</string>
 	<string name="pref_always_backto_mainscreen_summary">Always return to the application\'s home screen
 		when exiting a conversation</string>
-
 	<string name="account_select_image_dialog_title">Select image</string>
 	<string name="account_select_image_choice_pictures">Pictures</string>
 	<string name="account_select_image_choice_camera">Camera</string>
-
 	<string name="input_num_pin_hint">Choose your PIN</string>
 	<string name="input_num_pin_confirm">Confirm your PIN</string>
 	<string name="input_num_pin_continue">Press Continue when finished</string>
@@ -1548,18 +1266,14 @@
 	<string name="input_num_pin_longer">PIN may not exceed 16 characters</string>
 	<string name="input_num_pin_unlock">Enter password to unlock</string>
 	<string name="lock_numpin_type">NumPin Lock</string>
-
-	<!-- Version 3.1.1 -->
-
+	<!--Version 3.1.1-->
 	<string name="account_select_image_choice_owner">Update from my contact card</string>
-
-	<!-- Version 3.1.2 -->
+	<!--Version 3.1.2-->
 	<string name="account_select_image_none">None</string>
 	<string name="popular_btn_title">Popular</string>
 	<string name="newest_btn_title">Newest</string>
 	<string name="category_title">Categories</string>
 	<string name="attach_text_title">Handcent SMS library</string>
-
 	<string name="widget_no_messages">No messages</string>
 	<string name="widget_max_num_of_messages_title">Maximum number</string>
 	<string name="widget_max_num_of_messages_summary">Set maximum number of messages</string>
@@ -1567,9 +1281,6 @@
 	<string name="attach_contact_label_contact_name">Contact name:</string>
 	<string name="attach_contact_label_number">Number:</string>
 	<string name="attach_contact_label_type">Type:</string>
-
-
-
 	<string name="widget_menu_settings_title">Widget settings</string>
 	<string name="widget_action_menu_title">Actions</string>
 	<string name="icon_widget_title">Handcent SMS (Icon)</string>
@@ -1580,36 +1291,21 @@
 	<string name="widget_auto_lock_title">Auto lock</string>
 	<string name="widget_auto_lock_summaryon">Automatically lock widget when the device is locked</string>
 	<string name="widget_auto_lock_summaryoff">Lock widget using actions menu</string>
-
 	<string name="widget_show_mode_title">Show mode</string>
-
-
-
-	<!-- add from version 3.2.3 -->
-
+	<!--add from version 3.2.3-->
 	<string name="pref_locale_support">Locale support</string>
 	<string name="pref_greek_sms_mode">Greek SMS Mode</string>
-
 	<string name="pref_greek_sms_mode_summary">Special support for SMS on Greek</string>
-
-
-
-	<!-- add from 3.2.5 -->
+	<!--add from 3.2.5-->
 	<string name="add_to_new_contacts">Add new contact</string>
 	<string name="update_to_exist_contact">Update to existing contact</string>
-
-	<!-- add from 3.2.7 -->
-
-
+	<!--add from 3.2.7-->
 	<string name="pref_fail_notificaton_cate">Fail notification</string>
 	<string name="pref_fail_notification_sound_summary">Set your notification sound for message failure</string>
-
-
-	<!-- add from 3.2.10 -->
+	<!--add from 3.2.10-->
 	<string name="user_agent_str">Please disable the Auto Retrieve option in other
 		SMS applications such as the stock Android messaging software.</string>
-
-	<!-- add from 3.3 -->
+	<!--add from 3.3-->
 	<string name="string_handcent_library">Handcent library</string>
 	<string name="string_galllery">Gallery</string>
 	<string name="menu_smiley">Smiley</string>
@@ -1619,10 +1315,9 @@
 		market, first.</string>
 	<string name="handcent_service">Handcent Services</string>
 	<string name="handcent_backup">Backup</string>
-
 	<string name="no_auth_dialog_title">Authentication</string>
-	<string name="no_auth_dialog_message">"Incorrect user id or password!\nDo you want to set
-		your account information?"</string>
+	<string name="no_auth_dialog_message">Incorrect user id or password!\nDo you want to set
+		your account information?</string>
 	<string name="setting_backup_name_template">Setting-%s</string>
 	<string name="sms_backup_name_template">SMS-%s</string>
 	<string name="sms_backup_memo_template">SMS datas backup at %d</string>
@@ -1636,7 +1331,6 @@
 	<string name="restore_dialog2_message">Found current messages database have %s message, do
 		you want to clean them before restore, or do you want to merge them
 		with backup messages?</string>
-
 	<string name="status_bar_setting_backup_title">App settings backup</string>
 	<string name="status_bar_setting_restore_title">App settings restore</string>
 	<string name="status_bar_setting_delete_title">App settings delete</string>
@@ -1644,10 +1338,9 @@
 	<string name="status_bar_sms_restore_title"> restore</string>
 	<string name="status_bar_sms_delete_title">SMS delete</string>
 	<string name="status_bar_idle_title">Idle</string>
-	<string name="status_bar_canceled_title">Canceled</string>
+	<string name="status_bar_canceled_title">Cancelled</string>
 	<string name="status_bar_auth_title">Authentication failed</string>
 	<string name="status_bar_general_error_title">General error</string>
-
 	<string name="status_bar_setting_backup_init_message">Prepare settings data...</string>
 	<string name="status_bar_setting_backup_start_message">Backup settings data...</string>
 	<string name="status_bar_setting_backup_done_message">Settings backup done!</string>
@@ -1673,10 +1366,8 @@
 	<string name="status_bar_general_error_message">A general error occured.</string>
 	<string name="new_backup_dialog_log_name_title">Log name:</string>
 	<string name="new_backup_dialog_log_memo_title">Log memo:</string>
-
 	<string name="hc_deletion_title">Handcent deletion</string>
 	<string name="hc_deletion_message">Handcent deletion, tap to cancel.</string>
-
 	<string name="service_updating_title">Service updating</string>
 	<string name="service_update_dialog_title">Login</string>
 	<string name="service_update_dialog_error_title">Exception</string>
@@ -1685,69 +1376,47 @@
 	<string name="service_update_dialog_message_incorrect">Incorrect account name or password!</string>
 	<string name="service_update_dialog_message_temp">Server temporarily unavailable!</string>
 	<string name="service_update_dialog_message_unknown">Other unknown error!</string>
-
 	<string name="background_select_image_title">Set image</string>
 	<string name="change_image_title">Change</string>
 	<string name="clear_image_title">Clear</string>
-
 	<string name="account_name_title">Account name:</string>
 	<string name="account_password_title">Account password:</string>
 	<string name="service_update_preference_title">My Handcent Login</string>
-
-
-
-
-
 	<string name="status_bar_service_expired_title">Service expired</string>
 	<string name="status_bar_service_expired_message">Your Handcent service has expired!</string>
-
 	<string name="unknown_error_dialog_title">Unknown error</string>
 	<string name="retry_dialog_title">Attention</string>
 	<string name="retry_dialog_message">A network error has occurred.\nRetry, or cancel and
 		return to the previous screen.</string>
 	<string name="retry_statusbar_message">A network error has occurred.</string>
-
-
 	<string name="pref_czech_sms_mode">Czech SMS Mode</string>
 	<string name="pref_czech_sms_mode_summary">Special support for SMS on Czech</string>
-
 	<string name="max_number_reached_message">Have reached the maximum number of records.</string>
 	<string name="service_update_dialog_message_notactived">Your Handcent account is not active!</string>
 	<string name="pref_recv_message_timestamp_drift_title">Set receive message offset</string>
 	<string name="pref_recv_message_timestamp_drift_summary">Adjust receive message timestamp offset when
 		you\'re using Droid X with Froyo update</string>
-
-
 	<string name="pref_quick_attach_button">Quick attach button</string>
 	<string name="pref_quick_attach_button_summary_on">Show plus button next to message text box for quick
 		attach</string>
 	<string name="pref_quick_attach_button_summary_off">Hide plus button next to message text box for quick
 		attach</string>
-
 	<string name="pref_spanish_sms_mode">Spanish SMS Mode</string>
 	<string name="pref_spanish_sms_mode_summary">Special support for SMS on Spanish</string>
-
-
-
 	<string name="pref_french_sms_mode">French SMS Mode</string>
 	<string name="pref_french_sms_mode_summary">Special support for SMS on French</string>
-
 	<string name="pref_polish_sms_mode">Polish SMS Mode</string>
 	<string name="pref_polish_sms_mode_summary">Special support for SMS on Polish</string>
-
 	<string name="pref_korean_sms_mode">Korean SMS Mode</string>
 	<string name="pref_korean_sms_mode_summary">Special support for SMS on Korean</string>
-
 	<string name="themes_preview_title">Preview</string>
 	<string name="themes_restore_title">Import</string>
 	<string name="themes_delete_title">Delete</string>
 	<string name="pref_portguese_sms_mode">Portuguese SMS Mode</string>
 	<string name="pref_portguese_sms_mode_summary">Special support for SMS on Portuguese</string>
-
 	<string name="pref_use_handcent_ringtone">Handcent ringtone picker</string>
 	<string name="pref_user_handcent_ringtone_summary">Handcent ringtone picker: supports MP3 and has a
 		better interface</string>
-
 	<string name="menu_add_to_myText">Add to My text</string>
 	<string name="pfre_filter_cat">Filter</string>
 	<string name="pref_advance_filter">Filter settings</string>
@@ -1762,8 +1431,6 @@
 	<string name="pref_filter_tag_as_read_summary">Mark filtered messages as read automatically</string>
 	<string name="pref_filter_items_cat">Filter items</string>
 	<string name="pref_filter_setttings_cat">Filter settings</string>
-
-
 	<string name="favorite_btn_title">Favorite</string>
 	<string name="use_regex">Use regex pattern</string>
 	<string name="filter_keyword_item_title">Edit keyword</string>
@@ -1774,11 +1441,9 @@
 	<string name="pref_filter_delete_keyword">Delete the keyword item?</string>
 	<string name="pref_filter_delete_prefix">Delete the prefix item?</string>
 	<string name="menu_quicktext_online_title">My texts</string>
-
 	<string name="new_sms_backup_button_title">SMS backup</string>
 	<string name="new_setting_backup_button_title">Settings backup</string>
 	<string name="new_mms_backup_button_title">MMS backup</string>
-
 	<string name="status_bar_mms_backup_title">MMS backup</string>
 	<string name="status_bar_mms_backup_init_message">MMS backup starting...</string>
 	<string name="status_bar_mms_backup_done_message">MMS backup done!</string>
@@ -1786,13 +1451,11 @@
 	<string name="status_bar_mms_restore_init_message">MMS restore starting...</string>
 	<string name="status_bar_mms_restore_download_message">MMS backup file download...</string>
 	<string name="status_bar_mms_restore_done_message">MMS restore done!</string>
-
 	<string name="status_bar_mms_delete_title">MMS deletion</string>
 	<string name="status_bar_mms_delete_start_message">MMS backup delete...</string>
 	<string name="status_bar_mms_delete_done_message">MMS backup deleted</string>
 	<string name="mms_backup_name_template">MMS-%s</string>
 	<string name="mms_backup_memo_template">MMS data backup at %d</string>
-
 	<string name="save_thumbs_message">Handcent SMS couldn\'t find your theme\'s
 		thumbnails and will check the custom look settings, instead. When the
 		operation is complete, you may save your theme again.</string>
@@ -1810,15 +1473,12 @@
 	<string name="backup_help_tip">Save all your personal settings, SMS messages and
 		MMS messages to Handcent\'s secure server and restore them when you
 		need to.</string>
-
 	<string name="get_online_account_title">Get account</string>
 	<string name="get_online_account_summary">Get your Handcent Online account for free, now!</string>
-
 	<string name="pref_hc_theme_title">Themes</string>
 	<string name="pref_my_theme_title">My themes</string>
 	<string name="pref_hc_text_title">Texts</string>
 	<string name="pref_my_text_title">My texts</string>
-
 	<string name="pref_auto_resize_picture">Auto-resize picture</string>
 	<string name="pref_auto_resize_picture_summary">Automatically resize pictures without confirmation</string>
 	<string name="pref_manage_blacklist">Manage blacklist</string>
@@ -1830,11 +1490,6 @@
 	<string name="pref_reminder_sound_summary">Set your notification sound for reminders</string>
 	<string name="pref_sent_show_notif_text">Show notification</string>
 	<string name="pref_sent_show_notif_text_summary">Show sent notification in the notification bar</string>
-
-
-
-
-
 	<string name="apply_theme_title">Apply theme</string>
 	<string name="theme_part_select_title">Which part?</string>
 	<string name="theme_part_select_both">Both</string>
@@ -1843,48 +1498,34 @@
 		backup files. When you restore your saved MMS messages, please confirm
 		that your SD card is working, and that the files at
 		/sdcard/handcent/mmsbackup/ are not corrupted.</string>
-
-
 	<string name="options">Options</string>
-
 	<string name="themes_submit_title">Submit to Handcent</string>
 	<string name="new_backup_button_title">New backup</string>
 	<string name="themes_submit_message">Your theme has been successfully submitted to the
 		Handcent team. We will review your theme and it will be released and
 		available in Handcent Themes upon approval!</string>
-
 	<string name="no_messages_backup_desc">There are no messages to backup.</string>
-
 	<string name="new_theme_title_title">Title:</string>
 	<string name="new_theme_desc_title">Description:</string>
-
 	<string name="save_quicktext_online_title">Save My text</string>
 	<string name="delete_quicktext_online_title">Delete My text</string>
-
 	<string name="theme_applied_toast_message">Theme applied</string>
-
 	<string name="hc_service_list_title">My services</string>
 	<string name="hc_service_list_summary">View more My Handcent Online services</string>
-
 	<string name="permission_refresh_dialog_message">You aren\'t logged in! Please login with your
 		Handcent Online account or create a new Handcent Online account for
 		free</string>
 	<string name="service_update_dialog_message_nopay">You aren\'t subscribed to any Handcent Online
 		services! (If you recently subscribed to Handcent Online services,
 		please login first)</string>
-
-	<!-- add from 3.4.2 -->
+	<!--add from 3.4.2-->
 	<string name="pref_prevent_resend">Prevent resend</string>
 	<string name="pref_prevent_resend_summary">Use Handcent\'s special feature to prevent a resend
 		issue that may happen on some devices after rebooting</string>
-
-	<!-- add from 3.4.4 -->
+	<!--add from 3.4.4-->
 	<string name="pref_incoming_textlinkcolor_title">Hyperlink color of incoming text</string>
 	<string name="pref_outgoing_textlinkcolor_title">Hyperlink color of outgoing text</string>
-
-
-
-	<!-- add from 3.5 -->
+	<!--add from 3.5-->
 	<string name="ecard_help_tip">Handcent Online eCards are beautiful, fullscreen,
 		customizable eCards you can send to your family and friends!</string>
 	<string name="ecard_input_hint">Input your greetings here!</string>
@@ -1892,14 +1533,13 @@
 	<string name="quicktext_title">Quicktext</string>
 	<string name="no_vip_help">This service is available with VIP or GOLD
 		Memberships only!</string>
-
 	<string name="mmsplus_help_tip">You can send full-size pictures, videos, mp3s and
 		other documents to your friends using the Handcent network &amp; SMS.</string>
 	<string name="mmsplus_title">MMS+</string>
 	<string name="new_upload_button_title">Upload new file</string>
 	<string name="status_bar_uploadfile_init_message">Prepare upload file</string>
 	<string name="status_bar_upload_done_message">Upload complete</string>
-	<string name="mmsattach_template">Click (%s) to get file, Pin code(\%%d)\n</string>
+	<string name="mmsattach_template">Click (%s) to get file, Pin code (\%%d)\n</string>
 	<string name="no_files_help_tip">No files have been uploaded. Start uploading, now!</string>
 	<string name="spellcheck">SpellCheck</string>
 	<string name="menu_handcent_services">Handcent Services</string>
@@ -1909,12 +1549,10 @@
 	<string name="mmsplus_max_filesize_reached">File size-limit reached!</string>
 	<string name="mmsplus_file_expired">File is expired!</string>
 	<string name="upgrade_service_btn_title">Upgrade</string>
-
 	<string name="show_password">Show password.</string>
 	<string name="cant_preview_file_message">Can\'t preview this file!</string>
 	<string name="file_size_title">File size:</string>
-
-	<!-- add from 3.5.1 -->
+	<!--add from 3.5.1-->
 	<string name="search_by_contact">Search by contact name</string>
 	<string name="serach_by_content">Search by message content</string>
 	<string name="edit_box_font">Edit box font</string>
@@ -1925,9 +1563,7 @@
 	<string name="send_message_confirmation">Send this message now?</string>
 	<string name="pref_send_message_confirm">Send message confirm</string>
 	<string name="pref_send_message_confirm_summary">Confirm before sending message</string>
-
-
-	<!-- add from 3.5.3 -->
+	<!--add from 3.5.3-->
 	<string name="no_storage">No SD Card detected. Please insert an SD card
 		before using this service.</string>
 	<string name="pref_smileys">Smileys settings</string>
@@ -1944,11 +1580,8 @@
 	<string name="string_import_success">Import successful</string>
 	<string name="string_import_fail">Import failed</string>
 	<string name="string_draft">Drafts</string>
-
-
-	<!-- add from 3.6.1 -->
+	<!--add from 3.6.1-->
 	<string name="search_smileys_install_market">Search for more Handcent smileys on the Google Play</string>
-
 	<string name="box_help_tip">To save your important messages online: open a
 		conversation, longpress a message bubble, and select the option to
 		save it to your Handcent Box.</string>
@@ -1968,10 +1601,8 @@
 	<string name="remember_password_summary_off">You will always be required to reaffirm your
 		Handcent login information when opening the Handcent Box as an added
 		measure of privacy and security.</string>
-
 	<string name="string_emoji">Emoji</string>
 	<string name="string_standard_smileys">Standard smileys</string>
-
 	<string name="change_skin_message">Changing skins will overwrite your current theme
 		elements such as the backgrounds of conversations and conversation
 		lists. Do you wish to proceed?</string>
@@ -1980,10 +1611,6 @@
 	<string name="pref_emoji_encoding_summary">Set emoji encoding for your network</string>
 	<string name="install_handcent_emoji_plugin">Please install Handcent emoji plugin from Google
 		Play first</string>
-
-
-
-
 	<string name="string_send_with_mms">Send with MMS</string>
 	<string name="string_send_with_sms">Send with SMS</string>
 	<string name="string_set_as_default">Set as default</string>
@@ -1994,18 +1621,13 @@
 		Android devices that have Handcent SMS installed accompanied by the
 		emoji plugin. If you elect to use SMS, it will only function correctly
 		when you and the recipient are subscribed to the same carrier.</string>
-
 	<string name="add_blacklist_directly_title">Input phone number</string>
 	<string name="from_contacts_title">From Contacts</string>
 	<string name="from_call_log_title">From Call logs</string>
 	<string name="input_directly_title">Input Number Directly</string>
 	<string name="empty_blacklist_title">No blacklist record</string>
-
-
-
 	<string name="skin_chooser_title">Skin Chooser</string>
-
-	<!-- add from 3.7.8 -->
+	<!--add from 3.7.8-->
 	<string name="pref_screen_brightness_cat">Screen brightness settings</string>
 	<string name="pref_screen_display_mode_title">Display mode</string>
 	<string name="pref_screen_display_mode_summary">Switch screen brightness modes to conserve battery;
@@ -2016,11 +1638,9 @@
 	<string name="pref_screen_brightness_night_starttime_title">Night start time</string>
 	<string name="pref_screen_brightness_night_endtime_title">Night end time</string>
 	<string name="pref_default_smileys_title">Default smileys items</string>
-	<string name="pref_default_smileys_summary">Set default smileys items,if you want to use
+	<string name="pref_default_smileys_summary">Set default smileys items ,if you want to use
 		standard smileys or emoji only</string>
-
-	<string name="release_notes_message"></string>
-
+	<string name="release_notes_message"/>
 	<string name="more_title">More</string>
 	<string name="return_title">Return</string>
 	<string name="string_source">Source</string>
@@ -2031,7 +1651,6 @@
 	<string name="string_sentbox">SentBox</string>
 	<string name="string_show_all">Show all</string>
 	<string name="string_all">All</string>
-
 	<string name="privacy_menu_title">PrivacyBox</string>
 	<string name="privacy_contacts_menu_title">Contacts</string>
 	<string name="moveto_privacy_menu_title">Add to privacy box</string>
@@ -2063,61 +1682,43 @@
 	<string name="privacy_restore_success_toast">Restore successful!</string>
 	<string name="privacy_restore_fail_toast">Restore failed!</string>
 	<string name="privacy_auto_backup_title">Auto backup</string>
-	<string name="privacy_auto_backup_summary">The privacy messages(include contacts and messages)
+	<string name="privacy_auto_backup_summary">The privacy messages (including contacts and messages)
 		will be backuped automatic at 2 am every day.</string>
 	<string name="privacy_move_out_privacybox">Remove from Privacy Box</string>
 	<string name="automatic_brightness_alert">Unable to adjust brightness in auto-brightness
 		mode!</string>
-
 	<string name="privacy_contact_unsync_title">Cancel sync</string>
 	<string name="privacy_auto_move_title">Auto move</string>
 	<string name="privacy_auto_move_summary">Automatically transfer private contact\'s messages
 		into Privacy Box when messages are sent from the privacy box.</string>
 	<string name="privacy_auto_move_toast">Moved the message into Privacy Box!</string>
-
 	<string name="global_install_fontpack_notif">We highly recommend you install the language pack
 		of your language NOW or else other windows of handcent will display in
 		English. Please click the download button to install.</string>
 	<string name="global_notificaiton">Notification</string>
 	<string name="global_install_language_pack">Installing language package from Google Play</string>
-
 	<string name="cancel_deletion_message">Do you want to cancel current deletion?</string>
-
 	<string name="pref_sms_email_gateway_title">SMS to Email gateway</string>
-	<string name="pref_sms_email_gateway_summary">Send email through SMS to email gateway(available
+	<string name="pref_sms_email_gateway_summary">Send email through SMS to email gateway (available
 		for part of carrier)</string>
-
-	<!-- add from 3.8.5 -->
+	<!--add from 3.8.5-->
 	<string name="edit_box_font_color">Edit box font color</string>
 	<string name="pbox_restore_prompt_message">The restore operation will overwrite the existing
 		data in the Privacy Box. Do you wish to continue?</string>
-
-	
-
-
-	<!-- <string name="global_release_note"> #3.8.6 \\n\\n Support Mms for privacy 
+	<!--<string name="global_release_note"> #3.8.6 \\n\\n Support Mms for privacy 
 		box now \\n\\n Fix lag and some force close issue \\n\\n Improve menu interface 
 		\\n\\n Improve launch speed and better memory usage \\n\\n My Handcent online 
-		website updated</string> -->
-
-
-
-	<!-- add from 3.8.6 -->
+		website updated</string>-->
+	<!--add from 3.8.6-->
 	<string name="attach_record_video">Record video</string>
-
 	<string name="pref_sending_progress_icon">Sending progress icon</string>
-
 	<string name="pref_fast_popup_title">Quick Popup</string>
 	<string name="pref_fast_popup_summaryon">Show popup window immediately when message arrives</string>
 	<string name="pref_fast_popup_summaryoff">Show popup window synced with notification after
 		incoming message is completely downloaded. This may sometimes take a
 		moment.</string>
-
-
-	<!-- add from 3.9 -->
-
+	<!--add from 3.9-->
 	<string name="schedule_task_title">Schedule tasks</string>
-
 	<string name="set_time_title">Set time</string>
 	<string name="set_repeat_title">Set repeat</string>
 	<string name="summary_title">Summary:</string>
@@ -2129,34 +1730,28 @@
 	<string name="schedule_runtype_onetime_title">One time</string>
 	<string name="schedule_runtype_repeat_title">Repeat</string>
 	<string name="schedule_summary_date_message">Message will be sent at %d.</string>
-	<string name="schedule_summary_repeat_message">Repeat:%s.</string>
+	<string name="schedule_summary_repeat_message">Repeat: %s.</string>
 	<string name="schedule_input_contact_alert_message">Please input or select contacts</string>
 	<string name="save_task_title">Save schedule task</string>
 	<string name="save_task_prompt_message">Do you want to save the scheduled task?</string>
-
 	<string name="exit_task_edit_title">Exit editing</string>
 	<string name="exit_task_edit_message">Do you want to exit without saving the current task
 		editing?</string>
 	<string name="schedule_message_sent_notification_title">(Scheduled message sent)</string>
-
 	<string name="schedule_menu_send_immediately">Send immediately</string>
 	<string name="schedule_immediate_sent">Message sent</string>
 	<string name="schedule_add_successful">Added to scheduled task list successfully!</string>
-
 	<string name="schedule_pause_successful">The task has been paused!</string>
 	<string name="schedule_restart_successful">The task has been restarted!</string>
-
 	<string name="pref_show_over_lock_fix_title">Show over lock screen fix</string>
 	<string name="pref_show_over_lock_fix_summary">Fix popups hidden under the lock screen on some
 		devices using Android 2.2 &amp; or later</string>
-
 	<string name="pref_onscreen_keyboard_style">Auto Adjust for Onscreen Keyboard</string>
 	<string name="pref_onscreen_keyboard_summaryon">Automatically adjust popup so Onscreen Keyboard
 		always displays underneath the edit box. This is best applied to
 		devices with larger-than-average screens.</string>
 	<string name="pref_onscreen_keyboard_summaryoff">Allow Onscreen Keyboard to overlap a portion the
 		Edit Box. This is recommended for average and smaller screens.</string>
-
 	<string name="create_group">Create group</string>
 	<string name="group_name">Group name</string>
 	<string name="group_add_member">Add members</string>
@@ -2175,15 +1770,14 @@
 	<string name="menu_issue_report_and_suggestion">Issue report &amp; Suggestions</string>
 	<string name="menu_forceclose_report">Report Force Close only issues</string>
 	<string name="menu_forceclose_and_wait">Report Force Close &amp; Wait issues</string>
-
 	<string name="menu_report_other_issue">Report other issues</string>
 	<string name="menu_suggestion">Suggestions &amp; feature requests</string>
-	<string name="report_forceclose_tip"> Report Force Close issue reports directly to the
+	<string name="report_forceclose_tip">Report Force Close issue reports directly to the
 		Handcent team via email. You can add additional information or just
 		click send. We will reply to you by email.</string>
 	<string name="report_forceclose_and_wait_tip">Report Force Close &amp; Wait (Application Not
 		Responding) issues directly to the Handcent team via email. You can
-		add additional information or just click send. We will reply to you by
+		add additional information or just click Send. We will reply to you by
 		email. (NOTE: To send this report, your device needs to be rooted to
 		allow access.)</string>
 	<string name="report_report_other_issue_tip">Having another issue? Report other issues via email
@@ -2191,43 +1785,30 @@
 	<string name="suggestion_tip">Give suggestions or feature requests to Handcent
 		via email by providing your feedback in the form below and clicking
 		the send button. If applicable, we will respond to you via email.</string>
-
 	<string name="pref_show_full_editor_arrow_title">Show full editor arrow</string>
 	<string name="pref_lauch_full_editor_method">Launch full editor method</string>
 	<string name="pref_full_editor_font">Font of full editor</string>
 	<string name="pref_full_editor_font_color">Font color of full editor</string>
-
 	<string name="confirm_delete_scheduletask">The tasks will be deleted.</string>
 	<string name="confirm_select_scheduletask">Please select at least one.</string>
 	<string name="privacy_show_moveto_toast_title">Show toast</string>
 	<string name="privacy_show_moveto_toast_summary">Display a toast notification when a message is sent
 		from the Privacy Box.</string>
 	<string name="str_ignore">Ignore</string>
-
-
-
-
 	<string name="schedule_time_invalid_message">The scheduled time is invalid; please input a valid
 		time.</string>
 	<string name="schedule_auto_delete_invalid_task_title">Auto delete</string>
 	<string name="schedule_auto_delete_invalid_task_summary">Automatically delete expired or invalid scheduled
 		tasks.</string>
-
-
-
-	<!-- add from 3.9.2 -->
+	<!--add from 3.9.2-->
 	<string name="pref_default_message">Default Messaging application</string>
 	<string name="pref_default_message_summary">Set handcent as the default messaging application
 		and entirely disable the stock and other third-party applications for
 		SMS or MMS</string>
-
-	<string name="pref_default_message_warnning"> Enabling this option will entirely disable the
+	<string name="pref_default_message_warnning">Enabling this option will entirely disable the
 		stock messaging and any third-party messaging applications and affirm
 		that Handcent SMS is the default messaging application for your
 		device. This is reversible and you may switch back at any time.</string>
-
-
-
 	<string name="hcmms_auto_download_title">Auto Download</string>
 	<string name="hcmms_auto_download_summary">Automatically download \"Handcent MMS+\" files.
 		Depending on usage this may greatly impact your alotted Data Plan so
@@ -2236,14 +1817,12 @@
 	<string name="send_mms_from_hc_message">You have chosen a high quality file. Do you wish to
 		send it using the Handcent network instead?</string>
 	<string name="dont_show_again_title">Always use this selection.</string>
-
 	<string name="hcmms_auto_convert_title">Auto Convert</string>
 	<string name="hcmms_auto_convert_summary">Automatically convert high quality pictures, mp3s,
 		and videos to \"Handcent MMS+\",and send it using the Handcent
 		Network.</string>
-
 	<string name="inconv_max_number_reached_message">You have reached the maximum number of records.
-		Please manage your files (Settings->Handcent services->Handcent MMS+)
+		Please manage your files (Settings-&gt;Handcent services-&gt;Handcent MMS+)
 		and try again or upgrade to one of our applicable premium services.</string>
 	<string name="select_file_title">Select file</string>
 	<string name="menu_add_to_schedule_task">Add to schedule task</string>
@@ -2253,29 +1832,23 @@
 		Handcent SMS has been granted root permssion when requested by the
 		Super User app dialog. You may disable this at any time using the
 		Super User app.</string>
-
 	<string name="pref_batch_sms_plugin_title">GroupSMS</string>
 	<string name="pref_batch_sms_plugin_summary">The Handcent Group SMS plugin will allow you to
 		send Group SMS messages to more people by circumventing your Android
 		device\'s integrated limitation of 100 SMS messages per hour.
 		Furthermore, those subscribing to Handcent VIP and GOLD memberships
 		will enjoy greater functionality of the Group SMS plugin!</string>
-
-	<string name="pref_batch_sms_plugin_status">Currently installed Group SMS plugin:%s,actived
-		plugins:\%%s,you may send max \%%s SMS every hour</string>
-
+	<string name="pref_batch_sms_plugin_status">Currently installed Group SMS plugin: %s, actived
+		plugins: \%%s, you may send max \%%s SMS every hour</string>
 	<string name="pref_lite_mode_sent_message_counter">Message counter style</string>
 	<string name="str_stop_send">Stop</string>
-
-
 	<string name="pref_install_plugin">Install plugin</string>
 	<string name="pref_search_groupsms_plugin">Searching group SMS plugins from Google Play</string>
 	<string name="pref_delay_send_title">Delay sending</string>
 	<string name="pref_dealy_send_summary">Inserts a delay before sending your messages after
 		you click SEND to grant you the option to halt sending and fix any
 		errors you notice at the last moment.</string>
-
-	<!-- add from version 3.9.6 -->
+	<!--add from version 3.9.6-->
 	<string name="share_btn_title">Share</string>
 	<string name="share_area_title">Region</string>
 	<string name="share_state_shared">Shared</string>
@@ -2289,44 +1862,29 @@
 	<string name="timestamp_ppl_sent_memsage">Datetime of recipient sent message</string>
 	<string name="timestamp_received_memsage">Datetime of received message </string>
 	<string name="str_spell_checking">Spell checking</string>
-
-
-	<!-- add from 3.9.8 -->
+	<!--add from 3.9.8-->
 	<string name="pref_advance_mms_download_title">Advance Download</string>
 	<string name="pref_advance_mms_download_summary">This is an advance MMS feature that assists
 		recipients in downloading pictures &amp; videos that are of higher
 		resolution than normal. This option only functions on supported
 		devices with supported carriers.</string>
-
-
-
-	<!-- add from 3.9.8.1 -->
-
+	<!--add from 3.9.8.1-->
 	<string name="pref_slovak_sms_mode">Slovak SMS Mode</string>
 	<string name="pref_slovak_sms_mode_summary">Special support for SMS on Slovak</string>
-
-
-
 	<string name="view_user_only_title">View \"%s\" only</string>
 	<string name="submit_theme_category_select_title">Select category</string>
 	<string name="delete_pending_themes_alert_message">Do you confirm to delete the record that in pending
-		review status?(will cancel the shared before)</string>
+		review status? (will cancel the shared before)</string>
 	<string name="recent_sms">SMS Log</string>
 	<string name="str_favorite">Favorite</string>
 	<string name="pref_contact_select_cate">Select contact settings</string>
 	<string name="pref_show_contact_image">Show image</string>
 	<string name="pref_fast_scroller_style_title">Fast scroller style</string>
 	<string name="pref_fast_scroller_style_summary">Scroller style of select contact window</string>
-
 	<string name="schedule_enable_run_notification_title">Enable running notification</string>
-	<string name="schedule_enable_run_notification_summary">When the schedule task has been running,will show a
+	<string name="schedule_enable_run_notification_summary">When the schedule task has been running, will show a
 		notification.</string>
-
-
-
-
-
-	<!-- add from 3.9.9 -->
+	<!--add from 3.9.9-->
 	<string name="my_gallery_stat_message">You have %s picture(s).</string>
 	<string name="add_to_my_gallery_title">Add to My gallery</string>
 	<string name="add_to_my_gallery_toast_message">Added to My gallery successful!</string>
@@ -2334,8 +1892,8 @@
 	<string name="pictures_submit_message">Your picture has been successfully submitted to the
 		Handcent team. We will review your picture and it will be released and
 		available in Handcent Greeting upon approval!</string>
-	<string name="space_full_message">Your space is full!If you want to get more
-		spaces,please click "Upgrade"!</string>
+	<string name="space_full_message">Your space is full! If you want to get more
+		space, please click \"Upgrade\"!</string>
 	<string name="file_format_error_message">Only support upload GIF/JPG/JPEG/PNG pictures.</string>
 	<string name="upload_button_title">Upload</string>
 	<string name="by_prefix_title">By </string>
@@ -2345,12 +1903,9 @@
 		images will be added. </string>
 	<string name="my_gallery_title">My gallery</string>
 	<string name="my_gallery_message">Save pictures online (long press picture
-		message, select \"Add to My gallery\" or \"upload\"), use them anytime
+		message, select \"Add to My gallery\" or \"Upload\"), use them anytime
 		anywhere.</string>
-
-
-
-	<!-- add from 4.0 -->
+	<!--add from 4.0-->
 	<string name="pref_storage_settings">Storage settings</string>
 	<string name="pref_autodelete_older_message_title">Delete old messages</string>
 	<string name="pref_autodelete_older_message_summary">Delete old messages as limits are reached</string>
@@ -2363,11 +1918,6 @@
 	<string name="pref_messages_to_save">Set number of messages to save</string>
 	<string name="pref_enable_mms_signature_title">MMS signature</string>
 	<string name="pref_enable_mms_signature_summary">Enable signature for MMS</string>
-
-
-
-
-
 	<string name="key_searchfriend">Search Buddies</string>
 	<string name="key_searchcommandfriend">Search recommended Buddies</string>
 	<string name="key_addgroupmember">Add Buddies</string>
@@ -2452,7 +2002,6 @@
 		anytime!</string>
 	<string name="key_login">Login</string>
 	<string name="key_register">Register</string>
-
 	<string name="key_no_signature">No signature</string>
 	<string name="key_buddy_title">Talk</string>
 	<string name="key_buddy_tip">Handcent Talk is an instant messaging service that
@@ -2462,7 +2011,6 @@
 		messaging features.</string>
 	<string name="str_donate_tip">Donate to support future development!</string>
 	<string name="help_tip">View help</string>
-
 	<string name="key_go_login_tip">Please sign in your handcent online account first,
 		\n then you can see your friends here!</string>
 	<string name="key_go_login">Go Login</string>
@@ -2473,7 +2021,6 @@
 	<string name="input_code_tip">Please input the authorization code provided to you
 		via text message.</string>
 	<string name="key_choosecountry">Choose your country.</string>
-
 	<string name="pref_hc_talk_title">Handcent Talk</string>
 	<string name="hc_talk_auto_retrieve_title">Auto retrieve</string>
 	<string name="hc_talk_auto_retrieve_summary">Automatically retrieve handcent talk MMS messages.</string>
@@ -2483,25 +2030,18 @@
 	<string name="hc_talk_compress_picture_title">Compress picture</string>
 	<string name="hc_talk_compress_picture_summary">Automatically compress picture (Not include GIF
 		picture)</string>
-
 	<string name="menu_delete_roster">Delete Buddy</string>
 	<string name="menu_view_roster">View Buddy</string>
 	<string name="menu_view_group">View Group</string>
 	<string name="menu_view_groupmember">View Group Members</string>
 	<string name="menu_view_groupinfo">View Group Information</string>
-
 	<string name="dialog_msg_deleteroster">Confirm delete this buddy?</string>
-
 	<string name="dialog_title_leaveroom">Leave Group</string>
 	<string name="dialog_msg_leaveroom">Confirm leave this group?</string>
-
 	<string name="toast_request_send">Your request will be sent.</string>
 	<string name="toast_request_notsend">Your request can\'t be sent and service will
 		reconnect.</string>
 	<string name="clickshowmember">Show Members</string>
-
-
-
 	<string name="auth_code_suffix">Here is the Handcent authorization code you
 		requested to link your number. (Please note, this number is unable to
 		receive replies.)</string>
@@ -2509,22 +2049,18 @@
 	<string name="key_go_active_tip">Press to launch the Handcent Talk service.</string>
 	<string name="key_service_list">Handcent Services</string>
 	<string name="key_no_result">No Result</string>
-
 	<string name="pbox_widget_title">Handcent SMS (PrivacyBox)</string>
-
 	<string name="key_personinfo_tips">View and edit your personal information</string>
 	<string name="key_facebook">Facebook</string>
 	<string name="key_facebook_tips">Like us on Facebook</string>
 	<string name="key_twitter">Twitter</string>
 	<string name="key_twitter_tips">Following us on Twitter</string>
-
 	<string name="hc_talk_international_number_title">International Number</string>
-	<string name="hc_talk_international_number_summary">Switch sending network automaticly when your
+	<string name="hc_talk_international_number_summary">Switch sending network automatically when your
 		friend\'s linked number is international number</string>
 	<string name="hc_talk_use_contact_title">Use Contacts</string>
 	<string name="hc_talk_use_contact_summary">Use your phone\'s contacts to find new buddies
-		automaticly</string>
-
+		automatically</string>
 	<string name="popup_custom_setting_title">Popup Settings</string>
 	<string name="popup_message_font_title">Message Font</string>
 	<string name="popup_message_font_color_title">Message Font Color</string>
@@ -2532,12 +2068,9 @@
 	<string name="popup_indicator_font_color_title">Indicator Font Color</string>
 	<string name="popup_reply_font_title">Reply Text Font</string>
 	<string name="popup_reply_font_color_title">Reply Text Font Color</string>
-
 	<string name="pref_message_order_type_title">Sort type of messages</string>
 	<string name="pref_message_order_type_desc">Select sort type of conversation messages.</string>
-
 	<string name="security">Security</string>
-
 	<string name="leaveroom">I Leave this group.</string>
 	<string name="joinroom">I join this group.</string>
 	<string name="checkinput">Please check your input</string>
@@ -2545,56 +2078,42 @@
 		during server maintenance. Please, try again later.</string>
 	<string name="numberbindlimit">Your phone number has been linked to another
 		account!</string>
-
 	<string name="pkey_group_messaging_title">Group messages</string>
 	<string name="pref_thread_group_conversations">Thread group conversation</string>
 	<string name="pref_thread_group_conversations_summary">Use MMS for group messages, must set handcent as
 		your default messaging application firstly</string>
-
 	<string name="menu_messaging_back">
 		Messaging
 		<xliff:g id="name">%s</xliff:g>
 	</string>
-
-
-	<!-- add from 4.1 -->
+	<!--add from 4.1-->
 	<string name="pref_enable_numbers">Display numbers</string>
 	<string name="pref_disable_numbers">Hidden numbers</string>
 	<string name="confirm_enable_numbers_title">Display phone numbers in conversation title bars?</string>
 	<string name="confirm_disable_numbers_title">Hide numbers in conversation title bars?</string>
-
 	<string name="unlinktips">Unlink number from this account? You may re-link
 		your account with this number, another number, this device, or another
 		device at any time.</string>
-
 	<string name="unlink">Unlink</string>
 	<string name="block">Block</string>
 	<string name="unblock">Unblock</string>
 	<string name="refreash">Refresh</string>
 	<string name="blocklist">Blocked buddies</string>
 	<string name="hc_talk_use_show_block_title">Show blocked buddies</string>
-	<string name="hc_talk_use_show_block_summary"></string>
-
+	<string name="hc_talk_use_show_block_summary"/>
 	<string name="switch_to_hctalk_hint">Switch to HC Talk</string>
 	<string name="switch_to_carrier_hint">Switch to SMS/MMS</string>
-
 	<string name="message_sent_offline">Message sent offline</string>
-
 	<string name="global_install_skin_notif">The Skin that you are using is out-of-date and
 		incompatible with this version of Handcent SMS. Please update from
 		Google Play.</string>
-
 	<string name="global_install_skin_pack">Installing skin package from Google Play</string>
 	<string name="key_refreasherror">Unable to Refresh at this time!</string>
-
-
-
 	<string name="toast_request_failed">Your request failed</string>
 	<string name="blockerror">Block failed</string>
 	<string name="pref_samsung_send_sms_title">New Samsung SMS interface</string>
 	<string name="pref_samsung_send_sms_summary">If you are using samsung phone and can\'t send SMS
 		correctly, you can try to change the option</string>
-
 	<string name="key_bind_fromtel">Verify linked phone number through your carrier
 		network, it will take one SMS fee except you have unlimited plan.</string>
 	<string name="key_bind_fromweb">Verify linked phone number through handcent
@@ -2607,10 +2126,7 @@
 		people?</string>
 	<string name="send_screenshot_btn_current">Current</string>
 	<string name="send_screenshot_btn_others">Others</string>
-
-
 	<string name="hc_popup_title">Handcent Popup</string>
-
 	<string name="insertTemp">Templates</string>
 	<string name="usestorage">Gallery</string>
 	<string name="stamptool">Stamp</string>
@@ -2619,24 +2135,15 @@
 	<string name="pref_charm_notification_title">Charm notification</string>
 	<string name="pref_charm_notification_summary">Light up charm when message are received (only
 		supported at some HTC phones)</string>
-
-
-
-
 	<string name="pref_key_hidden_splitline_title">Hidden split line</string>
 	<string name="pref_key_show_splitline_title">Show split line</string>
 	<string name="confirm_hidden_splitline_title">Do you want to show split line on title bar?</string>
 	<string name="confirm_show_splitline_title">Do you want to hidden split line on title bar?</string>
-
 	<string name="pref_3rd_application">3rd application compat</string>
-	<string name="pref_3rd_application_title"></string>
-	<string name="pref_3rd_application_summary"></string>
-
-
-
+	<string name="pref_3rd_application_title"/>
+	<string name="pref_3rd_application_summary"/>
 	<string name="pref_custom_numbers_font">Phone Number\'s font</string>
 	<string name="numbers_color_title">Phone Number\'s font color</string>
-
 	<string name="type_slideshow">SlideShow</string>
 	<string name="message_count_notification">
 		<xliff:g id="number" example="3">%1$s</xliff:g>
@@ -2648,14 +2155,9 @@
 	<string name="pref_notify_mms_after_download_summary">Notify and show pop up after MMS downloaded
 		only, easy to preview picture and emoji MMS (only available when set
 		handcent as default messaging application)</string>
-
-
-
-
 	<string name="warnning_mms_after_download">Please enable default messaging application option
 		from application settings and Auto retrieve MMS option from receive
 		message settings first</string>
-
 	<string name="pref_android40_social_network">This feature will show facebook and other social
 		network contacts at handcent, enable the feature need your phone being
 		rooted and allow 3rd applicatoin read your social network contacts
@@ -2664,40 +2166,30 @@
 	<string name="pref_android40_social_enabler_title">Social network enabler</string>
 	<string name="pref_android40_social_enabler_summary">Enable social network contact display for rooted
 		Android 4.0 phones</string>
-
-
 	<string name="pref_close_dialog_title">Show Close Menu On Dialog</string>
 	<string name="pref_close_dialog_summary">Do you want to show close menu on dialog?</string>
-
-	<!-- hctalk control -->
+	<!--hctalk control-->
 	<string name="pref_hctalk_mode_title">Run mode</string>
 	<string name="pref_hctalk_mode_summary">Set talk run mode (Smart mode can save more battery)</string>
 	<string name="pref_hctalk_starttime_title">Disable time</string>
 	<string name="pref_hctalk_endtime_title">Enable time</string>
-
 	<string name="requestaddroster">%s wants to add you.</string>
 	<string name="delineaddroster">You have declined %s.</string>
 	<string name="agreeaddroster">%s has agreed and added you.</string>
 	<string name="blockedroster">%s has been blocked.</string>
 	<string name="contactfound">Found %s contact information in your contact.</string>
 	<string name="contactbefound">Your contact information is found in %s contact.</string>
-
-
-
 	<string name="systemalarm">System Notification</string>
 	<string name="rosterauthmsg">Buddy tips</string>
-
 	<string name="admin_signature">This is handcent app assistant.</string>
 	<string name="hctalkstartequalend">Enable time can not equal with disable time!</string>
 	<string name="waitingloadinfo">Please wait...</string>
 	<string name="button_agree">Agree</string>
 	<string name="button_block">Block</string>
 	<string name="button_deline">Decline</string>
-
 	<string name="new_version_download_title">New version notification</string>
 	<string name="new_version_download_notif">The new HandcentSMS app can be downloaded on the
 		market.</string>
-
 	<string name="backgrounds_selector_title">Background</string>
 	<string name="template_selector_title">Templates</string>
 	<string name="color_selector_title">Colors</string>
@@ -2705,24 +2197,12 @@
 	<string name="small_btn_title">S</string>
 	<string name="large_btn_title">L</string>
 	<string name="stamp_selector_title">Stamps</string>
-
-	
-
 	<string name="pref_show_notification_text_title">Show notification text</string>
 	<string name="pref_enable_notification_summary">Display message notifications in status bar</string>
-
-
-
-
-
 	<string name="time_picker_dialog_title">Pick the time</string>
 	<string name="date_time_set">Setting</string>
-
 	<string name="pref_widget_setting">Widget settings</string>
-
-
-
-	<!-- string -->
+	<!--string-->
 	<string name="pictrue">Picture</string>
 	<string name="music">Music</string>
 	<string name="contact">Contact</string>
@@ -2732,41 +2212,31 @@
 	<string name="record_audio">Record Audio</string>
 	<string name="camera">Camera</string>
 	<string name="record_video">Record Video</string>
-
 	<string name="mmsplus">Mms+</string>
 	<string name="hc_ecard">Greetings</string>
 	<string name="sms_lib">Texts</string>
 	<string name="ecard">Ecard</string>
 	<string name="my_album">My gallery</string>
 	<string name="my_phrase">My texts</string>
-
 	<string name="graffiti">Doodle</string>
 	<string name="screenshot">Screenshot</string>
 	<string name="spelling">Spellcheck</string>
 	<string name="translate">Translate</string>
-
-
 	<string name="agree">Agree</string>
-	<string name="agreement" formatted="false"><a href='http://my.handcent.com/dir/info/regLicense'>User Agreeement</a></string>
-	
-	
+	<string name="agreement" formatted="false">
+		<a href="http://my.handcent.com/dir/info/regLicense">User Agreeement</a>
+	</string>
 	<string name="login_wait">Login now...</string>
 	<string name="agreement_first">Please checked the agreement first</string>
-	
 	<string name="input_null">Field can\'t be empty, Please check</string>
 	<string name="name_len_limit">Length of username must be greater than 3</string>
-
 	<string name="pref_switch_effects_title">Switch effects</string>
 	<string name="pref_switch_effects_summary">Switching effect of main windows, such as Cube out/in.</string>
-	
 	<string name="go_register">Don\'t have an account? Sign up now!</string>
 	<string name="password_confirm">Enter new password again</string>
 	<string name="password_equal">Two passwords do not match</string>
-	
 	<string name="bind_from_sms">Get verification code by SMS</string>
 	<string name="bind_from_web">Get verification code by Handcent gateway</string>
-	
-	
 	<string name="wait_auto_auth">Wait to detect Verification code automatically</string>
 	<string name="wait_auto_tips">Please check you can receive SMS normally</string>
 	<string name="ver_code">Verification code</string>
@@ -2776,31 +2246,23 @@
 	<string name="next_step">Next</string>
 	<string name="link_tel_title">Verify phone number</string>
 	<string name="auth_tel_title">Number verification</string>
-	
 	<string name="no_linked">Phone number hasn\'t been verified</string>
-	
 	<string name="account">Account:</string>
-	
 	<string name="modifynickname">Modify NickName</string>
 	<string name="modifysign">Modify Signature</string>
 	<string name="modifybkg">Modify Background</string>
 	<string name="modifyallwofind">will you allow other talk users to find you?</string>
 	<string name="error_info">Error Info...</string>
-	
 	<string name="waiting_agree">Your request has been sent, wait agree</string>
 	<string name="slide_title">Slide %s/%s</string>
-	
-	<!-- Skins -->
+	<!--Skins-->
 	<string name="blackskin">Black</string>
 	<string name="blueskin">Default (Blue)</string>
-	
 	<string name="skinsetting">Skin Setting</string>
 	<string name="update">Updated:</string>
 	<string name="version">Version:</string>
 	<string name="author">Author:</string>
 	<string name="size">Size:</string>
-
-
 	<string name="title">Skin Settings</string>
 	<string name="downloadskin">Download</string>
 	<string name="cancledownload">Cancel Download</string>
@@ -2809,41 +2271,32 @@
 	<string name="onuse">OnUse</string>
 	<string name="activesuccess">Apply skin successful!</string>
 	<string name="sdcantuse">SD card unmounted</string>
-	<string name="skinfilenoexist">Skin package not exist or has been deleted, please download it again.</string>	
+	<string name="skinfilenoexist">Skin package not exist or has been deleted, please download it again.</string>
 	<string name="recent">Recents</string>
 	<string name="email_error">Email is invalid</string>
 	<string name="logout">Logout</string>
 	<string name="logout_summary">Will you logout ?</string>
-	
 	<string name="has_register">Your account has been registered, please try again</string>
-	<string name="bad_request">Registeration request is fail, please try again!</string>
-	<string name="more_string">\u002B<xliff:g id="count">%1$s</xliff:g></string>
+	<string name="bad_request">Registration request is fail, please try again!</string>
+	<string name="more_string">\u002B<xliff:g id="count">%1$s</xliff:g>
+	</string>
 	<string name="copy_email">Copy email address</string>
 	<string name="login_or_register_tip">Login or register a handcent account.</string>
-	
 	<string name="talk_ad_title1">Cross-platform services</string>
 	<string name="talk_ad_title2">Exclusively free</string>
 	<string name="talk_ad_title3">Group chat</string>
 	<string name="talk_ad_title4">More interesting</string>
 	<string name="talk_ad_title5">Privacy &amp; security</string>
 	<string name="talk_ad_title6">Share happiness</string>
-	
 	<string name="talk_ad_summary1">Now, it is available for iOS, Android, Windows Phone platforms</string>
 	<string name="talk_ad_summary2">Send messages through 3G &amp; Wi-Fi, needn\'t any SMS Plan</string>
 	<string name="talk_ad_summary3">Create a group, add your buddies, make messaging no longer simplification</string>
 	<string name="talk_ad_summary4">Sending Emoji, animated picture and more emotions. Your messaging will be more exciting.</string>
 	<string name="talk_ad_summary5">Blacklist which can help to keep your buddy list clean, Invitation confirmation can make your buddy list without spam buddies.</string>
 	<string name="talk_ad_summary6">Sharing high resolution pictures &amp; photos without compress</string>
-	
-	
-
 	<string name="pref_task_order_type_title">Sort type of tasks</string>
 	<string name="pref_task_order_type_desc">Select sort type of schedule tasks.</string>
-
-
-
-	
-	<!-- backup/restore -->
+	<!--backup/restore-->
 	<string name="backup_service_my_backup_title">My Backup</string>
 	<string name="backup_service_my_backup_backuping_btn">Backuping</string>
 	<string name="string_sms">SMS</string>
@@ -2887,11 +2340,7 @@
 	<string name="status_bar_upload_not_found_title">Not Found</string>
 	<string name="status_bar_upload_not_found_message">Mms attachment handcent/mmsbackup/%f on your SD CARD not found</string>
 	<string name="status_bar_upload_not_completed">Upload did not completed!</string>
-	
-	
-	
 	<string name="online_text_title">Handcent Texts</string>
-
 	<string name="online_no_data">Empty</string>
 	<string name="online_text_search_hint">Please input something</string>
 	<string name="online_text_favor_fail">Add to favoriters failed!</string>
@@ -2899,11 +2348,9 @@
 	<string name="online_text_delete_favor_fail">Remove from favoriters failed!</string>
 	<string name="online_text_favor_limit">Reach max limit!</string>
 	<string name="online_text_favor_removefav">UnFavoriters</string>
-	
 	<string name="online_text_beload">Loose to load more......</string>
 	<string name="online_text_changearea">Switch language</string>
 	<string name="online_text_detailinformation">Detail</string>
-
 	<string name="image_filter_title_text">Picture editor</string>
 	<string name="image_filter_text_initial">Normal</string>
 	<string name="image_filter_text_gray">B&amp;W</string>
@@ -2911,7 +2358,6 @@
 	<string name="image_filter_text_vague">Fuzzy</string>
 	<string name="image_filter_text_oil">Painting</string>
 	<string name="image_filter_text_neon">Neon</string>
-
 	<string name="image_filter_text_pixelate">pixelate</string>
 	<string name="image_filter_text_tv">TV</string>
 	<string name="image_filter_text_invert">Invert</string>
@@ -2921,36 +2367,26 @@
 	<string name="image_filter_text_light">Light</string>
 	<string name="image_filter_text_lemo">LOMO</string>
 	<string name="image_filter_send_notify">Changed failed!</string>
-	
 	<string name="pref_use_picture_editor_title">Enhanced picture editor</string>
 	<string name="pref_use_picture_editor_summary">Many cool picture effects, rotate picture etc.</string>
 	<string name="online_text_favor_success">Add to favorities successfully!</string>
 	<string name="online_gallery_hot">Hot</string>
-	
 	<string name="online_gallery_poplist">Latest images</string>
 	<string name="online_gallery_downnotice">Download to directory:</string>
 	<string name="online_gallery_cerror">Operation fail!</string>
 	<string name="online_gallery_detailinformation">Detail</string>
 	<string name="online_gallery_load_over">All pictures been loaded!</string>
 	<string name="online_gallery_send_notify">Send failed!</string>
-
 	<string name="unlink_title">Unlink PhoneNumber</string>
-	<string name="audio_time">Time:%s \'</string>
+	<string name="audio_time">Time: %s \'</string>
 	<string name="show_audio_time">%s \'</string>
-	
 	<string name="default_vcard">VCard Info</string>
-	
-	
 	<string name="can_not_find_friend">Can\'t find request friends, please try again</string>
-	
-
 	<string name="hcbox_copy_message_text_button">Copy</string>
 	<string name="tip_dialog_title">Tip</string>
 	<string name="sort_by_send">Sort by send</string>
 	<string name="sort_by_receive">Sort by receive</string>
 	<string name="hcbox_receive_message_title">Received at</string>
 	<string name="hcbox_send_message_title">Sent at</string>
-	
 	<string name="global_release_note">Release Notes Handcent SMS Pro (Beta 0.9.2) \\n\\nOptimized for android 4.2.x\\n\\nNew version of handcent text and gallery\\n\\nFix issue that sending gif and improved photo editor\\n\\nFix smileys panel at privacy box\\n\\n</string>
-	
 </resources>
