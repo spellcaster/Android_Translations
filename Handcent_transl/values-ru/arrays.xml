@@ -383,9 +383,9 @@
     <string-array name="pref_split160_ex_entries">
         <item>Не разделять</item>
         <item>Простое</item>
-        <item>Простое и доб. счётчик</item>
+        <item>Простое и добавить счётчик</item>
         <item>По словам</item>
-        <item>По словам и доб. счётчик</item>
+        <item>По словам и добавить счётчик</item>
     </string-array>
 
     <string-array name="pref_sent_notification_entries">
@@ -681,10 +681,10 @@
 		<item>Автоматически</item>
 	</string-array>
 	
-		<string-array name="pref_close_dialog_entries">
-		<item>Оба</item>
-		<item>Только верхнее меню</item>
-		<item>Только кнопка Отмена</item>
+	<string-array name="pref_close_dialog_entries">
+		<item>Обе</item>
+		<item>Только [Х] в заголовке</item>
+		<item>Только Отмена</item>
 	</string-array>
 
 	<string-array name="pref_switch_effect_entries">
