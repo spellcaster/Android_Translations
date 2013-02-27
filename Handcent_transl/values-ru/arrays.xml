@@ -70,19 +70,19 @@
         <item>Грустный</item>
         <item>Подмигиваю</item>
         <item>Показываю язык</item>
-        <item>Удивлен</item>
+        <item>Удивлён</item>
         <item>Поцелуй</item>
         <item>Кричу</item>
-        <item>Отлично!</item>
+        <item>Крутой</item>
         <item>Молчание-золото</item>
         <item>В замешательстве</item>
-        <item>Смущенный</item>
+        <item>Смущение</item>
         <item>Ангел</item>
         <item>Нерешительный</item>
-        <item>Плачу</item>
+        <item>Плачет</item>
         <item>Не скажу</item>
-        <item>Смеюсь</item>
-        <item>Озадачен</item>
+        <item>Смех</item>
+        <item>Озадаченный</item>
     </string-array>
 
     <string-array name="pref_display_pic_entries">
@@ -119,8 +119,8 @@
    
     <string-array name="pref_date_format_entries">
         <item>По умолчанию</item>
-        <item>Дата и время (24ч.)</item>
-        <item>Дата и время (12ч.)</item>
+        <item>Дата и время (24 ч)</item>
+        <item>Дата и время (12 ч)</item>
     </string-array>
 
     <string-array name="pref_background_type_entries">
@@ -419,7 +419,7 @@
    
    <string-array name="pref_security_lock_level_entries">
       <item>Защищать Handcent SMS</item>
-      <item>Защищать Handcent SMS и стандартный  мессенджер</item>
+      <item>Защищать Handcent SMS и стандартный мессенджер</item>
     </string-array>
    
    <!-- add by version 3.1 -->
@@ -568,30 +568,30 @@
     </string-array>
 
     <string-array name="str_repeat_daily_hour_entries">
-        <item>00ч</item>
-        <item>01ч</item>
-        <item>02ч</item>
-        <item>03ч</item>
-        <item>04ч</item>
-        <item>05ч</item>
-        <item>06ч</item>
-        <item>07ч</item>
-        <item>08ч</item>
-        <item>09ч</item>
-        <item>10ч</item>
-        <item>11ч</item>
-        <item>12ч</item>
-        <item>13ч</item>
-        <item>14ч</item>
-        <item>15ч</item>
-        <item>16ч</item>
-        <item>17ч</item>
-        <item>18ч</item>
-        <item>19ч</item>
-        <item>20ч</item>
-        <item>21ч</item>
-        <item>22ч</item>
-        <item>23ч</item>
+        <item>00 ч</item>
+        <item>01 ч</item>
+        <item>02 ч</item>
+        <item>03 ч</item>
+        <item>04 ч</item>
+        <item>05 ч</item>
+        <item>06 ч</item>
+        <item>07 ч</item>
+        <item>08 ч</item>
+        <item>09 ч</item>
+        <item>10 ч</item>
+        <item>11 ч</item>
+        <item>12 ч</item>
+        <item>13 ч</item>
+        <item>14 ч</item>
+        <item>15 ч</item>
+        <item>16 ч</item>
+        <item>17 ч</item>
+        <item>18 ч</item>
+        <item>19 ч</item>
+        <item>20 ч</item>
+        <item>21 ч</item>
+        <item>22 ч</item>
+        <item>23 ч</item>
     </string-array>
 
     <string-array name="str_repeat_weekly_day_entries">
@@ -700,14 +700,16 @@
 		<item>Только верхнее меню</item>
 		<item>Только кнопка Отмена</item>
 	</string-array>
+	<!--
 	<string-array name="pref_close_dialog_entries_values">
 		<item>Оба</item>
 		<item>Закрыть</item>
 		<item>Отмена</item>
 	</string-array>
+	-->
 
 	<string-array name="pref_switch_effect_entries">
-      <item>Классическая</item>
+      <item>Классический</item>
       <item>Куб вогнутый</item>
       <item>Куб выпуклый</item>
       <item>Перекат</item>
@@ -725,7 +727,7 @@
    		<item>Устал, сонный</item>
    		<item>Слёзы</item>
    		<item>Плачет, грустный</item>
-   		<item>В замешательстве</item>
+   		<item>Озадачен</item>
    		<item>Поражён</item>
    		<item>В шоке</item>
    		<item>Ауч!</item>
@@ -755,7 +757,7 @@
    		<item>Унылый</item>
    		<item>Чёрт!</item>
    		<item>Слюнки текут</item>
-   		<item>Бесконечная печалька</item>
+   		<item>Печалька</item>
    		<item>Бабло рулит</item>
    		<item>Псих</item>
    		<item>Чё пялишься?</item>
