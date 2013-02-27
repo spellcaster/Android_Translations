@@ -53,12 +53,12 @@
         <item>Быстро</item>
         <item>Нормально</item>
         <item>Медленно</item>
-        <item>Свой…</item>
+        <item>Своя…</item>
     </string-array>
 
     <string-array name="pref_vibrate_pattern_entries">
-        <item>Стандартная</item>
-        <item>Нормальная</item>
+        <item>Стандартный</item>
+        <item>Нормальный</item>
         <item>Длинная вибрация</item>
         <item>Ряд коротких</item>
         <item>Ряд длинных</item>
@@ -423,20 +423,6 @@
     </string-array>
    
    <!-- add by version 3.1 -->
-    <string-array name="pref_max_mms_size_new_values">
-        <item>Стандартный</item>
-   	   <item>100</item>
-       <item>200</item>
-       <item>300</item>
-       <item>500</item>
-       <item>600</item>
-       <item>1024</item>
-       <item>1200</item>
-       <item>2048</item>
-       <item>5000</item>
-    </string-array>
-
-
    
     <string-array name="pref_security_lock_type_entries">
         <item>Нет</item>
@@ -477,13 +463,13 @@
    </string-array>
    
    <string-array name="pref_greek_mode_entries">
-   		<item>По умолч. (авто)</item>
+   		<item>По умолчанию (авто)</item>
    		<item>Включено</item>
    		<item>Отключено</item>
    	</string-array>
    	
    	<string-array name="pref_czech_mode_entries">
-   		<item>По умолч. (авто)</item>
+   		<item>По умолчанию (авто)</item>
    		<item>Включено</item>
    		<item>Отключено</item>
    	</string-array>
@@ -700,13 +686,6 @@
 		<item>Только верхнее меню</item>
 		<item>Только кнопка Отмена</item>
 	</string-array>
-	<!--
-	<string-array name="pref_close_dialog_entries_values">
-		<item>Оба</item>
-		<item>Закрыть</item>
-		<item>Отмена</item>
-	</string-array>
-	-->
 
 	<string-array name="pref_switch_effect_entries">
       <item>Классический</item>
@@ -771,10 +750,10 @@
    		<item>Хитрый</item>
    		<item>Ты с ума сошёл!</item>
    </string-array>  	
+   
+   
    	<string-array name="pref_schedule_task_sort_type_entries">
 		<item>По времени запуска</item>
 		<item>По времени создания</item>
     </string-array>
 </resources>
-
-
