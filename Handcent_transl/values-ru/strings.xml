@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-	<!--Dont translate-->
-	<!--need translate-->
-	<!--Conversation List-->
-	<!--Command name to open a Compose screen; displays on main Messaging screen-->
+	<!-- Dont translate -->
+	<string name="app_label">Handcent SMS Pro</string>
+
+	<!-- need translate -->
+	<!-- Conversation List -->
+	<!-- Command name to open a Compose screen; displays on main Messaging screen -->
 	<string name="new_message">Новое</string>
-	<!--Summary text under new message command; displays on main Messaging 
-		screen-->
+	<!-- Summary text under new message command; displays on main Messaging 
+		screen -->
 	<string name="create_new_message">Создать новое сообщение</string>
-	<!--Individual message context menu item-->
+	<!-- Individual message context menu item -->
 	<string name="menu_call_back">
 		Позвонить
 		<xliff:g id="name">%s</xliff:g>
 	</string>
-	<!--Menu item-->
+	<!-- Menu item -->
 	<string name="menu_compose_new">Создать новое</string>
+
 	<string name="menu_mark_all_read">Все прочтены</string>
 	<string name="delivery_report">Отчёт о доставке</string>
-	<!--Menu item-->
+	<!-- Menu item -->
 	<string name="menu_preferences">Настройки</string>
 	<string name="menu_send_email">
 		Отправить email
@@ -28,9 +32,9 @@
 		<xliff:g id="name">%s</xliff:g>
 		в Контакты
 	</string>
-	<!--Menu item-->
+	<!-- Menu item -->
 	<string name="menu_delete_all">Удалить все ветки</string>
-	<!--Context menu item-->
+	<!-- Context menu item -->
 	<string name="menu_delete">Удалить</string>
 	<string name="menu_undelivered_messages">Недоставленные</string>
 	<string name="menu_delete_undelivered_messages">Удалить недоставленные</string>
@@ -47,7 +51,9 @@
 	<string name="time_stamp_full">
 		<xliff:g id="format">%b \%%d, \%%G</xliff:g>
 	</string>
-	<!--Message that appears on screen while SIM card messages are retrieved-->
+	<string name="time_stamp_full_time_12">%G-\%%m-\%%d \%%I:\%%M \%%p</string>
+	<string name="time_stamp_full_time_24">%G-\%%m-\%%d \%%H:\%%M</string>
+	<!-- Message that appears on screen while SIM card messages are retrieved -->
 	<string name="refreshing">Обновление…</string>
 	<string name="has_draft">Черновик</string>
 	<string name="broadcast_from_to">
@@ -55,15 +61,16 @@
 	</string>
 	<string name="anonymous_recipient">Безымянный</string>
 	<string name="no_subject_view">(Без темы)</string>
-	<!--Message List-->
+
+	<!-- Message List -->
 	<string name="messagelist_sender_self">Я</string>
 	<string name="view_picture">Просмотреть изображение</string>
 	<string name="view_slideshow">Слайдшоу</string>
-	<!--Individual message context menu item-->
+	<!-- Individual message context menu item -->
 	<string name="view_message_details">Подробности</string>
-	<!--Individual message context menu item-->
+	<!-- Individual message context menu item -->
 	<string name="view_delivery_report">Посмотреть отчёт</string>
-	<!--Individual message context menu item-->
+	<!-- Individual message context menu item -->
 	<string name="delete_message">Удалить сообщение</string>
 	<string name="sent_on">
 		"Отправлено:
@@ -81,19 +88,19 @@
 		"
 	</string>
 	<string name="kilobyte">Кб</string>
-	<!--Dialog box title-->
+	<!-- Dialog box title -->
 	<string name="undelivered_msg_dialog_title">Недоставленное сообщение</string>
-	<!--Dialog box message-->
+	<!-- Dialog box message -->
 	<string name="undelivered_msg_dialog_body">
 		Не удаётся отправить сообщение.\nПопытка:
 		<xliff:g id="message">%s</xliff:g>
 		.
 	</string>
-	<!--Dialog box message-->
+	<!-- Dialog box message -->
 	<string name="undelivered_sms_dialog_body">Невозможно отправить.</string>
-	<!--Menu item-->
+	<!-- Menu item -->
 	<string name="delete_thread">Удалить ветку</string>
-	<!--Individual message context menu item-->
+	<!-- Individual message context menu item -->
 	<string name="menu_forward">Переслать</string>
 	<string name="download">Загрузить</string>
 	<string name="downloading">Загрузка</string>
@@ -103,60 +110,67 @@
 	</string>
 	<string name="drm_protected_text">* DRM защищённый текст *</string>
 	<string name="insufficient_drm_rights">Недостаточно DRM прав.</string>
-	<!--Individual message context menu item-->
+	<!-- Individual message context menu item -->
 	<string name="copy_message_text">Скопировать текст</string>
-	<!--Header for context menu on an individual message-->
+	<!-- Header for context menu on an individual message -->
 	<string name="message_options">Опции сообщения</string>
 	<string name="view_flat_slideshow">Просмотр слайдшоу</string>
-	<!--Edit Slide Text-->
-	<!--Button text on edit slide screen-->
+	<!-- Edit Slide Text -->
+	<!-- Button text on edit slide screen -->
 	<string name="done">Готово</string>
-	<!--Slideshow edit screen-->
-	<!--Menu items:-->
+
+
+
+
+
+
+	<!-- Slideshow edit screen -->
+	<!-- Menu items: -->
 	<string name="move_up">Вверх</string>
 	<string name="move_down">Вниз</string>
 	<string name="remove_slide">Удалить слайд</string>
 	<string name="add_slide">Добавить слайд</string>
 	<string name="discard_slideshow">Отменить слайдшоу</string>
-	<!--Context menu items-->
+	<!-- Context menu items -->
 	<string name="remove_text">Убрать текст</string>
 	<string name="add_picture">Добавить изображение</string>
 	<string name="remove_picture">Убрать изображение</string>
-	<!--Menu item and title of "Add music" dialog options-->
+	<!-- Menu item and title of "Add music" dialog options -->
 	<string name="add_music">Добавить звук</string>
 	<string name="remove_music">Убрать музыку</string>
 	<string name="add_video">Добавить видео</string>
 	<string name="remove_video">Убрать видео</string>
-	<!--text-->
+	<!-- text -->
 	<string name="add_slide_hint">Выберите, чтобы создать новый слайд</string>
-	<!--Compose Message Activity-->
+
+	<!-- Compose Message Activity -->
 	<string name="to_hint">Кому:</string>
-	<!--Label in Compose screen for to text field-->
+	<!-- Label in Compose screen for to text field -->
 	<string name="compose_title">Новое сообщение</string>
 	<string name="subject_hint">Тема</string>
-	<!--Menu item-->
+	<!-- Menu item -->
 	<string name="add_attachment">Прикрепить</string>
-	<!--Menu item-->
+	<!-- Menu item -->
 	<string name="add_subject">Добавить тему</string>
-	<!--Menu item-->
+	<!-- Menu item -->
 	<string name="discard">Сброс</string>
 	<string name="replace">Заменить</string>
 	<string name="remove">Убрать</string>
-	<!--Button label on Compose screen-->
+	<!-- Button label on Compose screen -->
 	<string name="send">ОК</string>
-	<!--Menu item-->
+	<!-- Menu item -->
 	<string name="all_threads">Все ветки</string>
-	<!--Hint text in message text field when keyboard is revealed-->
+	<!-- Hint text in message text field when keyboard is revealed -->
 	<string name="type_to_compose_text_enter_to_send">Сообщение</string>
 	<string name="type_to_reply_text_enter_to_send">Быстрый ответ</string>
 	<string name="view">Просмотр</string>
-	<!--Hint text in message text field when keyboard is not revealed-->
+	<!-- Hint text in message text field when keyboard is not revealed -->
 	<string name="open_keyboard_to_compose_message">Откройте клавиатуру, чтобы создать сообщение</string>
-	<!--Dialog title-->
+	<!-- Dialog title -->
 	<string name="image_too_large">Изображение слишком большое</string>
-	<!--Dialog message text-->
+	<!-- Dialog message text -->
 	<string name="ask_for_automatically_resize">Сжать отправляемую картинку?</string>
-	<!--Toast while a picture is being resize down-->
+	<!-- Toast while a picture is being resize down -->
 	<string name="compressing">Сжатие…</string>
 	<string name="unsupported_media_format">
 		Формат
@@ -174,8 +188,8 @@
 		<xliff:g id="name">%1$s</xliff:g>
 		в сообщение.
 	</string>
-	<!--Error message indicating that the picture being attached and resized 
-		could not be resized-->
+	<!-- Error message indicating that the picture being attached and resized 
+		could not be resized -->
 	<string name="failed_to_resize_image">Изображение не изменено.</string>
 	<string name="resize_image_error_information">Изображение всё равно большое для отправки.</string>
 	<string name="forward_prefix">Кому:\u0020</string>
@@ -190,40 +204,46 @@
 	<string name="cannot_send_message">Невозможно отправить это сообщение</string>
 	<string name="cannot_send_message_reason">Ваше сообщение не имеет действительного получателя.</string>
 	<string name="cannot_forward_drm_obj">Объект DRM, включённый в сообщение, не может быть передан.</string>
-	<!--Toasts:-->
+
+
+	<!-- Toasts: -->
 	<string name="converting_to_picture_message">Преобразование в MMS…</string>
 	<string name="converting_to_text_message">Преобразование в SMS…</string>
 	<string name="cannot_add_slide_anymore">Не удаётся добавить слайды.</string>
 	<string name="cannot_save_message">Не удаётся сохранить сообщение.</string>
 	<string name="cannot_load_message">Не удаётся загрузить сообщение.</string>
 	<string name="message_saved_as_draft">Сохранено в черновике.</string>
-	<!--Audio attachment view-->
+
+	<!-- Audio attachment view -->
 	<string name="cannot_play_audio">Не удаётся воспроизвести аудио.</string>
-	<!--Slide editor screen-->
-	<!--Button name-->
+
+	<!-- Slide editor screen -->
+	<!-- Button name -->
 	<string name="preview">Просмотр</string>
-	<!--Button name-->
+	<!-- Button name -->
 	<string name="preview_slideshow">Предпросмотр</string>
-	<!--Button name-->
+	<!-- Button name -->
 	<string name="replace_image">Заменить изображение</string>
-	<!--Menu item-->
+	<!-- Menu item -->
 	<string name="duration_sec">
 		Длительность (
 		<xliff:g id="duration">%s</xliff:g>
 		сек)
 	</string>
-	<!--Duration dialog box title-->
+	<!-- Duration dialog box title -->
 	<string name="duration_selector_title">Длительность слайда\u0020</string>
 	<string name="layout_selector_title">Макет слайдшоу\u0020</string>
-	<!--Menu item-->
+	<!-- Menu item -->
 	<string name="layout_top">Расположение (верх)</string>
-	<!--Menu item-->
+	<!-- Menu item -->
 	<string name="layout_bottom">Расположение (низ)</string>
-	<!--Hint in slide text field-->
+	<!-- Hint in slide text field -->
 	<string name="type_to_compose_text_or_leave_blank">Наберите текст или оставьте поле пустым</string>
-	<!--Change duration screen-->
+
+
+	<!-- Change duration screen -->
 	<string name="secs">сек</string>
-	<!--Duration dialog options-->
+	<!-- Duration dialog options -->
 	<string-array name="select_dialog_items">
 		<item>1 секунда</item>
 		<item>2 секунды</item>
@@ -237,308 +257,364 @@
 		<item>10 секунд</item>
 		<item>Указать…</item>
 	</string-array>
-	<!--Recipients editor-->
+
+	<!-- Recipients editor -->
 	<string name="menu_view_contact">Просмотреть контакт</string>
 	<string name="menu_add_to_contacts">Добавить в Контакты</string>
+
 	<string name="hidden_sender_address">Адрес отправителя скрыт</string>
-	<!--Dialog box button names-->
+	<!-- Dialog box button names -->
 	<string name="yes">ОК</string>
 	<string name="no">Отмена</string>
 	<string name="play">Проиграть</string>
 	<string name="edit">Изменить</string>
-	<!--"Picture too large" dialog box button name-->
+
+	<!-- "Picture too large" dialog box button name -->
 	<string name="resize">Сжать</string>
 	<string name="try_to_send">Повторить отправку</string>
-	<!--Preferences screen-->
+
+	<!-- Preferences screen -->
 	<string name="preferences_title">Настройки</string>
-	<!--Settings screen, menu item-->
+	<!-- Settings screen, menu item -->
 	<string name="restore_default">Сбросить настройки</string>
-	<!--Settings screen, section heading-->
+	<!-- Settings screen, section heading -->
 	<string name="pref_notification_settings_title">Уведомления</string>
-	<!--Settings screen, section heading-->
+	<!-- Settings screen, section heading -->
 	<string name="pref_mms_settings_title">Настройки MMS</string>
-	<!--Settings screen, section heading-->
+	<!-- Settings screen, section heading -->
 	<string name="pref_sms_settings_title">Настройки SMS</string>
-	<!--This must be one of the values in the array "pref_entry_values_mms_max_size".-->
-	<!--This must be one of the values in the array "pref_entry_values_mms_creation_mode".-->
+
+	<!-- This must be one of the values in the array "pref_entry_values_mms_max_size". -->
+	<string name="pref_default_mms_max_size">500000</string>
+
+	<!-- This must be one of the values in the array "pref_entry_values_mms_creation_mode". -->
 	<string name="pref_default_mms_creation_mode">ограничено</string>
-	<!--This must be one of the values in the array "pref_entry_values_mms_resubmission_mode".-->
+
+	<!-- This must be one of the values in the array "pref_entry_values_mms_resubmission_mode". -->
 	<string name="pref_default_mms_resubmission_mode">ограничено</string>
-	<!--Settings screen, setting summary text-->
+
+	<!-- Settings screen, setting summary text -->
 	<string name="pref_summary_manage_sim_messages">Управление сообщениями, хранящимися на SIM карте.</string>
-	<!--Settings screen, setting summary text-->
+	<!-- Settings screen, setting summary text -->
 	<string name="pref_summary_mms_delivery_reports">Запрос отчёта о доставке для каждого исходящего</string>
-	<!--Settings screen, setting summary text-->
+	<!-- Settings screen, setting summary text -->
 	<string name="pref_summary_mms_read_reports">Запрос отчёта о прочтении для каждого исходящего</string>
-	<!--Settings screen, setting summary text-->
+	<!-- Settings screen, setting summary text -->
 	<string name="pref_summary_sms_delivery_reports">Запросить отчёт о доставке у оператора</string>
-	<!--Settings screen, setting option name-->
+	<!-- Settings screen, setting option name -->
 	<string name="pref_title_manage_sim_messages">Сообщения на SIM-карте</string>
-	<!--Settings screen, setting option name-->
+	<!-- Settings screen, setting option name -->
 	<string name="pref_title_mms_delivery_reports">Отчёты о доставке</string>
-	<!--Settings screen, setting option name-->
+	<!-- Settings screen, setting option name -->
 	<string name="pref_title_mms_read_reports">Отчёты о прочтении</string>
-	<!--Settings screen, setting option name-->
+	<!-- Settings screen, setting option name -->
 	<string name="pref_title_sms_delivery_reports">Отчёты о доставке</string>
-	<!--Settings screen, setting option name-->
+	<!-- Settings screen, setting option name -->
 	<string name="pref_title_notification_enabled">Уведомления</string>
 	<string name="pref_summary_notification_enabled">Отображать уведомления в строке состояния.</string>
-	<!--Settings screen, setting option name-->
+	<!-- Settings screen, setting option name -->
 	<string name="pref_title_notification_vibrate">Виброзвонок</string>
-	<!--Settings screen, setting summary text-->
+	<!-- Settings screen, setting summary text -->
 	<string name="pref_summary_notification_vibrate">Вибрация при уведомлении</string>
-	<!--Settings screen, setting option name-->
+	<!-- Settings screen, setting option name -->
 	<string name="pref_title_notification_ringtone">Звук уведомления</string>
-	<!--Preference entries for auto retrieval-->
-	<!--Settings screen, setting option name-->
+
+	<!-- Preference entries for auto retrieval -->
+	<!-- Settings screen, setting option name -->
 	<string name="pref_title_mms_auto_retrieval">Автополучение</string>
-	<!--Settings screen, setting summary text-->
+	<!-- Settings screen, setting summary text -->
 	<string name="pref_summary_mms_auto_retrieval">Автоматически получать сообщения</string>
-	<!--Settings screen, setting option name-->
+	<!-- Settings screen, setting option name -->
 	<string name="pref_title_mms_retrieval_during_roaming">Автополучение в роуминге</string>
-	<!--Settings screen, setting summary text-->
+	<!-- Settings screen, setting summary text -->
 	<string name="pref_summary_mms_retrieval_during_roaming">Автоматически получать сообщения в роуминге</string>
-	<!--Preference title-->
-	<!--Labels-->
-	<string name="to_label">Для\u0020</string>
-	<!--Confirm Delete-->
-	<!--Delete confirmation dialog title-->
+
+
+	<!-- Preference title -->
+
+
+
+	<!-- Labels -->
+	<string name="to_label">Кому\u0020</string>
+
+	<!-- Confirm Delete -->
+	<!-- Delete confirmation dialog title -->
 	<string name="confirm_dialog_title">Удалить</string>
-	<!--Delete entire thread confirmation dialog message-->
+	<!-- Delete entire thread confirmation dialog message -->
 	<string name="confirm_delete_conversation">Ветка сообщений будет удалена.</string>
-	<!--Delete all threads confirmation dialog message-->
+	<!-- Delete all threads confirmation dialog message -->
 	<string name="confirm_delete_all_conversations">Все ветки сообщений будут удалены.</string>
-	<!--Delete message confirmation dialog message-->
+	<!-- Delete message confirmation dialog message -->
 	<string name="confirm_delete_message">Сообщение будет удалено.</string>
-	<!--Delete entire thread confirmation dialog message-->
+	<!-- Delete entire thread confirmation dialog message -->
 	<string name="confirm_delete_all_messages">Ветка сообщений будет удалена.</string>
-	<!--When the user tries to view message details and some error occurs while 
-		retrieving those details, this message will be shown.-->
+
+	<!-- When the user tries to view message details and some error occurs while 
+		retrieving those details, this message will be shown. -->
 	<string name="cannot_get_details">Не удалось получить подробности</string>
-	<!--Title of "Message details" dialog-->
+	<!-- Title of "Message details" dialog -->
 	<string name="message_details_title">Подробности сообщения</string>
-	<!--Label in "Message details" dialog-->
+	<!-- Label in "Message details" dialog -->
 	<string name="message_type_label">Тип:\u0020</string>
-	<!--"Type" value in "Message details" dialog-->
+	<!-- "Type" value in "Message details" dialog -->
 	<string name="text_message">SMS сообщение</string>
-	<!--"Type" value in "Message details" dialog-->
+	<!-- "Type" value in "Message details" dialog -->
 	<string name="multimedia_message">MMS сообщение</string>
-	<!--"Type" value in "Message details" dialog-->
+	<!-- "Type" value in "Message details" dialog -->
 	<string name="multimedia_notification">Уведомление об MMS</string>
-	<!--Label in "Message details" dialog showing who sent the message.-->
+	<!-- Label in "Message details" dialog showing who sent the message. -->
 	<string name="from_label">От:\u0020</string>
-	<!--Label in "Message details" dialog-->
+	<!-- Label in "Message details" dialog -->
 	<string name="to_address_label">Для:\u0020</string>
-	<!--Label in "Message details" dialog-->
+	<!-- Label in "Message details" dialog -->
 	<string name="bcc_label">Копия:\u0020</string>
-	<!--Label in "Message details" dialog-->
+	<!-- Label in "Message details" dialog -->
 	<string name="sent_label">Отправлено:\u0020</string>
-	<!--Label in "Message details" dialog-->
+	<!-- Label in "Message details" dialog -->
 	<string name="received_label">Получено:\u0020</string>
-	<!--Label in "Message details" dialog-->
+	<!-- Label in "Message details" dialog -->
 	<string name="saved_label">Сохранено:\u0020</string>
-	<!--Label in "Message details" dialog-->
+	<!-- Label in "Message details" dialog -->
 	<string name="subject_label">Тема:\u0020</string>
-	<!--Label in "Message details" dialog-->
+	<!-- Label in "Message details" dialog -->
 	<string name="message_size_label">Размер сообщения:\u0020</string>
-	<!--Label in "Message details" dialog-->
+	<!-- Label in "Message details" dialog -->
 	<string name="priority_label">Приоритет:\u0020</string>
-	<!--"Priority" value in "Message details" dialog-->
+	<!-- "Priority" value in "Message details" dialog -->
 	<string name="priority_high">Высокий</string>
-	<!--"Priority" value in "Message details" dialog-->
+	<!-- "Priority" value in "Message details" dialog -->
 	<string name="priority_normal">Нормальный</string>
-	<!--"Priority" value in "Message details" dialog-->
+	<!-- "Priority" value in "Message details" dialog -->
 	<string name="priority_low">Низкий</string>
-	<!--Label in "Message details" dialog-->
+	<!-- Label in "Message details" dialog -->
 	<string name="message_class_label">Класс сообщения:\u0020</string>
-	<!--Menu title for editing a message-->
+
+	<!-- Menu title for editing a message -->
 	<string name="menu_edit">Изменить</string>
-	<!--Menu title the user can use for trying to resend a message.-->
+	<!-- Menu title the user can use for trying to resend a message. -->
 	<string name="menu_retry_sending">Повторить отправку</string>
-	<!--Menu title the user can use for trying to resend all the messages.-->
+	<!-- Menu title the user can use for trying to resend all the messages. -->
 	<string name="menu_retry_sending_all">Повторить отправку всех</string>
-	<!--Menu title for deleting undelivered messages or messages on the SIM 
-		card.-->
+	<!-- Menu title for deleting undelivered messages or messages on the SIM 
+		card. -->
 	<string name="menu_delete_messages">Удалить</string>
-	<!--Dialog text displayed when trying to resend an unsent message.-->
+	<!-- Dialog text displayed when trying to resend an unsent message. -->
 	<string name="retrying_dialog_body">
 		Сообщение
 		<xliff:g id="message">%s</xliff:g>
 		не было отправлено из-за проблем со связью.\r\nПовторная попытка…
 	</string>
-	<!--Manage SIM Messages-->
-	<!--Menu title to copy a selected message from the SIM card to the phone.-->
+
+	<!-- Manage SIM Messages -->
+	<!-- Menu title to copy a selected message from the SIM card to the phone. -->
 	<string name="sim_copy_to_phone_memory">Скопировать в телефон</string>
-	<!--Menu title to delete a selected messaged from the SIM card.-->
+	<!-- Menu title to delete a selected messaged from the SIM card. -->
 	<string name="sim_delete">Удалить</string>
-	<!--Title of screen displaying messages on SIM card-->
+	<!-- Title of screen displaying messages on SIM card -->
 	<string name="sim_manage_messages_title">Сообщения на SIM-карте</string>
-	<!--Context menu item but currently commented out in 1.0.-->
+	<!-- Context menu item but currently commented out in 1.0. -->
 	<string name="sim_view">Просмотр</string>
-	<!--Message that appears on the "SMS messges on SIM card" screen when there 
-		are no messages on the SIM card-->
+	<!-- Message that appears on the "SMS messges on SIM card" screen when there 
+		are no messages on the SIM card -->
 	<string name="sim_empty">Сообщений на SIM-карте нет.</string>
-	<!--Delivery Header View-->
-	<!--Title of "Report" window-->
+
+	<!-- Delivery Header View -->
+	<!-- Title of "Report" window -->
 	<string name="delivery_header_title">Отчёт</string>
-	<!--Delivery Report Activity-->
-	<!--Status in "Report" window-->
+
+	<!-- Delivery Report Activity -->
+	<!-- Status in "Report" window -->
 	<string name="status_none">(Отсутствует)</string>
-	<!--Status in "Report" window-->
+	<!-- Status in "Report" window -->
 	<string name="status_pending">Ожидает</string>
-	<!--Status in "Report" window-->
+	<!-- Status in "Report" window -->
 	<string name="status_read">Прочтено</string>
-	<!--Status in "Report" window-->
+	<!-- Status in "Report" window -->
 	<string name="status_received">Получено</string>
-	<!--Status in "Report" window-->
+	<!-- Status in "Report" window -->
 	<string name="status_failed">Неудачно</string>
-	<!--Status in "Report" window-->
+	<!-- Status in "Report" window -->
 	<string name="status_unread">Не прочтено</string>
-	<!--Status in "Report" window-->
+	<!-- Status in "Report" window -->
 	<string name="status_rejected">Отклонено</string>
-	<!--Label in "Report" window-->
+	<!-- Label in "Report" window -->
 	<string name="recipient_label">Получатель:\u0020</string>
-	<!--Label in "Report" window-->
+	<!-- Label in "Report" window -->
 	<string name="status_label">Статус:\u0020</string>
-	<!--Attachment Type Selector Adapter. This string is an option in the "Attach" 
-		dialog, "Add music" dialog-->
+
+
+	<!-- Attachment Type Selector Adapter. This string is an option in the "Attach" 
+		dialog, "Add music" dialog -->
 	<string name="attach_image">Изображение</string>
-	<!--Attachment Type Selector Adapter. This string is an option in the "Attach" 
-		dialog, "Add music" dialog-->
+	<!-- Attachment Type Selector Adapter. This string is an option in the "Attach" 
+		dialog, "Add music" dialog -->
 	<string name="attach_take_photo">Снять на камеру</string>
-	<!--Attachment Type Selector Adapter. This string is an option in the "Attach" 
-		dialog, "Add music" dialog-->
+	<!-- Attachment Type Selector Adapter. This string is an option in the "Attach" 
+		dialog, "Add music" dialog -->
 	<string name="attach_video">Видео</string>
-	<!--Attachment Type Selector Adapter. This string is an option in the "Attach" 
-		dialog, "Add music" dialog-->
+	<!-- Attachment Type Selector Adapter. This string is an option in the "Attach" 
+		dialog, "Add music" dialog -->
 	<string name="attach_sound">Аудио</string>
-	<!--Attachment Type Selector Adapter. This string is an option in the "Attach" 
-		dialog, "Add music" dialog-->
+	<!-- Attachment Type Selector Adapter. This string is an option in the "Attach" 
+		dialog, "Add music" dialog -->
 	<string name="attach_record_sound">Записать звук</string>
-	<!--Layout Selector Adapter. Slideshow layout dialog option for aligning 
-		an icon.-->
+
+	<!-- Layout Selector Adapter. Slideshow layout dialog option for aligning 
+		an icon. -->
 	<string name="select_bottom_text">Текст внизу</string>
-	<!--Layout Selector Adapter. Slideshow layout dialog option for aligning 
-		an icon.-->
+	<!-- Layout Selector Adapter. Slideshow layout dialog option for aligning 
+		an icon. -->
 	<string name="select_top_text">Текст наверху</string>
-	<!--Delivery Report Notification dialog title.-->
+
+	<!-- Delivery Report Notification dialog title. -->
 	<string name="notification_multiple">
 		<xliff:g id="count">%s</xliff:g>
 		непрочитанных сообщений.
 	</string>
-	<!--Delivery Report Notification dialog title.-->
+	<!-- Delivery Report Notification dialog title. -->
 	<string name="notification_multiple_title">Новые сообщения</string>
-	<!--Sim Full Notification dialog title.-->
+
+	<!-- Sim Full Notification dialog title. -->
 	<string name="sim_full_title">SIM карта переполнена</string>
-	<!--Sim Full Notification dialog text.-->
+	<!-- Sim Full Notification dialog text. -->
 	<string name="sim_full_body">Удалить некоторые сообщения, чтобы освободить место.</string>
-	<!--Multimedia type used in building other messages. For instance: Sorry, 
-		you cannot add this audio to your message.-->
+
+	<!-- Multimedia type used in building other messages. For instance: Sorry, 
+		you cannot add this audio to your message. -->
 	<string name="type_audio">аудио</string>
-	<!--Multimedia type used in building other messages. For instance: Sorry, 
-		you cannot add this picture to your message.-->
+	<!-- Multimedia type used in building other messages. For instance: Sorry, 
+		you cannot add this picture to your message. -->
 	<string name="type_picture">изображение</string>
-	<!--Multimedia type used in building other messages. For instance: Sorry, 
-		you cannot add this video to your message.-->
+	<!-- Multimedia type used in building other messages. For instance: Sorry, 
+		you cannot add this video to your message. -->
 	<string name="type_video">видео</string>
-	<!--Dialog title for the Read Report dialog.-->
+
+	<!-- Dialog title for the Read Report dialog. -->
 	<string name="confirm">Подтвердить</string>
-	<!--Dialog text for the Read Report dialog.-->
+	<!-- Dialog text for the Read Report dialog. -->
 	<string name="message_send_read_report">Будет отправлен отчёт о прочтении.</string>
-	<!--URL list activity title-->
+
+	<!-- URL list activity title -->
 	<string name="url_list_label">Выбор ссылки</string>
-	<!--This is the text of a toast message briefly displayed when a problem 
-		occurs while sending.-->
+
+	<!-- This is the text of a toast message briefly displayed when a problem 
+		occurs while sending. -->
 	<string name="message_queued">Сейчас невозможно отправить сообщение. Оно будет отправлено, когда услуга станет доступна.</string>
-	<!--Download Manager-->
-	<!--When an error occurs downloading a new message and a subject isn't 
-		available, substitute this default subject.-->
+
+	<!-- Download Manager -->
+	<!-- When an error occurs downloading a new message and a subject isn't 
+		available, substitute this default subject. -->
 	<string name="no_subject">(Без темы)</string>
-	<!--When an error occurs downloading a new message and the sender is unknown, 
-		substitute this default text.-->
+	<!-- When an error occurs downloading a new message and the sender is unknown, 
+		substitute this default text. -->
 	<string name="unknown_sender">Неизвестный отправитель</string>
-	<!--When an error occurs downloading a new message, display this message. 
-		An example: Download of message Wanna get pizza from dorkman was unsuccessful.-->
+	<!-- When an error occurs downloading a new message, display this message. 
+		An example: Download of message Wanna get pizza from dorkman was unsuccessful. -->
 	<string name="dl_failure_notification">
 		Не удалось загрузить сообщение
 		<xliff:g id="subject">%s</xliff:g>
 		из
 		<xliff:g id="from">%s</xliff:g>.
 	</string>
-	<!--This is the confirm rate limit alert dialog title.-->
+
+	<!-- This is the confirm rate limit alert dialog title. -->
 	<string name="rate_limit_surpassed">Подтвердить</string>
-	<!--This is the confirm rate limit alert dialog text.-->
+	<!-- This is the confirm rate limit alert dialog text. -->
 	<string name="confirm_rate_limit">Будет отправлено большое количество мультимедийных сообщений. Уверены?</string>
-	<!--Message Failed Notification-->
-	<!--Dialog box title when receiving a message failed.-->
+
+	<!-- Message Failed Notification -->
+	<!-- Dialog box title when receiving a message failed. -->
 	<string name="message_download_failed_title">Сообщение не загружено</string>
-	<!--Dialog box title when sending a message failed.-->
+	<!-- Dialog box title when sending a message failed. -->
 	<string name="message_send_failed_title">Сообщение не отправлено</string>
-	<!--Dialog box message text when failure occurs sending a message.-->
+	<!-- Dialog box message text when failure occurs sending a message. -->
 	<string name="message_failed_body">Выберите, чтобы перепроверить сообщение и попробовать снова.</string>
-	<!--Dialog box message when there's a problem retrieving messages.-->
+	<!-- Dialog box message when there's a problem retrieving messages. -->
 	<string name="download_later">Не удаётся загрузить. Попробуйте позже.</string>
-	<!--Title for audio file picker-->
+
+	<!-- Title for audio file picker -->
 	<string name="select_audio">Выбрать аудио</string>
-	<!--Menu title to copy an attachment to the SD card-->
+	<!-- Menu title to copy an attachment to the SD card -->
 	<string name="copy_to_sdcard">Скопировать вложения на SD карту</string>
-	<!--Toast message on successful copy to SD card-->
+	<!-- Toast message on successful copy to SD card -->
 	<string name="copy_to_sdcard_success">Вложения скопированы на SD карту</string>
-	<!--Toast message on failed copy to SD card-->
+	<!-- Toast message on failed copy to SD card -->
 	<string name="copy_to_sdcard_fail">Копирование на SD карту не удалось</string>
-	<!--Menu item-->
+	<!-- Menu item -->
 	<string name="menu_insert_smiley">Вставить смайлик</string>
-	<!--This is the dialog title for the "Select link" dialog, shown when the 
+
+	<!-- This is the dialog title for the "Select link" dialog, shown when the 
 		user clicks on a chat in the chat history view if there are links in the 
-		chat message. The dialog displays the links if there are any-->
+		chat message. The dialog displays the links if there are any -->
 	<string name="select_link_title">Выбрать действие</string>
 	<string name="save_to_sdcard">Сохранить на SD карту</string>
-	<!--Don't Translate-->
-	<!--End Don't Translate-->
-	<!--please translate from here-->
-	<!--select contacts windows-->
+
+	<!-- Don't Translate -->
+	
+
+	<!-- End Don't Translate -->
+
+	<!-- please translate from here -->
+
+	<!-- select contacts windows -->
 	<string name="menu_search">Поиск</string>
 	<string name="menu_about">О программе</string>
+
 	<string name="menu_end_select">Закончить</string>
 	<string name="menu_select_all">Выбрать всё</string>
 	<string name="menu_cancel_all">Отменить</string>
 	<string name="menu_clear_log">Очистить журнал</string>
+
 	<string name="contact_table_name">Контакт</string>
 	<string name="group_table_name">Группа</string>
 	<string name="recent_table_name">Недавние</string>
-	<!--preference setting xml-->
+
+
+	<!-- preference setting xml -->
 	<string name="pref_app_cat_title">Общие параметры</string>
 	<string name="pref_app_theme_title">Оформление</string>
 	<string name="pref_app_theme_summary">Выбрать тему приложения (тёмная или светлая)</string>
+
 	<string name="pref_app_conversationstyle_title">Стиль окна беседы</string>
 	<string name="pref_app_conversationstyle_summary">Настраивает внешний вид беседы (включая стили Handcent/iPhone/Android)</string>
+
 	<string name="pref_app_datetimeformat_title">Формат даты и времени</string>
 	<string name="pref_app_datetimeformat_summary">Настройка формата отображения даты и времени</string>
 	<string name="pref_app_fontsize_title">Размер шрифта</string>
 	<string name="pref_app_fontsize_summary">Настройка размера шрифта в сообщениях.</string>
+
 	<string name="pref_app_bubble_title">Настройки беседы</string>
 	<string name="pref_app_bubble_summary">Настроить стиль и параметры реплик.</string>
 	<string name="pref_app_autotext_title">Настройки автозамены</string>
 	<string name="pref_app_autotext_summary">Настройки автозамены: автоматич. заглавные, пунктуация, замена слов из списка.</string>
 	<string name="pref_app_dispimg_title">Аватары контактов</string>
 	<string name="pref_app_dispimg_summary">Настройка отображения аватаров контактов</string>
+
 	<string name="pref_app_autorotate_title">Автоповорот</string>
 	<string name="pref_app_autorotate_summary">Смена ориентации экрана при повороте устройства</string>
 	<string name="pref_app_autoratate_alert">Внимание</string>
-	<!--string name="pref_smsrec_cat_title">SMS Receive settings</string-->
+
+	<!-- string name="pref_smsrec_cat_title">SMS Receive settings</string -->
+
+
 	<string name="pref_smsrec_led_title">LED уведомление</string>
 	<string name="pref_smsrec_led_summary">Настроить уведомление, цвет и частоту мерцания</string>
-	<!--string name="pref_smssend_cat_title">Send SMS settings</string-->
+
+	<!-- string name="pref_smssend_cat_title">Send SMS settings</string -->
+
 	<string name="pref_smssend_enablesig_title">Включить подпись</string>
 	<string name="pref_smssend_enablesig_summary">Добавлять подпись в ваши сообщения</string>
+
 	<string name="pref_smssend_personsig_title">Личная подпись</string>
 	<string name="pref_smssend_personsig_summary">Редактировать подпись</string>
+
 	<string name="pref_smsrec_ringtone_summary">Выбрать звук для входящих</string>
+
 	<string name="pref_bubblecontent_cat_title">Настройки содержимого реплик</string>
 	<string name="pref_bubblecontent_hyperlink_title">Гиперссылки</string>
 	<string name="pref_bubblecontent_hyperlink_summary">Преобразовывать телефонные номера, адреса, URL в гиперссылки</string>
 	<string name="pref_datefont_color_title">Цвет шрифта даты</string>
-	<!--string name="pref_bubblecolor_cat_title">Bubble color options</string> 
+	<!-- string name="pref_bubblecolor_cat_title">Bubble color options</string> 
 		<string name="pref_bubblerecvsms_color_title">Received SMS color</string> 
 		<string name="pref_bubblerecvsms_color_summary">Set bubble color for received 
 		messages</string> <string name="pref_bubblesendsms_color_title">Sent SMS 
@@ -568,12 +644,14 @@
 		<string name="pkey_bubble_send_usegrad_title">Use gradient color</string> 
 		<string name="pkey_bubble_send_usegrad_summary">Enable draw bubble with gradient 
 		color,else draw with start color only</string> <string name="grad_start_color_title">Gradient 
-		start color</string> <string name="grad_end_color_title">Gradient end color</string-->
+		start color</string> <string name="grad_end_color_title">Gradient end color</string -->
+
 	<string name="pref_vibrate_cat_title">Настройки виброзвонка</string>
 	<string name="pref_vibrate_cat_summary">Включение и настройка шаблонов виброзвонка</string>
 	<string name="pref_vibrate_pattern_title">Шаблон виброзвонка</string>
 	<string name="pref_vibrate_pattern_summary">Задать выбранный шаблон.</string>
 	<string name="pref_vibrate_pattern_default">Cтандартный</string>
+
 	<string name="pref_led_cat_title">Настройки LED</string>
 	<string name="pref_led_blink_title">Мигать LED</string>
 	<string name="pref_led_blink_summary">Мигать LED при входящем сообщении.</string>
@@ -581,23 +659,33 @@
 	<string name="pref_led_color_summary">Настройка цвета LED</string>
 	<string name="pref_led_freq_title">Частота мигания LED</string>
 	<string name="pref_led_freq_summary">Настройка частоты мигания.</string>
+
 	<string name="pref_retrievesms_cat_title">Настройки доставки SMS</string>
 	<string name="pref_retrievemms_cat_title">Настройки доставки MMS</string>
 	<string name="pref_msg_retrieve_title">Настройки доставки сообщений</string>
 	<string name="pref_msg_retrieve_summary">Настройки доставки сообщений для SMS и MMS</string>
+
 	<string name="pref_smssend_shortkey_title">Горячая клавиша отправки</string>
 	<string name="pref_smssend_shortkey_summary">Горячая клавиша отправки сообщения на клавиатуре.</string>
+
 	<string name="pref_keyboard_cat">Настройки клавиатуры</string>
 	<string name="pref_keyboard_action_title">Кнопка действия</string>
 	<string name="pref_keyboard_action_summary">Тип кнопки действия (справа внизу экранной клавиатуры)</string>
+
 	<string name="pref_key_enable_smiley_title">Включить смайлики</string>
 	<string name="pref_key_enable_smiley_summary">Показывать смайлики в сообщениях</string>
+
+
 	<string name="sms_content_search_hint">Поиск сообщений</string>
-	<string name="notice_autorotate_content">Настройка аналогична системной опции \"Настройка системы\" -&gt; \"Звук и Экран\" -&gt; \"Ориентация\", затрагивает все приложения в системе.</string>
-	<!--popup strings-->
-	<!--string name="new_text_at">New incoming at %s</string> <string name="unread_text_waiting"><u>%d 
-		other unread message(s)</u></string-->
+	<string name="notice_autorotate_content">Настройка аналогична системной опции \"Настройка системы\" -> \"Звук и Экран\" -> \"Ориентация\", затрагивает все приложения в системе.</string>
+
+
+	<!-- popup strings -->
+	<!-- string name="new_text_at">New incoming at %s</string> <string name="unread_text_waiting"><u>%d 
+		other unread message(s)</u></string -->
+
 	<string name="mms_subject">Тема:</string>
+
 	<string name="button_close">Закрыть</string>
 	<string name="button_reply">Ответ</string>
 	<string name="button_inbox">Прочесть</string>
@@ -608,99 +696,132 @@
 	<string name="button_previous">Пред.</string>
 	<string name="button_unlock">Разблокировать</string>
 	<string name="button_tts">Озвучить (TTS)</string>
+
 	<string name="pref_enabled_title">Всплывающее окно</string>
 	<string name="pref_enabled_summaryon">Всплывающее окно включено</string>
 	<string name="pref_enabled_summaryoff">Всплывающее окно отключено</string>
+
 	<string name="pref_popup_setting_title">Настройки вспл. окна</string>
 	<string name="pref_popup_setting__summary">Настройка всплывающего окна, режим приватности и т.д.</string>
+
 	<string name="pref_privacy_title">Режим приватности</string>
 	<string name="pref_privacy_summaryon">Показывать содержимое только после разблокировки</string>
 	<string name="pref_privacy_summaryoff">Показывать содержимое сообщений сразу</string>
+
 	<string name="pref_blur_title">Размытие фона</string>
 	<string name="pref_blur_summaryon">Размывать фон позади окна сообщения</string>
 	<string name="pref_blur_summaryoff">Не изменять фон позади окна сообщения</string>
+
 	<string name="pref_markread_title">Отмечать как прочитанное</string>
 	<string name="pref_markread_summaryon">Отмечать как прочитанное при закрытии всплывающего окна.</string>
 	<string name="pref_markread_summaryoff">Не отмечать как прочитанное при закрытии всплывающего окна.</string>
+
 	<string name="pref_dimscreen_title">Затемнение экрана</string>
 	<string name="pref_dimscreen_summaryon">Затемнять экран всплывающего окна (экономит заряд)</string>
 	<string name="pref_dimscreen_summaryoff">Делать ярче экран всплывающего окна</string>
+
 	<string name="pref_timeout_title">Таймаут подсветки</string>
 	<string name="pref_timeout_summary">Экран отключится по истечении заданного времени.</string>
+
 	<string name="pref_onlyShowOnKeyguard_title">Ограничения</string>
 	<string name="pref_onlyShowOnKeyguard_summaryon">Показывать всплывающее окно, только если защита телефона активна.</string>
 	<string name="pref_onlyShowOnKeyguard_summaryoff">Всегда показывать всплывающее окно</string>
+
 	<string name="pref_notif_repeat_title">Включить напоминания</string>
 	<string name="pref_notif_repeat_summaryon">Напоминать о непрочитанных входящих сообщениях</string>
 	<string name="pref_notif_repeat_summaryoff">Не напоминать о непрочитанных входящих сообщениях</string>
+
 	<string name="pref_notif_privacy_title">Режим приватности</string>
 	<string name="pref_notif_privacy_summary_on">Не показывать содержимое сообщения в области уведомлений.</string>
 	<string name="pref_notif_privacy_summary_off">Показывать содержимое сообщения в области уведомлений.</string>
+
 	<string name="pref_reminder_setting_title">Настройки напоминания</string>
 	<string name="pref_reminder_setting_summary">Настроить интервал, количество напоминаний и т.д.</string>
+
 	<string name="pref_notif_repeat_interval_title">Частота напоминаний</string>
 	<string name="pref_notif_repeat_interval_summary">Время между напоминаниями (сек.)</string>
 	<string name="pref_notif_repeat_interval_dialogTitle">Интервал (минуты)</string>
+
 	<string name="pref_notif_repeat_times_title">Количество напоминаний</string>
 	<string name="pref_notif_repeat_times_summary">Настройка количества повторов напоминаний</string>
+
 	<string name="pref_notif_repeat_screen_on_title">Включение экрана</string>
 	<string name="pref_notif_repeat_screen_on_summaryon">Напоминания включают экран</string>
 	<string name="pref_notif_repeat_screen_on_summaryoff">Напоминания не включают экран</string>
 	<string name="pref_notif_repeat_screen_on_warning">Внимание! Включение экрана напоминаниями может существенно расходовать заряд батареи</string>
+
+
 	<string name="pref_speech_cat_title">Речь</string>
 	<string name="pref_speech_language_title">Язык</string>
 	<string name="pref_speech_language_summary">Настройка языка</string>
 	<string name="pref_speech_rate_title">Темп речи</string>
 	<string name="pref_speech_rate_summary">Настройка темпа речи</string>
+
+
 	<string name="pref_notif_test_title">Проверка</string>
 	<string name="pref_notif_test_summary">Проверка текущего уведомления</string>
 	<string name="pref_notif_test_message">Выполняется предпросмотр уведомлений!</string>
-	<string name="no_found_myautotext_hint">У вас нет автозамены. Чтобы добавить автозамену: Настройки -&gt; Параметры -&gt; Настройки автозамены -&gt; Cписок автозамены -&gt; Добавить</string>
+
+	<string name="no_found_myautotext_hint">У вас нет автозамены. Чтобы добавить автозамену: Настройки -> Параметры -> Настройки автозамены -> Cписок автозамены -> Добавить</string>
 	<string name="insert_fast_words_title">Вставить автозамену</string>
+
 	<string name="pref_media_volume_title">Громкость</string>
 	<string name="pref_media_volume_summary">Настройка громкости звука</string>
-	<!--string name="pref_background_cat_title">Background settings</string> 
+	<!-- string name="pref_background_cat_title">Background settings</string> 
 		<string name="pref_usepic_title">Use picture</string> <string name="pref_usepic_summary">Use 
 		a custom background image</string> <string name="pref_selectpic_title">Select 
 		picture</string> <string name="pref_selectpic_summary">Select a picture as 
 		background</string> <string name="pref_use_themecolor_title">Use theme style</string> 
 		<string name="pref_use_themecolor_summary">Use current application theme 
 		as background</string> <string name="pref_custom_color_title">Custom color</string> 
-		<string name="pref_custom_color_summary">Set a custom background color</string-->
+		<string name="pref_custom_color_summary">Set a custom background color</string -->
+
 	<string name="bubble_setting_title">Настройки беседы</string>
 	<string name="bubble_setting_summary">Настраивает внешний вид реплик: шрифты, цвета, фон и т.д.</string>
+
 	<string name="notification_setting_title">Настройки уведомлений</string>
 	<string name="notification_setting_summary">Настройка уведомлений</string>
+
 	<string name="autotext_setting_title">Настройки автозамены</string>
 	<string name="autotext_setting_summary">Настройки включают заглавные буквы, пунктуацию, автозамену.</string>
-	<!--string name="popup_dialog_alert_title">Popup Alert</string> <string 
+
+	<!-- string name="popup_dialog_alert_title">Popup Alert</string> <string 
 		name="popup_dialog_alert_summary">There is another incoming message.\nWill 
-		you replace current message?</string-->
+		you replace current message?</string -->
+
 	<string name="toast_message_sent">Быстрый ответ отправлен!</string>
 	<string name="speak_message">Проговорить текст</string>
+
 	<string name="pref_autotext_cat">Настройки автозамены</string>
 	<string name="pref_autocap_title">Автозаглавные</string>
 	<string name="pref_autocap_summary_on">Автоматически делать заглавные буквы в начале предложения</string>
 	<string name="pref_autocap_summary_off">Буквы в начале предложений не меняются</string>
+
 	<string name="pref_autotext_title">Автозамена</string>
 	<string name="pref_autotext_summary_on">Включены пунктуация, автокоррекция опечаток и быстрый текст</string>
 	<string name="pref_autotext_summary_off">Выключены пунктуация, автокоррекция опечаток и быстрый текст</string>
+
 	<string name="pref_autolist_title">Список автозамены</string>
 	<string name="pref_autolist_summary">Изменить список автозамены</string>
-	<string name="pref_notif_cat">Настройки уведомления</string>
+
+	<string name="pref_notif_cat">Уведомления</string>
 	<string name="pref_popup_cat">Настройки всплывающего окна</string>
+
 	<string name="pref_popup_quickreply_title">Использовать быстрый ответ</string>
 	<string name="pref_popup_quickreply_summaryon">Включен быстрый ответ</string>
 	<string name="pref_popup_quickreply_summaryoff">Быстрый ответ выключен</string>
+
 	<string name="color_pref_color_red">Красный</string>
 	<string name="color_pref_color_blue">Синий</string>
 	<string name="color_pref_color_green">Зелёный</string>
 	<string name="color_pref_color_trans">Прозрачность</string>
 	<string name="color_pref_colorpreview">Предпросмотр:</string>
-	<!--compse message windows-->
+
+	<!-- compse message windows -->
 	<string name="compose_new_title">Создать новое</string>
 	<string name="composs_longsms_mms_question">Получилось больше 3 SMS сообщений, сконвертировать в MMS?</string>
-	<!--group select dialog-->
+
+	<!-- group select dialog -->
 	<string name="group_sele_end_select">Закончить выбор</string>
 	<string name="group_sele_selectall_title">Подождите…</string>
 	<string name="group_sele_selectall_content">Чтение всех контактов</string>
@@ -709,23 +830,31 @@
 	<string name="group_sele_no_number">Нет номера</string>
 	<string name="group_sele_confirm_title">Нажатие кнопки Назад отменит выделение.\n\nЕсли вы хотите вернуться с сохранением выделения, используйте кнопку Меню вашего устройства.</string>
 	<string name="group_sele_confirm_discard">Отменить выделение</string>
+
 	<string name="cancel">Отмена</string>
+
 	<string name="group_select_wait_title">Подождите…</string>
 	<string name="group_select_wait_content">Проверка всех контактов</string>
 	<string name="recent_dialog_confirm_title">Подтвердить</string>
 	<string name="recent_dialog_confirm_content">Журнал отправленных и Отчёт о доставке будут удалены</string>
 	<string name="menu_send_report_clear">Очистить отчёт</string>
+
 	<string name="send_report_starttime">Начало:</string>
 	<string name="send_report_endtime">Окончание:</string>
 	<string name="send_report_devinfo_title">Информация о доставке</string>
 	<string name="send_report_devinfo_status">Статус:\u0020</string>
 	<string name="send_report_status_success">Успешно</string>
 	<string name="send_report_status_fail">Неудачно</string>
+
 	<string name="pref_smssend_splitthread_title">Разделять на ветки</string>
 	<string name="pref_smssend_splitthread_summary_on">Разделять групповое SMS по беседам для каждого получателя</string>
 	<string name="pref_smssend_splitthread_summary_off">Отправлять как одну ветку при отправке группового SMS.</string>
+
+
 	<string name="delivery_report_nocontent_title">Нет отчётов о доставке</string>
-	<!--Add from version 2.2-->
+
+	<!-- Add from version 2.2 -->
+
 	<string name="pref_app_language_title">Язык</string>
 	<string name="pref_app_language_summary">Выбрать язык приложения</string>
 	<string name="pref_app_language_dialog">Выбрать язык</string>
@@ -733,23 +862,30 @@
 	<string name="conversation_list_deleting">Удаление…</string>
 	<string name="confirm_delete_all_search">Полностью удалить найденное?</string>
 	<string name="confirm_delete_select">Удалить выбранные элементы?</string>
+
 	<string name="pref_popup_delete_dialog_title">Удалить сообщение</string>
 	<string name="pref_popup_delete_dialog_text">Вы уверены?</string>
 	<string name="setting_all_thread_read">Отметка всех сообщений как прочитанные…</string>
+
 	<string name="menu_batch_mode">Выбрать несколько</string>
 	<string name="menu_cancel_batch">Отменить множ. выбор</string>
 	<string name="menu_delete_batch">Удалить выбранное</string>
+
 	<string name="pref_popup_screen_on_title">Включение экрана</string>
 	<string name="pref_popup_screen_on_summaryon">Всплывающее окно включает экран</string>
 	<string name="pref_popup_screen_on_summaryoff">Всплывающее окно не включает экран (экономит заряд)</string>
-	<!--Add from version 2.3-->
+
+	<!-- Add from version 2.3 -->
+
 	<string name="use_contact_pic_title">Использовать фото контакта</string>
 	<string name="use_contact_pic_summary">Установить фото контакта как фон</string>
+
 	<string name="personalization_title">Персонализация</string>
 	<string name="personalization_notif_title">Уведомления</string>
 	<string name="personalization_bubble_title">Реплики</string>
 	<string name="personalization_other_title">Другие настройки</string>
 	<string name="personalization_signature_title">Настройки подписи</string>
+
 	<string name="menu_blacklist">В Чёрный список</string>
 	<string name="menu_unblacklist">Убрать из Чёрного списка</string>
 	<string name="dialog_blacklist_title">Подтвердить</string>
@@ -762,28 +898,40 @@
 	<string name="pref_blacklist_cat">Контакты Чёрного списка</string>
 	<string name="blacklist_show_summaryon">Показывать контакты Чёрного списка</string>
 	<string name="blacklist_show_summaryoff">Прятать контакты Чёрного списка.</string>
-	<!--Add from version 2.3.8-->
+
+	<!-- Add from version 2.3.8 -->
+
+
 	<string name="pref_bubble_showname_title">Показывать имена</string>
 	<string name="pref_bubble_showname_summaryon">Показывать имя перед текстом сообщения</string>
 	<string name="pref_bubble_showname_summaryoff">Не показывать имя перед текстом сообщения</string>
+
+
+
+
 	<string name="reset_dialog_message">Сбросить настройки на значения по умолчанию?</string>
 	<string name="reset_title">Сброс</string>
 	<string name="reset_summary">Сброс настроек на значения по умолчанию</string>
+
 	<string name="personal_bubble_options_cat_title">Настройки реплик</string>
-	<!--Add from version 2.4-->
+
+	<!-- Add from version 2.4 -->
 	<string name="vibrate_pattern_help">Введите шаблон вибрации в формате:\nмсек_Выкл, мсек_Вкл и т.д.\n\nПример:\n0,1000\n0,500,200,500,200,500</string>
 	<string name="vibrate_pattern_ok">Свой шаблон вибрации установлен</string>
 	<string name="vibrate_pattern_bad">Неправильный шаблон вибрации, установлен стандартный.</string>
+
 	<string name="led_pattern_help">Введите промежуток включения и выключения LED в миллисекундах</string>
 	<string name="led_pattern_ok">Скорость мигания LED</string>
 	<string name="led_pattern_bad">Скорость мигания неверна, установлена стандартная.</string>
 	<string name="led_pattern_help_on">Начало:</string>
 	<string name="led_pattern_help_off">Окончание:</string>
+
 	<string name="pref_notif_trackball_cat">Настройки трекболла (индикатора)</string>
 	<string name="pref_notif_trackball_title">Мигать трекболлом</string>
 	<string name="pref_notif_trackball_summary">Мигать трекболлом при новом сообщении (HTC Magic и НТС Hero).</string>
 	<string name="pref_notif_trackball_dialog_title">Интервал мигания</string>
 	<string name="menu_qucik_text">Быстрый текст</string>
+
 	<string name="pref_app_quicktext_title">Быстрый текст</string>
 	<string name="pref_app_quicktext_summary">Управление списком быстрых текстов</string>
 	<string name="quick_text_manager_tilte">Управление быстрым текстом</string>
@@ -795,188 +943,266 @@
 	<string name="quick_text_button_edit">Изменить</string>
 	<string name="quick_text_delete_confirm">Удалить быстрый текст?</string>
 	<string name="quick_text_select">Выбрать быстрый текст</string>
-	<!--add from version 2.4.3-->
+
+	<!-- add from version 2.4.3 -->
 	<string name="menu_savemms">Сохранить MMS</string>
 	<string name="savemms_wait_title">Подождите…</string>
 	<string name="savemms_wait_content">Проверка всех сообщений</string>
+
 	<string name="savemms_found_hint">
 		Найдено
 		<xliff:g id="objcount">%s</xliff:g>
 		объект(ов)
 	</string>
-	<string name="savemms_nofound_hint">Пусто</string>
-	<!--add from version 2.5.2-->
+	<string name="savemms_nofound_hint">Ничего не найдено</string>
+
+	<!-- add from version 2.5.2 -->
 	<string name="send_fail_dlg_message">Сообщение не отправлено, выберите дальнейшее действие</string>
 	<string name="retry">Повтор</string>
 	<string name="manage_recipients_window_title">Управление получателями</string>
+
 	<string name="pref_bubble_showdate_title">Умная метка времени</string>
 	<string name="pref_bubble_showdate_summaryon">Показывать дату и время в каждом сообщении</string>
 	<string name="pref_bubble_showdate_summaryoff">Скрывать дату и время на близких по времени сообщениях.</string>
-	<!--add from version 2.6-->
+
+	<!-- add from version 2.6 -->
 	<string name="pref_popup_openkeyboard_title">Автопоказ клавиатуры</string>
 	<string name="pref_popup_openkeyboard_summaryon">Показывать клавиатуру вместе со всплывающим окном</string>
 	<string name="pref_popup_openkeyboard_summaryoff">Не показывать клавиатуру вместе со всплывающим окном.</string>
+
 	<string name="pref_compose_openkeyboard_title">Автооткрытие клавиатуры</string>
 	<string name="pref_compose_openkeyboard_summaryon">Показывать экранную клавиатуру при создании нового сообщения</string>
 	<string name="pref_compose_opnekeyboard_summaryoff">Не показывать экранную клавиатуру при создании нового сообщения</string>
+
 	<string name="pref_fontpack_list_title">Выбрать пакет шрифтов</string>
 	<string name="pref_app_choose_fontpack">Дополнительный пакет шрифтов</string>
 	<string name="pref_app_choose_fontpack_summary">Выбрать дополнительный шрифт для окна беседы.</string>
 	<string name="pref_fontpack_install_market">Не найден пакет шрифтов, установите шрифты из Google Play</string>
+
 	<string name="pref_fontpack_choosefont_title">Выбрать шрифты</string>
+
 	<string name="show_earlier_messages">Показать ранние сообщения</string>
 	<string name="conversation_list_setting_title">Настройки списка бесед</string>
 	<string name="conversation_list_setting_summary">Настраивает стиль списка бесед</string>
-	<!--string name="enable_conversation_list_custom_title">Enable custom</string> 
+	<!-- string name="enable_conversation_list_custom_title">Enable custom</string> 
 		<string name="enable_conversation_list_custom_summary">Enable custom conversation 
-		list</string> <string name="text_color_category_title">Text color settings</string-->
+		list</string> <string name="text_color_category_title">Text color settings</string -->
 	<string name="contact_font_color_title">Цвет шрифта контакта</string>
 	<string name="contact_font_color_summary">Установить цвет шрифта контакта</string>
+
 	<string name="message_text_font_color_title">Цвет шрифта сообщения</string>
 	<string name="message_text_font_color_summary">Устанавливает цвет шрифта сообщения.</string>
+
 	<string name="date_font_color_title">Цвет шрифта даты</string>
 	<string name="date_font_color_summary">Устанавливает цвет шрифта даты</string>
+
 	<string name="pref_client_deliveryreport_title">Отчёт о доставке Handcent</string>
 	<string name="pref_client_deliveryreport_summary">Отчёт создаётся программой Handcent (без участия оператора).</string>
+
 	<string name="pref_fontpack_size_title">Размер шрифта</string>
 	<string name="pref_fontpack_size_dialog">Выбрать размер шрифта</string>
 	<string name="pref_fontpack_size_preivew">Предпросмотр</string>
 	<string name="pref_fontpack_dlg_fontsize">Размер шрифта:</string>
-	<!--Add from Version 2.7-->
+
+	<!-- Add from Version 2.7 -->
+
 	<string name="replace_music">Заменить музыку</string>
 	<string name="recognition_prompt_text">Продиктуйте быстрый ответ</string>
 	<string name="call_phone">Позвонить</string>
 	<string name="recognizer_not_present">Отсутствует движок распознавания</string>
-	<!--Add from version 2.7.3-->
+
+	<!-- Add from version 2.7.3 -->
 	<string name="popup_window_mode_title">Режим окна</string>
 	<string name="popup_window_mode_summary">Установить режим всплывающего окна (Полный / Упрощённый / Без быстрого ответа).</string>
-	<!--Add from version 2.8-->
+
+	<!-- Add from version 2.8 -->
 	<string name="message_counter_zero">Исходящих сообщений нет</string>
 	<string name="message_counter_prompt">сообщение отправлено</string>
 	<string name="message_counter_prompt_morethan_one">сообщений отправлено</string>
 	<string name="pref_message_counter_title">Счётчик исходящих</string>
 	<string name="pref_message_counter_summary">На данный момент</string>
 	<string name="pref_message_counter_reset">Сброс</string>
-	<string name="menu_recognition">Проговорить</string>
+	<string name="menu_recognition">Продиктовать</string>
 	<string name="recongize_speak_sms">Продиктуйте сообщение</string>
 	<string name="recongize_people_name">Продиктовать имя контакта</string>
+
+
 	<string name="widget_cat_title">Виджет Handcent</string>
 	<string name="widget_show_zero_title">Показывать нулевой счётчик</string>
+
 	<string name="widget_show_zero_summary">Показывать ноль на виджете, когда все сообщения прочитаны</string>
+
 	<string name="skin_type_title">Скин</string>
 	<string name="skin_type_summary">Изменяет скин приложения.</string>
-	<!--add from verson 2.8.5-->
+
+	<!-- add from verson 2.8.5 -->
 	<string name="show_earier_title">Кнопка \"Показать ранние\"</string>
 	<string name="show_earier_summaryon">Отображать кнопку \"Показать ранние\" в длинных ветках сообщений</string>
 	<string name="show_earier_summaryoff">Не отображать кнопку \"Показать ранние\" в длинных ветках сообщений.</string>
 	<string name="recent_pepole_list_title">Недавние собеседники</string>
+
 	<string name="bubble_transposition_title">Расположение реплик</string>
 	<string name="bubble_transposition_summaryon">Входящие справа, исходящие слева</string>
 	<string name="bubble_transposition_summaryoff">Входящие слева, исходящие справа</string>
+
 	<string name="popup_backkey_title">Кнопка \"Назад\"</string>
 	<string name="popup_backkey_summary">Отметить прочитанным после нажатия кнопки \"Назад\".</string>
+
 	<string name="auto_convert_mms_title">Авто преобразование в MMS</string>
 	<string name="auto_convert_mms_summary_on">Преобразовать в MMS, если больше 3-х сообщений в одном.</string>
 	<string name="auto_convert_mms_summary_off">Не преобразовывать в MMS, если больше 3-х сообщений в одном.</string>
+
 	<string name="yesterday">Вчера</string>
-	<!--add from version 2.8.6-->
+	<!-- add from version 2.8.6 -->
 	<string name="pref_display_message_counter">Показывать счётчик сообщений</string>
-	<!--add from version 2.9-->
+
+	<!-- add from version 2.9 -->
 	<string name="popup_confirm_deletion_title">Запрос на удаление</string>
 	<string name="popup_confirm_deletion_summary">Спрашивать перед удалением.</string>
+
 	<string name="unable_diaplay_message">Handcent SMS не может показать это сообщение.</string>
+
 	<string name="divider_color_title">Цвет разделителя</string>
 	<string name="divider_color_summary">Устанавливает цвет разделителя.</string>
+
+
 	<string name="use_android_tts_title">Тип TTS</string>
 	<string name="use_android_tts_summaryon">Использовать сервис Google text-to-speech</string>
 	<string name="use_android_tts_summaryoff">Использовать сервис Eyes-Free text-to-speech</string>
+
 	<string name="pref_show_mobilenumber_only_title">Только мобильные</string>
 	<string name="pref_show_mobilenumber_summaryon">Показывать номера контактов только из класса \"Мобильный\"</string>
 	<string name="pref_show_mobilenumber_summaryoff">Показывать все номера контактов</string>
-	<!--add from version 2.9.1-->
+
+	<!-- add from version 2.9.1 -->
+
 	<string name="enabled_quick_compose_title">Быстрое написание</string>
 	<string name="enabled_quick_compose_summaryon">Включено (на G1 кнопка камеры, на других долгое нажатие кнопки Поиск).</string>
 	<string name="enabled_quick_compose_summaryoff">Отключено</string>
-	<!--add from version 2.9.2-->
+
+	<!-- add from version 2.9.2 -->
 	<string name="pref_input_mode_title">Режим ввода</string>
 	<string name="pref_input_mode_summary">Показывать нормальное или упрощённое поле ввода при создании сообщения.</string>
-	<!--add from version 2.9.4-->
+
+	<!-- add from version 2.9.4 -->
+
+
 	<string name="pref_title_mms_user_agent">Свой User-Agent</string>
 	<string name="pref_mms_user_agent_custom_set">Установить свой User-Agent как:\n</string>
 	<string name="pref_summary_mms_user_agent">Дополнительные настройки для подмены индентификации аппарата. Помогает клиентам UK O2 загружать полноразмерные MMS.</string>
+
+
 	<string name="menu_mark_as_read">Отметить прочитанными</string>
+
+
 	<string name="notif_icon_title">Иконка уведомления</string>
 	<string name="notif_icon_summary">Выбрать иконку уведомлений.</string>
+
 	<string name="font_cat_title">Шрифт</string>
+
 	<string name="popup_deletion_detail_title">Показать детали</string>
 	<string name="popup_deletion_detail_summary">При удалении сообщения показывать детали</string>
-	<!--add from version 2.9.11-->
+
+	<!-- add from version 2.9.11 -->
+
 	<string name="pref_message_timestamp_cat_title">Метка времени</string>
 	<string name="pref_message_timestamp_source_title">Настройки источника метки времени</string>
 	<string name="pref_message_timestamp_source_enable">По времени получения</string>
 	<string name="pref_message_timestamp_source_disable">По времени беспроводной сети</string>
 	<string name="pref_message_timestamp_changed_prompt">Изменение станет актуальным на новых входящих сообщениях</string>
+
 	<string name="pref_message_timestamp_drift_title">Сдвиг отчёта о доставке</string>
 	<string name="pref_message_timestamp_drift_summary">Сдвиг времени, когда используется отметка времени по беспроводным сетям (напр., отчёт о доставке)</string>
+
+
 	<string name="pref_notif_incall_cat">Уведомления при разговоре</string>
 	<string name="pref_notif_sound_incall_title">Звук</string>
 	<string name="pref_notif_sound_incall_summary">Воспроизводит звук нового сообщения во время разговора по телефону</string>
 	<string name="pref_notif_vibrate_incall_titile">Вибрация</string>
 	<string name="pref_notif_vibrate_incall_summary">Воспроизводит вибрацию нового сообщения во время разговора по телефону</string>
+
+
 	<string name="other_retrieve_setting_cat">Другие настройки доставки</string>
 	<string name="self_check_title">Самопроверка</string>
 	<string name="self_check_summary">При получении проверять, что сообщение сохранено.</string>
-	<!--Implement at version 2.9.16-->
+
+	<!-- Implement at version 2.9.16 -->
 	<string name="pref_split_160_title">Разделять по 160 символов</string>
 	<string name="pref_split_160_summary">Автоматически разделять SMS, когда длина превышает 160 символов (для сетей CDMA)</string>
-	<!--add from version 2.9.17-->
+
+	<!-- add from version 2.9.17 -->
 	<string name="menu_add_slideshow">Слайдшоу</string>
 	<string name="title_input_signatrue">Введите подпись</string>
 	<string name="pref_blur_ex_title">Размытие фона</string>
 	<string name="pref_blur_ex_summary">Включить размытие фона. Красивее, но может снизить производительность всплывающего окна.</string>
+
+
 	<string name="pref_display_message_counter_summaryon">Показать счётчик символов под полем ввода</string>
 	<string name="pref_display_message_counter_summaryoff">Спрятать счётчик символов</string>
 	<string name="disable_keyguard_title">Показ при блокировке</string>
 	<string name="disable_keyguard_summaryon">Показывать всплывающее окно поверх экрана блокировки.</string>
 	<string name="disable_keyguard_summaryoff">Показывать всплывающее окно под экраном блокировки - потребуется снять блокировку, чтобы увидеть (защита конфиденциальности).</string>
 	<string name="pref_popup_autorotate_summary">Автоматически поворачивать экран для всплывающего окна</string>
-	<!--add from Handcent SMS 2.9.24-->
+
+	<!-- add from Handcent SMS 2.9.24 -->
 	<string name="pref_use_camera_title">Кнопка Камера</string>
 	<string name="pref_use_camera_summary_on">Открывать окно быстрого написания при долгом нажатии кнопки Камера.</string>
 	<string name="pref_use_camera_summary_off">Кнопка Камера не задействована.</string>
+
+
 	<string name="loading_title">Открытки от Handcent</string>
+
+
 	<string name="select_image_activity_title">Выбрать изображения</string>
 	<string name="attach_xmas">Открытки от Handcent</string>
 	<string name="no_internet_alert_title">Нет доступа в интернет!</string>
 	<string name="no_internet_alert_message">Отсутствует доступ к интернету. Пожалуйста, проверьте настройки подключения.</string>
+
 	<string name="select_image_btn_title">Выбрать</string>
 	<string name="previou_btn_title">Назад</string>
 	<string name="next_btn_title">След.</string>
+
 	<string name="release_notes_title">Release Notes</string>
-	<!--add from version 2.9.27-->
+
+
+	<!-- add from version 2.9.27 -->
 	<string name="quick_compose_not_enable">У вас отключено быстрое сообщение, пожалуйста, включите эту опцию в настройках программы.</string>
 	<string name="pref_noti_shownum_title">Счётчик непрочитанных</string>
 	<string name="pref_noti_shownum_summaryon">Показывать количество новых сообщений на иконке уведомления.</string>
 	<string name="pref_noti_shownum_summaryoff">Показывать только иконку уведомления.</string>
-	<!--add from version 2.9.29-->
+
+
+
+	<!-- add from version 2.9.29 -->
+
+
 	<string name="categories_dialog_title">Категории</string>
+
+
 	<string name="current_password_title">Текущий пароль:</string>
 	<string name="new_password_title">Новый пароль:</string>
 	<string name="confirm_password_title">Подтвердите пароль:</string>
+
 	<string name="clear_password_alert_message">Внимание! Очистка пароля</string>
 	<string name="auth_password_hint_message">Введите пароль:</string>
+
 	<string name="set_password_dialog_title">Задать пароль</string>
 	<string name="clear_password_dialog_title">Очистить пароль</string>
 	<string name="auth_password_dialog_title">Пароль</string>
 	<string name="blank_password_error">Пустой пароль</string>
 	<string name="ne_new_confirm_password_error">Пароли не совпадают</string>
 	<string name="wrong_password_error">Неправильный пароль</string>
+
+
 	<string name="notif_screenon_title">Включать экран</string>
 	<string name="notif_screenon_summary">Включать экран, если всплывающее окно отключено.</string>
+
 	<string name="show_as_flatslideshow_title">Режим просмотра MMS</string>
 	<string name="show_as_flatslideshow_summaryon">Режим просмотра MMS как FlatSlideshow</string>
 	<string name="show_as_flatslideshow_summaryoff">Режим просмотра MMS по умолчанию</string>
-	<!--add from version 2.9.30-->
+
+	<!-- add from version 2.9.30 -->
+
 	<string name="pref_autoreset_send_counter">Автосброс счётчика исходящих</string>
 	<string name="pref_autoreset_send_counter_summary">Периодичность сброса счётчика исходящих.</string>
 	<string name="menu_lock_message">Защитить от удаления</string>
@@ -984,9 +1210,10 @@
 	<string name="confirm_dialog_locked_title">Удалить защищённое сообщение?</string>
 	<string name="confirm_delete_locked_message">Вы точно хотите удалить это защищённое сообщение?</string>
 	<string name="delete_unlocked">Удалить защищённые сообщения</string>
+
 	<string name="pref_mms_max_size">Макс. размер MMS</string>
 	<string name="pref_mms_max_size_summary">Задать максимальный размер MMS сообщения.</string>
-	<!--add from version 2.9.31-->
+	<!-- add from version 2.9.31 -->
 	<string name="pref_show_threadmessages_counter">Счётчик сообщений</string>
 	<string name="pref_show_threadmessages_counter_summary_on">Показывать счётчик сообщений в беседе справа от имени контакта</string>
 	<string name="pref_show_threadmessages_counter_summary_off">Не показывать счётчик сообщений в беседе справа от имени контакта.</string>
@@ -997,31 +1224,43 @@
 	</string>
 	<string name="word_yes">Да</string>
 	<string name="word_no">Нет</string>
+
 	<string name="title_custom_autoreset_day">Выберите день месяца</string>
-	<!--add from version 2.9.32-->
+
+
+
+
+	<!-- add from version 2.9.32 -->
 	<string name="pref_sent_messages_cate">Уведомления о доставке сообщения</string>
 	<string name="pref_sent_notification_title">Уведомления о доставке</string>
 	<string name="pref_sent_notification_summary">Показывать в строке состояния уведомление об отправке и получении сообщения</string>
 	<string name="pref_sent_noti_sound_summary">Выбрать звук уведомления об отправке</string>
 	<string name="pref_sent_noti_vibrate_summary">Вибрация при отправке</string>
+
 	<string name="pref_send_editor_category_title">Поле ввода</string>
 	<string name="pref_send_editor_initial_lines_title">Начальные строки</string>
 	<string name="pref_send_editor_initial_lines_summary_on">2 строки</string>
 	<string name="pref_send_editor_initial_lines_summary_off">1 строка</string>
+
 	<string name="pref_lite_bubble_space_title">Отступ между репликами</string>
 	<string name="pref_lite_bubble_space_summary_on">Уменьшенный отступ между сообщениями, если они отправлены или получены в короткие сроки</string>
 	<string name="pref_lite_bubble_space_summary_off">Обычный отступ между сообщениями, если они отправлены или получены в короткие сроки</string>
 	<string name="sent_notification_title">Статус отправки</string>
 	<string name="received_notification_title">Статус доставки</string>
+
 	<string name="sent_notification_desc">Сообщение для %s отправлено</string>
 	<string name="received_notification_desc">%s получил(а) ваше сообщение</string>
-	<!--add from version 2.9.33-->
+
+	<!-- add from version 2.9.33 -->
 	<string name="privacy_notification_text">Получено новое сообщение</string>
+
 	<string name="pref_social_network">Социальные сети</string>
 	<string name="pref_social_network_source">Настройки источника</string>
 	<string name="pref_social_network_picture_source">Исходное изображение</string>
 	<string name="pref_social_network_picture_source_summary">Получить актуальное изображение из вашей социальной сети.</string>
-	<!--add from version 2.9.34-->
+
+
+	<!-- add from version 2.9.34 -->
 	<string name="music_title">Выбор музыки Handcent</string>
 	<string name="music_silentLabel">Тишина</string>
 	<string name="music_defaultRingtoneLabel">Стандартный</string>
@@ -1029,19 +1268,25 @@
 	<string name="music_ringtone">Системный</string>
 	<string name="music_pickerName">Музыка</string>
 	<string name="music_pickerTitle">Музыка - выбрать трек</string>
+
 	<string name="music_loading">Загрузка</string>
 	<string name="music_noMusic">Отсутствуют музыкальные файлы или\nSD карта не подключена.</string>
+
 	<string name="music_sortByTrack">Треки</string>
 	<string name="music_sortByAlbum">Альбомы</string>
 	<string name="music_sortByArtist">Исполнители</string>
+
 	<string name="music_unknownArtistName">(Неизвестный исполнитель)</string>
 	<string name="music_unknownAlbumName">(Неизвестный альбом)</string>
 	<string name="music_durationformat">
 		<xliff:g id="format">%2$d:%5$02d</xliff:g>
 	</string>
+
 	<string name="menu_force_delete">Стереть</string>
 	<string name="title_default_size">Размер по умолчанию</string>
-	<!--Add from 2.9.36-->
+
+
+	<!-- Add from 2.9.36 -->
 	<string name="pref_socialnetwork_contact_cat">Настройка контактов соц. сетей</string>
 	<string name="pref_socialnetwork_show_contact">Показывать</string>
 	<string name="pref_socialnetwork_show_contact_summary">Показывать контакты из социальных сетей при добавлении / изменении получателей</string>
@@ -1049,11 +1294,16 @@
 	<string name="pref_save_directory_summary">Задать имя папки для сохранения вложений, например, из MMS сообщений</string>
 	<string name="pref_save_directory_title">Имя подпапки в каталоге /sdcard/Handcent</string>
 	<string name="pref_save_directory_invlidate">Неверное имя директории, проверьте и попробуйте снова</string>
-	<!--Add from 2.9.38-->
+
+
+	<!-- Add from 2.9.38 -->
+	<string name="network_type_gsm">GSM</string>
+	<string name="network_type_cdma">CDMA</string>
 	<string name="network_type_confirm">Задайте предпочитаемый тип сети для отправки сообщений.</string>
 	<string name="pref_popup_text_counter">Счётчик текста</string>
 	<string name="pref_popup_text_counter_summary_on">Показывать счётчик текста в окне быстрого ответа</string>
 	<string name="pref_popup_text_counter_summary_off">Не показывать счётчик текста в окне быстрого ответа</string>
+
 	<string name="text_scanning_font">Поиск пакетов шрифтов…</string>
 	<string name="pref_scan_fontpackage_title">Поиск пакетов шрифтов</string>
 	<string name="text_scan_package">Просмотр пакета</string>
@@ -1065,6 +1315,7 @@
 	<string name="pref_custom_size">Размер</string>
 	<string name="pref_incoming_font">Шрифт входящих</string>
 	<string name="pref_outgoing_font">Шрифт исходящих</string>
+
 	<string name="lock_settings_title">Блокировка</string>
 	<string name="lock_type_title">Тип блокировки</string>
 	<string name="lock_pattern_type">Защитный шаблон</string>
@@ -1103,41 +1354,51 @@
 		<xliff:g id="number">%d</xliff:g>
 		секунд.
 	</string>
+
 	<string name="ui_sync_button_label_idle">Сохранить сейчас</string>
 	<string name="ui_sync_button_label_done">Сохранить ещё раз</string>
 	<string name="ui_sync_button_label_error">Повторить</string>
+
 	<string name="ui_sync_button_label_syncing">Остановить</string>
 	<string name="ui_sync_button_label_canceling">Остановка…</string>
 	<string name="resend">Переотправить</string>
+	<string name="faq">FAQ</string>
 	<string name="help">Помощь</string>
 	<string name="pref_custom_contact_font">Шрифт контакта</string>
 	<string name="pref_custom_subject_font">Шрифт сообщения</string>
 	<string name="pref_custom_date_font">Шрифт даты</string>
+
 	<string name="security_level_setting_title">Уровень защиты</string>
 	<string name="security_level_setting_summary">Определить уровень безопасности.</string>
 	<string name="lockpattern_need_to_unlock_use">Нарисуйте шаблон для разблокировки</string>
+
 	<string name="confirm_save_button_title">Сохранить</string>
 	<string name="confirm_discard_button_title">Отменить</string>
 	<string name="confirm_settings_changed_desc">Сохранить эти изменения?</string>
-	<!--string name="disable_custom_setting_title">Disable custom setting</string> 
-		<string name="enable_custom_setting_title">Enable custom setting</string-->
+
+	<!-- string name="disable_custom_setting_title">Disable custom setting</string> 
+		<string name="enable_custom_setting_title">Enable custom setting</string -->
 	<string name="background_custom_setting_title">Фон</string>
 	<string name="hide_messages_counter_setting_title">Спрятать счётчик сообщений</string>
 	<string name="show_messages_counter_setting_title">Показать счётчик сообщений</string>
-	<!--string name="recv_bubble_start_color_setting_title">recv bubble start 
+	<!-- string name="recv_bubble_start_color_setting_title">recv bubble start 
 		color</string> <string name="recv_bubble_end_color_setting_title">recv bubble 
 		end color</string> <string name="send_bubble_start_color_setting_title">send 
 		bubble start color</string> <string name="send_bubble_end_color_setting_title">send 
-		bubble end color</string-->
+		bubble end color</string -->
 	<string name="others_setting_title">Другие…</string>
-	<!--string name="confirm_disable_custom_setting_title">Do you want to disable 
+	<!-- string name="confirm_disable_custom_setting_title">Do you want to disable 
 		custom setting?</string> <string name="confirm_enable_custom_setting_title">Do 
-		you want to enable custom setting?</string-->
+		you want to enable custom setting?</string -->
 	<string name="confirm_reset_setting_title">Сбросить настройки?</string>
 	<string name="confirm_hide_messages_counter_title">Убрать счётчик сообщений?</string>
 	<string name="confirm_show_messages_counter_title">Показать счётчик сообщений?</string>
+
+
 	<string name="pref_custom_look">Внешний вид</string>
 	<string name="pref_security_title">Защита и приватность</string>
+
+
 	<string name="incoming_background_color_title">Цвет фона входящих</string>
 	<string name="outgoing_background_color_title">Цвет фона исходящих</string>
 	<string name="incoming_background_start_color_title">Начальный цвет фона входящих</string>
@@ -1150,26 +1411,35 @@
 	<string name="confirm_enable_smileys_title">Включить смайлики в сообщениях?</string>
 	<string name="confirm_disable_smileys_title">Выключить смайлики в сообщениях?</string>
 	<string name="pref_receive_message_settings_title">Доставка сообщений</string>
+
 	<string name="pref_send_message_settings_title">Отправка сообщений</string>
 	<string name="str_donate">Поддержите нас</string>
+
+
 	<string name="test_button_title">Проверка</string>
 	<string name="test_ledcolor_notification_title">Проверка цвета LED</string>
 	<string name="test_ledcolor_alert_user_offscreen_summary">Ваш аппарат может включать LED только когда экран выключен. Чтобы выполнить предпросмотр, выключите экран.</string>
 	<string name="menu_quick_menu">Меню</string>
-	<!--add from version 3.1-->
+
+	<!-- add from version 3.1 -->
 	<string name="quick_text_existed">Отменено, этот текст уже существует</string>
 	<string name="quick_text_added">Быстрый текст добавлен</string>
 	<string name="quick_text_confirm">Добавить в быстрый текст?</string>
 	<string name="menu_add_to_quickText">В быстрый текст</string>
+
 	<string name="pref_account_cat_title">Аккаунт</string>
 	<string name="account_picture_title">Аватар</string>
+
 	<string name="widget_show_name_title">Название виджета</string>
 	<string name="widget_show_name_summary">Показывать название под виджетом.</string>
+
 	<string name="pref_always_backto_mainscreen">Переходить на домашний экран</string>
 	<string name="pref_always_backto_mainscreen_summary">Возвращаться на главный экран приложения при выходе из беседы</string>
+
 	<string name="account_select_image_dialog_title">Выбрать изображение</string>
 	<string name="account_select_image_choice_pictures">Изображения</string>
 	<string name="account_select_image_choice_camera">Камера</string>
+
 	<string name="input_num_pin_hint">Наберите ваш PIN</string>
 	<string name="input_num_pin_confirm">Подтвердите ваш PIN</string>
 	<string name="input_num_pin_continue">После набора нажмите Продолжить</string>
@@ -1178,14 +1448,18 @@
 	<string name="input_num_pin_longer">PIN должен быть не длиннее 16 символов</string>
 	<string name="input_num_pin_unlock">Введите пароль для разблокировки</string>
 	<string name="lock_numpin_type">Защитный PIN-код</string>
-	<!--Version 3.1.1-->
+
+	<!-- Version 3.1.1 -->
+
 	<string name="account_select_image_choice_owner">Обновить из данных моего контакта</string>
-	<!--Version 3.1.2-->
+
+	<!-- Version 3.1.2 -->
 	<string name="account_select_image_none">Нет</string>
 	<string name="popular_btn_title">Топ</string>
 	<string name="newest_btn_title">Новые</string>
 	<string name="category_title">Категории</string>
 	<string name="attach_text_title">Библиотека Handcent SMS</string>
+
 	<string name="widget_no_messages">Нет сообщений</string>
 	<string name="widget_max_num_of_messages_title">Максимум сообщений</string>
 	<string name="widget_max_num_of_messages_summary">Задать максимум отображаемых сообщений</string>
@@ -1193,6 +1467,9 @@
 	<string name="attach_contact_label_contact_name">Имя контакта:</string>
 	<string name="attach_contact_label_number">Номер:</string>
 	<string name="attach_contact_label_type">Тип:</string>
+
+
+
 	<string name="widget_menu_settings_title">Настройки виджета</string>
 	<string name="widget_action_menu_title">Действия</string>
 	<string name="icon_widget_title">Handcent SMS (иконка)</string>
@@ -1203,20 +1480,32 @@
 	<string name="widget_auto_lock_title">Автоблок</string>
 	<string name="widget_auto_lock_summaryon">Автоматическая блокировка виджета при блокировке телефона.</string>
 	<string name="widget_auto_lock_summaryoff">Блокировать виджет из меню.</string>
+
 	<string name="widget_show_mode_title">Режим показа</string>
-	<!--add from version 3.2.3-->
+
+	<!-- add from version 3.2.3 -->
+
 	<string name="pref_locale_support">Языковая поддержка</string>
 	<string name="pref_greek_sms_mode">Режим Греческих SMS</string>
+
 	<string name="pref_greek_sms_mode_summary">Специальная поддержка Греческих SMS</string>
-	<!--add from 3.2.5-->
+
+
+	<!-- add from 3.2.5 -->
 	<string name="add_to_new_contacts">Добавить контакт</string>
 	<string name="update_to_exist_contact">Обновить контакт</string>
-	<!--add from 3.2.7-->
+
+	<!-- add from 3.2.7 -->
+
+
 	<string name="pref_fail_notificaton_cate">Уведомление об ошибке</string>
 	<string name="pref_fail_notification_sound_summary">Выбрать звук для ошибки отправки</string>
-	<!--add from 3.2.10-->
+
+
+	<!-- add from 3.2.10 -->
 	<string name="user_agent_str">Пожалуйста, отключите опцию Автополучения в других мессенджерах, включая встроенное приложение Android.</string>
-	<!--add from 3.3-->
+
+	<!-- add from 3.3 -->
 	<string name="string_handcent_library">Библиотека Handcent</string>
 	<string name="string_galllery">Галерея</string>
 	<string name="menu_smiley">Смайлики</string>
@@ -1225,9 +1514,11 @@
 	<string name="install_handcent_plugin">Сначала установите Handcent location plugin из Google Play.</string>
 	<string name="handcent_service">Услуги Handcent</string>
 	<string name="handcent_backup">Резервирование</string>
+
 	<string name="no_auth_dialog_title">Авторизация</string>
 	<string name="no_auth_dialog_message">Неверный пользователь или пароль!\nЗадать информацию об учётной записи?</string>
 	<string name="setting_backup_name_template">Настройки-%s</string>
+	<string name="sms_backup_name_template">SMS-%s</string>
 	<string name="sms_backup_memo_template">База SMS от %d</string>
 	<string name="setting_backup_memo_template">Настройки программы от %d</string>
 	<string name="backup_dialog_backup_btn_title">Сохранить</string>
@@ -1236,6 +1527,7 @@
 	<string name="restore_dialog_merge_btn_title">Объединить</string>
 	<string name="restore_dialog_message">\n\nНажмите \"Восстановить\", чтобы вернуть настройки, или \"Удалить\", чтобы стереть запись!</string>
 	<string name="restore_dialog2_message">Найдена актуальная база с %s сообщениями, хотите вычистить ее до восстановления или произвести слияние с другой базой?</string>
+
 	<string name="status_bar_setting_backup_title">Сохранение настроек</string>
 	<string name="status_bar_setting_restore_title">Восстановление настроек</string>
 	<string name="status_bar_setting_delete_title">Удаление настроек</string>
@@ -1246,6 +1538,7 @@
 	<string name="status_bar_canceled_title">Отменено</string>
 	<string name="status_bar_auth_title">Авторизация не пройдена</string>
 	<string name="status_bar_general_error_title">Общая ошибка</string>
+
 	<string name="status_bar_setting_backup_init_message">Подготовка настроек…</string>
 	<string name="status_bar_setting_backup_start_message">Сохранение файла настроек…</string>
 	<string name="status_bar_setting_backup_done_message">Сохранение завершено!</string>
@@ -1271,8 +1564,10 @@
 	<string name="status_bar_general_error_message">Произошла общая ошибка</string>
 	<string name="new_backup_dialog_log_name_title">Имя:</string>
 	<string name="new_backup_dialog_log_memo_title">Заметка:</string>
+
 	<string name="hc_deletion_title">Удаление Handcent</string>
 	<string name="hc_deletion_message">Удаление Handcent, нажмите для отмены.</string>
+
 	<string name="service_updating_title">Обновление сервиса</string>
 	<string name="service_update_dialog_title">Вход</string>
 	<string name="service_update_dialog_error_title">Исключение</string>
@@ -1281,42 +1576,56 @@
 	<string name="service_update_dialog_message_incorrect">Неверное имя аккаунта или пароль!</string>
 	<string name="service_update_dialog_message_temp">Сервер временно недоступен!</string>
 	<string name="service_update_dialog_message_unknown">Неизвестная ошибка!</string>
+
 	<string name="background_select_image_title">Выбрать изображение</string>
 	<string name="change_image_title">Изменить</string>
 	<string name="clear_image_title">Очистить</string>
+
 	<string name="account_name_title">Имя аккаунта:</string>
 	<string name="account_password_title">Пароль:</string>
 	<string name="service_update_preference_title">Войти в My Handcent</string>
+
 	<string name="status_bar_service_expired_title">Услуга истекла</string>
 	<string name="status_bar_service_expired_message">Подписка услуги истекла!</string>
+
 	<string name="unknown_error_dialog_title">Ошибка!</string>
 	<string name="retry_dialog_title">Внимание</string>
 	<string name="retry_dialog_message">Проблема сети.\nНажмите Повторить или Отмена, чтобы вернуться назад.</string>
 	<string name="retry_statusbar_message">Проблема сети.</string>
+
 	<string name="pref_czech_sms_mode">Режим Чешских SMS</string>
 	<string name="pref_czech_sms_mode_summary">Специальная поддержка Чешских SMS</string>
+
 	<string name="max_number_reached_message">Достигнуто максимальное число записей.</string>
 	<string name="service_update_dialog_message_notactived">Ваш Handcent аккаунт не активен!</string>
 	<string name="pref_recv_message_timestamp_drift_title">Смещение времени входящих</string>
 	<string name="pref_recv_message_timestamp_drift_summary">Отрегулируйте смещение времени для входящих сообщений, если используете Droid X с обновлением до Froyo.</string>
+
 	<string name="pref_quick_attach_button">Кнопка вложений</string>
 	<string name="pref_quick_attach_button_summary_on">Показывать кнопку вложений (+) перед полем ввода текста</string>
 	<string name="pref_quick_attach_button_summary_off">Не показывать кнопку вложений перед полем ввода текста</string>
+
 	<string name="pref_spanish_sms_mode">Режим Испанских SMS</string>
 	<string name="pref_spanish_sms_mode_summary">Специальная поддержка Испанских SMS</string>
+
 	<string name="pref_french_sms_mode">Режим Французских SMS</string>
 	<string name="pref_french_sms_mode_summary">Специальная поддержка Французских SMS</string>
+
 	<string name="pref_polish_sms_mode">Режим Польских SMS</string>
 	<string name="pref_polish_sms_mode_summary">Специальная поддержка Польских SMS</string>
+
 	<string name="pref_korean_sms_mode">Режим Корейских SMS</string>
 	<string name="pref_korean_sms_mode_summary">Специальная поддержка Корейских SMS</string>
+
 	<string name="themes_preview_title">Предпросмотр</string>
 	<string name="themes_restore_title">Импорт</string>
 	<string name="themes_delete_title">Удалить</string>
 	<string name="pref_portguese_sms_mode">Режим Португальских SMS</string>
 	<string name="pref_portguese_sms_mode_summary">Специальная поддержка Португальских SMS</string>
+
 	<string name="pref_use_handcent_ringtone">Handcent выбор рингтона</string>
 	<string name="pref_user_handcent_ringtone_summary">Выбор рингтона от Handcent: поддерживает mp3 и имеет улучшенный интерфейс</string>
+
 	<string name="menu_add_to_myText">В Мой текст (онлайн)</string>
 	<string name="pfre_filter_cat">Фильтр</string>
 	<string name="pref_advance_filter">Настройки фильтрации</string>
@@ -1331,6 +1640,7 @@
 	<string name="pref_filter_tag_as_read_summary">Автоматически отмечать отфильтрованные сообщения как прочитанные.</string>
 	<string name="pref_filter_items_cat">Элементы фильтра</string>
 	<string name="pref_filter_setttings_cat">Настройки фильтрации</string>
+
 	<string name="favorite_btn_title">Избранное</string>
 	<string name="use_regex">Использовать регулярные выражения</string>
 	<string name="filter_keyword_item_title">Изменение ключевого слова</string>
@@ -1341,6 +1651,7 @@
 	<string name="pref_filter_delete_keyword">Удалить ключевое слово?</string>
 	<string name="pref_filter_delete_prefix">Удалить префикс?</string>
 	<string name="menu_quicktext_online_title">Мои тексты</string>
+
 	<string name="new_sms_backup_button_title">Сохранение SMS</string>
 	<string name="new_setting_backup_button_title">Сохранение настроек</string>
 	<string name="new_mms_backup_button_title">Сохранение MMS</string>
@@ -1399,13 +1710,13 @@
 	<string name="hc_service_list_summary">Просмотреть все услуги My Handcent Online</string>
 	<string name="permission_refresh_dialog_message">Вы не авторизовались! Пожалуйста, войдите в свой аккаунт Handcent Online или бесплатно создайте новый.</string>
 	<string name="service_update_dialog_message_nopay">Вы не подписаны ни на одну услугу Handcent Online, либо вы не вошли в аккаунт.</string>
-	<!--add from 3.4.2-->
+	<!-- add from 3.4.2 -->
 	<string name="pref_prevent_resend">Блокир. переотправку</string>
 	<string name="pref_prevent_resend_summary">Использовать специальную возможность Handcent, чтобы предотвратить проблему повторной отправки, которая может возникнуть на некоторых телефонах после перезагрузки</string>
-	<!--add from 3.4.4-->
+	<!-- add from 3.4.4 -->
 	<string name="pref_incoming_textlinkcolor_title">Цвет ссылки во входящих</string>
 	<string name="pref_outgoing_textlinkcolor_title">Цвет ссылки в исходящих</string>
-	<!--add from 3.5-->
+	<!-- add from 3.5 -->
 	<string name="ecard_help_tip">Handcent Online открытки, настройте и отсылайте красивые открытки вашим родственникам и друзьям!</string>
 	<string name="ecard_input_hint">Добавьте сюда ваши пожелания!</string>
 	<string name="attach_ecard">Открытка</string>
@@ -1430,7 +1741,7 @@
 	<string name="show_password">Показать пароль.</string>
 	<string name="cant_preview_file_message">Не получается просмотреть файл!</string>
 	<string name="file_size_title">Размер:</string>
-	<!--add from 3.5.1-->
+	<!-- add from 3.5.1 -->
 	<string name="search_by_contact">Поиск по имени</string>
 	<string name="serach_by_content">Поиск по содержимому</string>
 	<string name="edit_box_font">Шрифт поля ввода</string>
@@ -1440,7 +1751,7 @@
 	<string name="send_message_confirmation">Отправить это сообщение сейчас?</string>
 	<string name="pref_send_message_confirm">Подтверждать отправку</string>
 	<string name="pref_send_message_confirm_summary">Диалог подтверждения перед отправкой сообщения.</string>
-	<!--add from 3.5.3-->
+	<!-- add from 3.5.3 -->
 	<string name="no_storage">SD карта не найдена. Пожалуйста, вставьте SD карту дляиспользования данной услуги.</string>
 	<string name="pref_smileys">Набор смайликов</string>
 	<string name="vcard">vCard</string>
@@ -1456,7 +1767,7 @@
 	<string name="string_import_success">Импорт выполнен</string>
 	<string name="string_import_fail">Импорт не удался</string>
 	<string name="string_draft">Черновики</string>
-	<!--add from 3.6.1-->
+	<!-- add from 3.6.1 -->
 	<string name="search_smileys_install_market">Поискать ещё смайлики в Google Play</string>
 	<string name="box_help_tip">Как сохранить важные сообщения на сервер: открыть беседу, долгое нажатие на сообщение, выбрать \"Сохранить в Handcent Box\".</string>
 	<string name="box_title">Handcent Box</string>
@@ -1489,7 +1800,7 @@
 	<string name="input_directly_title">Ввести номер вручную</string>
 	<string name="empty_blacklist_title">Нет записей</string>
 	<string name="skin_chooser_title">Подбор скинов</string>
-	<!--add from 3.7.8-->
+	<!-- add from 3.7.8 -->
 	<string name="pref_screen_brightness_cat">Настройка яркости</string>
 	<string name="pref_screen_display_mode_title">Режим экрана</string>
 	<string name="pref_screen_display_mode_summary">Смена яркости экрана для сбережения батареи; автоматический режим для перехода в Ночной режим при наступлении заданного времени.</string>
@@ -1553,20 +1864,20 @@
 	<string name="cancel_deletion_message">Отменить текущее удаление?</string>
 	<string name="pref_sms_email_gateway_title">SMS на Email шлюз</string>
 	<string name="pref_sms_email_gateway_summary">Отправка email через SMS на email шлюз (доступно не у всех операторов)</string>
-	<!--add from 3.8.5-->
+	<!-- add from 3.8.5 -->
 	<string name="edit_box_font_color">Цвет шрифта поля ввода</string>
 	<string name="pbox_restore_prompt_message">Операция восстановления перезапишет существующие данные в личном ящике, продолжить?</string>
-	<!--<string name="global_release_note"> #3.8.6 \\n\\n Support Mms for privacy 
+	<!-- <string name="global_release_note"> #3.8.6 \\n\\n Support Mms for privacy 
 		box now \\n\\n Fix lag and some force close issue \\n\\n Improve menu interface 
 		\\n\\n Improve launch speed and better memory usage \\n\\n My Handcent online 
-		website updated</string>-->
-	<!--add from 3.8.6-->
+		website updated</string> -->
+	<!-- add from 3.8.6 -->
 	<string name="attach_record_video">Записать видео</string>
 	<string name="pref_sending_progress_icon">Иконка отправки</string>
 	<string name="pref_fast_popup_title">Быстрое вспл. окно</string>
 	<string name="pref_fast_popup_summaryon">Показывать всплывающее окно сразу после приёма сообщения</string>
 	<string name="pref_fast_popup_summaryoff">Показывать всплывающее окно вместе с уведомлением после того, как сообщение будет полностью загружено. Это может занять некоторое время.</string>
-	<!--add from 3.9-->
+	<!-- add from 3.9 -->
 	<string name="schedule_task_title">Задания планировщика</string>
 	<string name="set_time_title">Время</string>
 	<string name="set_repeat_title">Повтор</string>
@@ -1631,7 +1942,7 @@
 	<string name="schedule_time_invalid_message">Время задания неверно, укажите правильное.</string>
 	<string name="schedule_auto_delete_invalid_task_title">Автоудаление</string>
 	<string name="schedule_auto_delete_invalid_task_summary">Автоматически удалять истекшие или неправильные задания.</string>
-	<!--add from 3.9.2-->
+	<!-- add from 3.9.2 -->
 	<string name="pref_default_message">Мессенджер по умолчанию</string>
 	<string name="pref_default_message_summary">Установить Handcent приложением по умолчанию для сообщений и полностью отключить стандартные и любые другие SMS/MMS приложения</string>
 	<string name="pref_default_message_warnning">Включение этой опции полностью отключит стандартные и любые другие SMS/MMS приложения, гарантируя, что Handcent SMS станет приложением по умолчанию для сообщений в вашем телефоне. Действие можно отменить в любое время.</string>
@@ -1642,7 +1953,8 @@
 	<string name="dont_show_again_title">Всегда использовать этот ответ.</string>
 	<string name="hcmms_auto_convert_title">Автоконвертация</string>
 	<string name="hcmms_auto_convert_summary">Автоматически преобразовывать высококачественные изображения, аудиозаписи и видео в \"Handcent MMS+\" и отправлять их через Сеть Handcent.</string>
-	<string name="inconv_max_number_reached_message">Вы достигли максимума хранимых файлов. Пожалуйста, удалите часть старых файлов (Настройки -&gt; Услуги Handcent -&gt; Handcent MMS+) и попробуйте снова, либо приобретите один из расширенных сервисов.</string>
+
+	<string name="inconv_max_number_reached_message">Вы достигли максимума хранимых файлов. Пожалуйста, удалите часть старых файлов (Настройки -> Услуги Handcent -> Handcent MMS+) и попробуйте снова, либо приобретите один из расширенных сервисов.</string>
 	<string name="select_file_title">Выбрать файл</string>
 	<string name="menu_add_to_schedule_task">Добавить в планировщик</string>
 	<string name="pref_led_plus_title">LED+</string>
@@ -1657,7 +1969,7 @@
 	<string name="pref_search_groupsms_plugin">Поиск плагинов групповых SMS на Google Play</string>
 	<string name="pref_delay_send_title">Задержка отправки</string>
 	<string name="pref_dealy_send_summary">Делает паузу перед отправкой сообщения после того, как вы нажмёте Отправить. Позволяет отменить отправку и исправить ошибки, которые вы заметили в последний момент.</string>
-	<!--add from version 3.9.6-->
+	<!-- add from version 3.9.6 -->
 	<string name="share_btn_title">Поделиться</string>
 	<string name="share_area_title">Область</string>
 	<string name="share_state_shared">Поделились</string>
@@ -1671,10 +1983,10 @@
 	<string name="timestamp_ppl_sent_memsage">Сообщение отправлено</string>
 	<string name="timestamp_received_memsage">Сообщение получено</string>
 	<string name="str_spell_checking">Проверка правописания</string>
-	<!--add from 3.9.8-->
+	<!-- add from 3.9.8 -->
 	<string name="pref_advance_mms_download_title">Расширенная загрузка</string>
 	<string name="pref_advance_mms_download_summary">Это расширенная возможность MMS, которая помогает адресатам скачивать изображения и видео в высоком разрешении. Действует только на поддерживаемых устройствах с поддерживаемыми операторами.</string>
-	<!--add from 3.9.8.1-->
+	<!-- add from 3.9.8.1 -->
 	<string name="pref_slovak_sms_mode">Режим Словацких SMS</string>
 	<string name="pref_slovak_sms_mode_summary">Специальная поддержка Словацких SMS</string>
 	<string name="view_user_only_title">Просмотреть \"%s\"</string>
@@ -1688,7 +2000,7 @@
 	<string name="pref_fast_scroller_style_summary">Стиль прокрутки списка выбора контактов</string>
 	<string name="schedule_enable_run_notification_title">Уведомления о запуске</string>
 	<string name="schedule_enable_run_notification_summary">При запуске задания планировщика показывать уведомление.</string>
-	<!--add from 3.9.9-->
+	<!-- add from 3.9.9 -->
 	<string name="my_gallery_stat_message">У вас %s изображений.</string>
 	<string name="add_to_my_gallery_title">Добавить в Мою Галерею</string>
 	<string name="add_to_my_gallery_toast_message">Добавлено в Мою Галерею!</string>
@@ -1702,7 +2014,7 @@
 	<string name="hc_greeting_message">Библиотека поздравительных картинок: Смешные, Романтические, День рождения. Постоянно добавляются новые изображения!</string>
 	<string name="my_gallery_title">Моя галерея</string>
 	<string name="my_gallery_message">Сохранить изображения онлайн (долгий тап на сообщении с картинкой, выберите \"Добавить в Мою галерею\" или \"Загрузить\"), используйте их в любое время.</string>
-	<!--add from 4.0-->
+	<!-- add from 4.0 -->
 	<string name="pref_storage_settings">Настройки хранения</string>
 	<string name="pref_autodelete_older_message_title">Удалять старые</string>
 	<string name="pref_autodelete_older_message_summary">Удалять старые сообщения при достижении указанных лимитов</string>
@@ -1760,6 +2072,7 @@
 	<string name="key_account">Имя аккаунта: %s</string>
 	<string name="key_hcaccount">Аккаунт Handсent: %s</string>
 	<string name="key_chooselocal">Укажите страну или область</string>
+	<string name="key_formatcode">(+%s)</string>
 	<string name="key_errorcountry">Неверный код страны</string>
 	<string name="key_changenickname">Сменить ник</string>
 	<string name="key_msgchangenickname">Введите новый ник</string>
@@ -1860,7 +2173,7 @@
 		Написать
 		<xliff:g id="name">%s</xliff:g>
 	</string>
-	<!--add from 4.1-->
+	<!-- add from 4.1 -->
 	<string name="pref_enable_numbers">Показать номера</string>
 	<string name="pref_disable_numbers">Скрыть номера</string>
 	<string name="confirm_enable_numbers_title">Показывать номера телефонов в заголовках бесед?</string>
@@ -1913,15 +2226,21 @@
 		<xliff:g id="number" example="3">%1$s</xliff:g>
 		новых сообщений
 	</string>
+	<string name="enumeration_comma">,\u0020</string>
+	<string name="notification_separator">\u0020\u0020</string>
 	<string name="pref_notify_mms_after_download_title">Уведомлять после загрузки</string>
 	<string name="pref_notify_mms_after_download_summary">Уведомлять и показывать всплывающее окно только после того, как MMS будет загружено (только когда Handcent установлен мессенджером по умолчанию).</string>
-	<string name="warnning_mms_after_download">Пожалуйста, включите опции Настройки -&gt; Мессенджер по умолчанию и Доставка сообщений -&gt; Доставка MMS -&gt; Автополучение</string>
+
+
+
+
+	<string name="warnning_mms_after_download">Пожалуйста, включите опции Настройки -> Мессенджер по умолчанию и Доставка сообщений -> Доставка MMS -> Автополучение</string>
 	<string name="pref_android40_social_network">Показывать контакты из Facebook и других социальных сетей как контакты Handcent. Требуется рут и доступ на чтение контактов из соц. сетей для сторонних приложений. Вы можете прекратить доступ в любой момент, отключив данную опцию.</string>
 	<string name="pref_android40_social_enabler_title">Включить соц. сети</string>
 	<string name="pref_android40_social_enabler_summary">Включить отображение контактов и соц. сетей для аппаратов с Android 4.0 и рутом</string>
 	<string name="pref_close_dialog_title">Кнопки закрытия в диалогах</string>
 	<string name="pref_close_dialog_summary">Показывать кнопки закрытия и отмены в диалогах?</string>
-	<!--hctalk control-->
+	<!-- hctalk control -->
 	<string name="pref_hctalk_mode_title">Режим запуска</string>
 	<string name="pref_hctalk_mode_summary">Установить режим запуска Talk (автоматический режим экономит заряд батареи)</string>
 	<string name="pref_hctalk_starttime_title">Время выключения</string>
@@ -1954,7 +2273,7 @@
 	<string name="time_picker_dialog_title">Укажите время</string>
 	<string name="date_time_set">Установить</string>
 	<string name="pref_widget_setting">Настройки виджета</string>
-	<!--string-->
+	<!-- string -->
 	<string name="pictrue">Картинка</string>
 	<string name="music">Музыка</string>
 	<string name="contact">Контакт</string>
@@ -2007,7 +2326,7 @@
 	<string name="error_info">Сведения об ошибке…</string>
 	<string name="waiting_agree">Ваш запрос отправлен, ждите ответа</string>
 	<string name="slide_title" formatted="false">Слайд %s/%s</string>
-	<!--Skins-->
+	<!-- Skins -->
 	<string name="blackskin">Тёмный</string>
 	<string name="blueskin">По умолчанию (Синий)</string>
 	<string name="skinsetting">Настройки скина</string>
@@ -2048,7 +2367,7 @@
 	<string name="talk_ad_summary6">Делитесь изображениями и фотографиями в высоком разрешении без сжатия</string>
 	<string name="pref_task_order_type_title">Сортировка заданий</string>
 	<string name="pref_task_order_type_desc">Настроить сортировку заданий планировщика</string>
-	<!--backup/restore-->
+	<!-- backup/restore -->
 	<string name="backup_service_my_backup_title">Моя резервная копия</string>
 	<string name="backup_service_my_backup_backuping_btn">Сохранение</string>
 	<string name="string_sms">SMS</string>
@@ -2067,7 +2386,14 @@
 	<string name="backup_service_detail_attachment">Вложение</string>
 	<string name="backup_service_detail_attachment_uploaded">Загружено</string>
 	<string name="backup_service_detail_attachment_no_uploaded">Загрузить не удалось</string>
+	<string name="backup_service_detail_os_android">Android</string>
+	<string name="backup_service_detail_os_ios">iOS</string>
+	<string name="backup_service_detail_os_ios4">iOS4</string>
+	<string name="backup_service_detail_os_ios5">iOS5</string>
+	<string name="backup_service_detail_os_ios6">iOS6</string>
+	<string name="backup_service_detail_os_winphone">Windows Phone</string>
 	<string name="backup_service_new_title">Новое сохранение</string>
+	<string name="backup_service_new_name_template">Backup-%s</string>
 	<string name="backup_service_new_memo_template">Резервная копия данных в %d</string>
 	<string name="backup_service_form_backup_type">Тип</string>
 	<string name="backup_service_form_backup_name">Имя</string>
@@ -2124,6 +2450,8 @@
 	<string name="online_gallery_send_notify">Ошибка при отправке!</string>
 	<string name="unlink_title">Отвязать номер телефона</string>
 	<string name="audio_time">Время: %s \'</string>
+	<string name="show_audio_time">%s \'</string>
+	
 	<string name="default_vcard">Информация VCard</string>
 	<string name="can_not_find_friend">Не удалось найти друзей, повторите попытку</string>
 	<string name="hcbox_copy_message_text_button">Копия</string>

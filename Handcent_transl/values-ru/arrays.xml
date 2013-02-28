@@ -17,7 +17,7 @@
         <item>Один день</item>
         <item>Одна неделя</item>
     </string-array>
-
+	
    
     <string-array name="pref_entries_mms_priority">
         <item>Низкий</item>
@@ -30,14 +30,14 @@
         <item>Предупреждение</item>
         <item>Свободный</item>
     </string-array>
-
+   
    
     <string-array name="pref_entries_mms_creation_mode">
         <item>Ограниченный</item>
         <item>Предупреждение</item>
         <item>Свободный</item>
     </string-array>
-
+    
     <string-array name="pref_notif_repeat_times_entries">
         <item>1</item>
         <item>2</item>
@@ -91,13 +91,12 @@
         <item>Большие</item>
     </string-array>
 
-<!-- ? -->
     <string-array name="rate_entries">
+        <item>Очень медленный</item>
         <item>Медленный</item>
-        <item>Замедленный</item>
         <item>Нормальный</item>
-        <item>Ускоренный</item>
         <item>Быстрый</item>
+        <item>Очень быстрый</item>
     </string-array>
 
    
@@ -423,6 +422,24 @@
     </string-array>
    
    <!-- add by version 3.1 -->
+   <!-- Don't Translate! -->
+   <!--
+   <string-array name="pref_max_mms_size_new_values">
+   	   <item>default</item>
+   	   <item>100</item>
+       <item>200</item>
+       <item>300</item>
+       <item>500</item>
+       <item>600</item>
+       <item>1024</item>
+       <item>1200</item>
+       <item>2048</item>
+       <item>5000</item>
+   </string-array> 
+   -->
+   
+   <!-- Translate from here -->
+   
    
     <string-array name="pref_security_lock_type_entries">
         <item>Нет</item>
@@ -533,6 +550,39 @@
         <item>По умолчанию (оба)</item>
         <item>Только стандартные</item>
         <item>Только emoji</item>
+	</string-array>
+	
+	<string-array
+		name="chinese_tts_role_entries">
+		<item>Женский</item>
+		<item>Мужской</item>
+	</string-array>
+	
+	<string-array
+		name="chinese_tts_speed_entries">
+        <item>Очень медленный</item>
+        <item>Медленный</item>
+        <item>Нормальный</item>
+        <item>Быстрый</item>
+        <item>Очень быстрый</item>
+	</string-array>
+	
+	<string-array
+		name="chinese_tts_volume_entries">
+		<item>Тихий</item>
+		<item>Очень негромкий</item>
+		<item>Негромкий</item>
+		<item>Средний</item>
+		<item>Громкий</item>
+		<item>Очень громкий</item>
+	</string-array>
+	
+	<string-array
+		name="chinese_asr_rate_entries">
+		<item>8K</item>
+		<item>11K</item>
+		<item>16K</item>
+		<item>22K</item>
     </string-array>
 
     <string-array name="full_editor_launch_method_entries">
@@ -588,6 +638,39 @@
         <item>Чт</item>
         <item>Пт</item>
         <item>Сб</item>
+	</string-array>
+	<string-array name="str_repeat_monthly_day_entries">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+		<item>11</item>
+		<item>12</item>
+		<item>13</item>
+		<item>14</item>
+		<item>15</item>
+		<item>16</item>
+		<item>17</item>
+		<item>18</item>
+		<item>19</item>
+		<item>20</item>
+		<item>21</item>
+		<item>22</item>
+		<item>23</item>
+		<item>24</item>
+		<item>25</item>
+		<item>26</item>
+		<item>27</item>
+		<item>28</item>
+		<item>29</item>
+		<item>30</item>
+		<item>31</item>
     </string-array>
 
     <string-array name="str_repeat_yearly_month_entries">
@@ -686,6 +769,16 @@
 		<item>Только [Х] в заголовке</item>
 		<item>Только Отмена</item>
 	</string-array>
+    <!-- Don't Translate! -->
+	<!--
+	<string-array name="pref_close_dialog_entries_values">
+		<item>both</item>
+		<item>close</item>
+		<item>cancel</item>
+	</string-array>
+	-->
+
+   <!-- Translate from here -->
 
 	<string-array name="pref_switch_effect_entries">
       <item>Классический</item>
@@ -750,8 +843,6 @@
    		<item>Хитрый</item>
    		<item>Ты с ума сошёл!</item>
    </string-array>  	
-   
-   
    	<string-array name="pref_schedule_task_sort_type_entries">
 		<item>По времени запуска</item>
 		<item>По времени создания</item>
