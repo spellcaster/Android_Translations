@@ -293,7 +293,7 @@
 	<string name="pref_default_mms_resubmission_mode">ограничено</string>
 
 	<!-- Settings screen, setting summary text -->
-	<string name="pref_summary_manage_sim_messages">Управление сообщениями, хранящимися на SIM карте.</string>
+	<string name="pref_summary_manage_sim_messages">Управление сообщениями, хранящимися на SIM карте</string>
 	<!-- Settings screen, setting summary text -->
 	<string name="pref_summary_mms_delivery_reports">Запрос отчёта о доставке для каждого исходящего</string>
 	<!-- Settings screen, setting summary text -->
@@ -310,7 +310,7 @@
 	<string name="pref_title_sms_delivery_reports">Отчёты о доставке</string>
 	<!-- Settings screen, setting option name -->
 	<string name="pref_title_notification_enabled">Уведомления</string>
-	<string name="pref_summary_notification_enabled">Отображать уведомления в строке состояния.</string>
+	<string name="pref_summary_notification_enabled">Отображать уведомления в строке состояния</string>
 	<!-- Settings screen, setting option name -->
 	<string name="pref_title_notification_vibrate">Виброзвонок</string>
 	<!-- Settings screen, setting summary text -->
@@ -585,10 +585,10 @@
 	<string name="pref_app_datetimeformat_title">Формат даты и времени</string>
 	<string name="pref_app_datetimeformat_summary">Настройка формата отображения даты и времени</string>
 	<string name="pref_app_fontsize_title">Размер шрифта</string>
-	<string name="pref_app_fontsize_summary">Настройка размера шрифта в сообщениях.</string>
+	<string name="pref_app_fontsize_summary">Настройка размера шрифта в сообщениях</string>
 
 	<string name="pref_app_bubble_title">Настройки беседы</string>
-	<string name="pref_app_bubble_summary">Настроить стиль и параметры реплик.</string>
+	<string name="pref_app_bubble_summary">Настроить стиль и параметры реплик</string>
 	<string name="pref_app_autotext_title">Настройки автозамены</string>
 	<string name="pref_app_autotext_summary">Настройки автозамены: автоматич. заглавные, пунктуация, замена слов из списка.</string>
 	<string name="pref_app_dispimg_title">Аватары контактов</string>
@@ -653,16 +653,16 @@
 	<string name="pref_vibrate_cat_title">Настройки виброзвонка</string>
 	<string name="pref_vibrate_cat_summary">Включение и настройка шаблонов виброзвонка</string>
 	<string name="pref_vibrate_pattern_title">Шаблон виброзвонка</string>
-	<string name="pref_vibrate_pattern_summary">Задать выбранный шаблон.</string>
+	<string name="pref_vibrate_pattern_summary">Задать выбранный шаблон</string>
 	<string name="pref_vibrate_pattern_default">Cтандартный</string>
 
 	<string name="pref_led_cat_title">Настройки LED</string>
 	<string name="pref_led_blink_title">Мигать LED</string>
-	<string name="pref_led_blink_summary">Мигать LED при входящем сообщении.</string>
+	<string name="pref_led_blink_summary">Мигать LED при входящем сообщении</string>
 	<string name="pref_led_color_title">Цвет LED</string>
 	<string name="pref_led_color_summary">Настройка цвета LED</string>
 	<string name="pref_led_freq_title">Частота мигания LED</string>
-	<string name="pref_led_freq_summary">Настройка частоты мигания.</string>
+	<string name="pref_led_freq_summary">Настройка частоты мигания</string>
 
 	<string name="pref_retrievesms_cat_title">Настройки доставки SMS</string>
 	<string name="pref_retrievemms_cat_title">Настройки доставки MMS</string>
@@ -670,7 +670,7 @@
 	<string name="pref_msg_retrieve_summary">Настройки доставки сообщений для SMS и MMS</string>
 
 	<string name="pref_smssend_shortkey_title">Горячая клавиша отправки</string>
-	<string name="pref_smssend_shortkey_summary">Горячая клавиша отправки сообщения на клавиатуре.</string>
+	<string name="pref_smssend_shortkey_summary">Горячая клавиша отправки сообщения на клавиатуре</string>
 
 
 	<string name="pref_keyboard_cat">Настройки клавиатуры</string>
@@ -720,18 +720,18 @@
 	<string name="pref_blur_summaryoff">Не изменять фон позади окна сообщения</string>
 
 	<string name="pref_markread_title">Отмечать как прочитанное</string>
-	<string name="pref_markread_summaryon">Отмечать как прочитанное при закрытии всплывающего окна.</string>
-	<string name="pref_markread_summaryoff">Не отмечать как прочитанное при закрытии всплывающего окна.</string>
+	<string name="pref_markread_summaryon">Отмечать как прочитанное при закрытии всплывающего окна</string>
+	<string name="pref_markread_summaryoff">Не отмечать как прочитанное при закрытии всплывающего окна</string>
 
 	<string name="pref_dimscreen_title">Затемнение экрана</string>
 	<string name="pref_dimscreen_summaryon">Затемнять экран всплывающего окна (экономит заряд)</string>
 	<string name="pref_dimscreen_summaryoff">Делать ярче экран всплывающего окна</string>
 
 	<string name="pref_timeout_title">Таймаут подсветки</string>
-	<string name="pref_timeout_summary">Экран отключится по истечении заданного времени.</string>
+	<string name="pref_timeout_summary">Экран отключится по истечении заданного времени</string>
 
 	<string name="pref_onlyShowOnKeyguard_title">Ограничения</string>
-	<string name="pref_onlyShowOnKeyguard_summaryon">Показывать всплывающее окно, только если защита телефона активна.</string>
+	<string name="pref_onlyShowOnKeyguard_summaryon">Показывать всплывающее окно, только если защита телефона активна</string>
 	<string name="pref_onlyShowOnKeyguard_summaryoff">Всегда показывать всплывающее окно</string>
 
 	<string name="pref_notif_repeat_title">Включить напоминания</string>
@@ -739,8 +739,8 @@
 	<string name="pref_notif_repeat_summaryoff">Не напоминать о непрочитанных входящих сообщениях</string>
 
 	<string name="pref_notif_privacy_title">Режим приватности</string>
-	<string name="pref_notif_privacy_summary_on">Не показывать содержимое сообщения в области уведомлений.</string>
-	<string name="pref_notif_privacy_summary_off">Показывать содержимое сообщения в области уведомлений.</string>
+	<string name="pref_notif_privacy_summary_on">Не показывать содержимое сообщения в области уведомлений</string>
+	<string name="pref_notif_privacy_summary_off">Показывать содержимое сообщения в области уведомлений</string>
 
 	<string name="pref_reminder_setting_title">Настройки напоминания</string>
 	<string name="pref_reminder_setting_summary">Настроить интервал, количество напоминаний и т.д.</string>
@@ -793,7 +793,7 @@
 	<string name="notification_setting_summary">Настройка уведомлений</string>
 
 	<string name="autotext_setting_title">Настройки автозамены</string>
-	<string name="autotext_setting_summary">Настройки включают заглавные буквы, пунктуацию, автозамену.</string>
+	<string name="autotext_setting_summary">Настройки включают заглавные буквы, пунктуацию, автозамену</string>
 
 	<!-- string name="popup_dialog_alert_title">Popup Alert</string> <string 
 		name="popup_dialog_alert_summary">There is another incoming message.\nWill 
@@ -858,7 +858,7 @@
 
 	<string name="pref_smssend_splitthread_title">Разделять на ветки</string>
 	<string name="pref_smssend_splitthread_summary_on">Разделять групповое SMS по беседам для каждого получателя</string>
-	<string name="pref_smssend_splitthread_summary_off">Отправлять как одну ветку при отправке группового SMS.</string>
+	<string name="pref_smssend_splitthread_summary_off">Отправлять как одну ветку при отправке группового SMS</string>
 
 
 	<string name="delivery_report_nocontent_title">Нет отчётов о доставке</string>
@@ -907,7 +907,7 @@
 	<string name="pref_blacklist_show_title">Показывать Чёрный список</string>
 	<string name="pref_blacklist_cat">Контакты Чёрного списка</string>
 	<string name="blacklist_show_summaryon">Показывать контакты Чёрного списка</string>
-	<string name="blacklist_show_summaryoff">Прятать контакты Чёрного списка.</string>
+	<string name="blacklist_show_summaryoff">Прятать контакты Чёрного списка</string>
 
 	<!-- Add from version 2.3.8 -->
 	
@@ -938,7 +938,7 @@
 
 	<string name="pref_notif_trackball_cat">Настройки трекболла (индикатора)</string>
 	<string name="pref_notif_trackball_title">Мигать трекболлом</string>
-	<string name="pref_notif_trackball_summary">Мигать трекболлом при новом сообщении (HTC Magic и НТС Hero).</string>
+	<string name="pref_notif_trackball_summary">Мигать трекболлом при новом сообщении (HTC Magic и НТС Hero)</string>
 	<string name="pref_notif_trackball_dialog_title">Интервал мигания</string>
 	<string name="menu_qucik_text">Быстрый текст</string>
 
@@ -967,18 +967,18 @@
 	<string name="savemms_nofound_hint">Ничего не найдено</string>
 
 	<!-- add from version 2.5.2 -->
-	<string name="send_fail_dlg_message">Сообщение не отправлено, выберите дальнейшее действие</string>
+	<string name="send_fail_dlg_message">Сообщение не отправлено, выберите дальнейшее действие.</string>
 	<string name="retry">Повтор</string>
 	<string name="manage_recipients_window_title">Управление получателями</string>
 
 	<string name="pref_bubble_showdate_title">Умная метка времени</string>
 	<string name="pref_bubble_showdate_summaryon">Показывать дату и время в каждом сообщении</string>
-	<string name="pref_bubble_showdate_summaryoff">Скрывать дату и время на близких по времени сообщениях.</string>
+	<string name="pref_bubble_showdate_summaryoff">Скрывать дату и время на близких по времени сообщениях</string>
 
 	<!-- add from version 2.6 -->
 	<string name="pref_popup_openkeyboard_title">Автопоказ клавиатуры</string>
 	<string name="pref_popup_openkeyboard_summaryon">Показывать клавиатуру вместе со всплывающим окном</string>
-	<string name="pref_popup_openkeyboard_summaryoff">Не показывать клавиатуру вместе со всплывающим окном.</string>
+	<string name="pref_popup_openkeyboard_summaryoff">Не показывать клавиатуру вместе со всплывающим окном</string>
 
 	<string name="pref_compose_openkeyboard_title">Автооткрытие клавиатуры</string>
 	<string name="pref_compose_openkeyboard_summaryon">Показывать экранную клавиатуру при создании нового сообщения</string>
@@ -986,8 +986,8 @@
 
 	<string name="pref_fontpack_list_title">Выбрать пакет шрифтов</string>
 	<string name="pref_app_choose_fontpack">Дополнительный пакет шрифтов</string>
-	<string name="pref_app_choose_fontpack_summary">Выбрать дополнительный шрифт для окна беседы.</string>
-	<string name="pref_fontpack_install_market">Не найден пакет шрифтов, установите шрифты из Google Play</string>
+	<string name="pref_app_choose_fontpack_summary">Выбрать дополнительный шрифт для окна беседы</string>
+	<string name="pref_fontpack_install_market">Не найден пакет шрифтов, установите шрифты из Google Play.</string>
 
 	<string name="pref_fontpack_choosefont_title">Выбрать шрифты</string>
 
@@ -1002,13 +1002,13 @@
 	<string name="contact_font_color_summary">Установить цвет шрифта контакта</string>
 
 	<string name="message_text_font_color_title">Цвет шрифта сообщения</string>
-	<string name="message_text_font_color_summary">Устанавливает цвет шрифта сообщения.</string>
+	<string name="message_text_font_color_summary">Устанавливает цвет шрифта сообщения</string>
 
 	<string name="date_font_color_title">Цвет шрифта даты</string>
 	<string name="date_font_color_summary">Устанавливает цвет шрифта даты</string>
 
 	<string name="pref_client_deliveryreport_title">Отчёт о доставке Handcent</string>
-	<string name="pref_client_deliveryreport_summary">Отчёт создаётся программой Handcent (без участия оператора).</string>
+	<string name="pref_client_deliveryreport_summary">Отчёт создаётся программой Handcent (без участия оператора)</string>
 
 	<string name="pref_fontpack_size_title">Размер шрифта</string>
 	<string name="pref_fontpack_size_dialog">Выбрать размер шрифта</string>
@@ -1024,7 +1024,7 @@
 
 	<!-- Add from version 2.7.3 -->
 	<string name="popup_window_mode_title">Режим окна</string>
-	<string name="popup_window_mode_summary">Установить режим всплывающего окна (Полный / Упрощённый / Без быстрого ответа).</string>
+	<string name="popup_window_mode_summary">Установить режим всплывающего окна (Полный / Упрощённый / Без быстрого ответа)</string>
 
 	<!-- Add from version 2.8 -->
 	<string name="message_counter_zero">Исходящих сообщений нет</string>
@@ -1043,12 +1043,12 @@
 	<string name="widget_show_zero_summary">Показывать ноль на виджете, когда все сообщения прочитаны</string>
 
 	<string name="skin_type_title">Скин</string>
-	<string name="skin_type_summary">Изменяет скин приложения.</string>
+	<string name="skin_type_summary">Изменяет скин приложения</string>
 
 	<!-- add from verson 2.8.5 -->
 	<string name="show_earier_title">Кнопка \"Показать ранние\"</string>
 	<string name="show_earier_summaryon">Отображать кнопку \"Показать ранние\" в длинных ветках сообщений</string>
-	<string name="show_earier_summaryoff">Не отображать кнопку \"Показать ранние\" в длинных ветках сообщений.</string>
+	<string name="show_earier_summaryoff">Не отображать кнопку \"Показать ранние\" в длинных ветках сообщений</string>
 	<string name="recent_pepole_list_title">Недавние собеседники</string>
 
 
@@ -1058,12 +1058,12 @@
 
 
 	<string name="popup_backkey_title">Кнопка \"Назад\"</string>
-	<string name="popup_backkey_summary">Отметить прочитанным после нажатия кнопки \"Назад\".</string>
+	<string name="popup_backkey_summary">Отметить прочитанным после нажатия кнопки \"Назад\"</string>
 
 
 	<string name="auto_convert_mms_title">Авто преобразование в MMS</string>
-	<string name="auto_convert_mms_summary_on">Преобразовать в MMS, если больше 3-х сообщений в одном.</string>
-	<string name="auto_convert_mms_summary_off">Не преобразовывать в MMS, если больше 3-х сообщений в одном.</string>
+	<string name="auto_convert_mms_summary_on">Преобразовать в MMS, если больше 3-х сообщений в одном</string>
+	<string name="auto_convert_mms_summary_off">Не преобразовывать в MMS, если больше 3-х сообщений в одном</string>
 
 	<string name="yesterday">Вчера</string>
 	<!-- add from version 2.8.6 -->
@@ -1071,12 +1071,12 @@
 
 	<!-- add from version 2.9 -->
 	<string name="popup_confirm_deletion_title">Запрос на удаление</string>
-	<string name="popup_confirm_deletion_summary">Спрашивать перед удалением.</string>
+	<string name="popup_confirm_deletion_summary">Спрашивать перед удалением</string>
 
 	<string name="unable_diaplay_message">Handcent SMS не может показать это сообщение.</string>
 
 	<string name="divider_color_title">Цвет разделителя</string>
-	<string name="divider_color_summary">Устанавливает цвет разделителя.</string>
+	<string name="divider_color_summary">Устанавливает цвет разделителя</string>
 
 
 	<string name="use_android_tts_title">Тип TTS</string>
@@ -1090,12 +1090,12 @@
 	<!-- add from version 2.9.1 -->
 
 	<string name="enabled_quick_compose_title">Быстрое написание</string>
-	<string name="enabled_quick_compose_summaryon">Включено (на G1 кнопка камеры, на других долгое нажатие кнопки Поиск).</string>
+	<string name="enabled_quick_compose_summaryon">Включено (на G1 кнопка камеры, на других долгое нажатие кнопки Поиск)</string>
 	<string name="enabled_quick_compose_summaryoff">Отключено</string>
 
 	<!-- add from version 2.9.2 -->
 	<string name="pref_input_mode_title">Режим ввода</string>
-	<string name="pref_input_mode_summary">Показывать нормальное или упрощённое поле ввода при создании сообщения.</string>
+	<string name="pref_input_mode_summary">Показывать нормальное или упрощённое поле ввода при создании сообщения</string>
 
 	<!-- add from version 2.9.4 -->
 
@@ -1109,7 +1109,7 @@
 
 
 	<string name="notif_icon_title">Иконка уведомления</string>
-	<string name="notif_icon_summary">Выбрать иконку уведомлений.</string>
+	<string name="notif_icon_summary">Выбрать иконку уведомлений</string>
 
 	<string name="font_cat_title">Шрифт</string>
 
@@ -1137,7 +1137,7 @@
 
 	<string name="other_retrieve_setting_cat">Другие настройки доставки</string>
 	<string name="self_check_title">Самопроверка</string>
-	<string name="self_check_summary">При получении проверять, что сообщение сохранено.</string>
+	<string name="self_check_summary">При получении проверять, что сообщение сохранено</string>
 
 	<!-- Implement at version 2.9.16 -->
 	<string name="pref_split_160_title">Разделять по 160 символов</string>
@@ -1160,8 +1160,8 @@
 
 	<!-- add from Handcent SMS 2.9.24 -->
 	<string name="pref_use_camera_title">Кнопка Камера</string>
-	<string name="pref_use_camera_summary_on">Открывать окно быстрого написания при долгом нажатии кнопки Камера.</string>
-	<string name="pref_use_camera_summary_off">Кнопка Камера не задействована.</string>
+	<string name="pref_use_camera_summary_on">Открывать окно быстрого написания при долгом нажатии кнопки Камера</string>
+	<string name="pref_use_camera_summary_off">Кнопка Камера не задействована</string>
 
 
 	<string name="loading_title">Открытки от Handcent</string>
@@ -1180,10 +1180,10 @@
 
 
 	<!-- add from version 2.9.27 -->
-	<string name="quick_compose_not_enable">У вас отключено быстрое сообщение, пожалуйста, включите эту опцию в настройках программы.</string>
+	<string name="quick_compose_not_enable">У вас отключено Быстрое написание, пожалуйста, включите эту опцию в настройках программы.</string>
 	<string name="pref_noti_shownum_title">Счётчик непрочитанных</string>
-	<string name="pref_noti_shownum_summaryon">Показывать количество новых сообщений на иконке уведомления.</string>
-	<string name="pref_noti_shownum_summaryoff">Показывать только иконку уведомления.</string>
+	<string name="pref_noti_shownum_summaryon">Показывать количество новых сообщений на иконке уведомления</string>
+	<string name="pref_noti_shownum_summaryoff">Показывать только иконку уведомления</string>
 
 
 
@@ -1209,7 +1209,7 @@
 
 
 	<string name="notif_screenon_title">Включать экран</string>
-	<string name="notif_screenon_summary">Включать экран, если всплывающее окно отключено.</string>
+	<string name="notif_screenon_summary">Включать экран, если всплывающее окно отключено</string>
 
 	<string name="show_as_flatslideshow_title">Режим просмотра MMS</string>
 	<string name="show_as_flatslideshow_summaryon">Режим просмотра MMS как FlatSlideshow</string>
@@ -1218,7 +1218,7 @@
 	<!-- add from version 2.9.30 -->
 
 	<string name="pref_autoreset_send_counter">Автосброс счётчика исходящих</string>
-	<string name="pref_autoreset_send_counter_summary">Периодичность сброса счётчика исходящих.</string>
+	<string name="pref_autoreset_send_counter_summary">Периодичность сброса счётчика исходящих</string>
 	<string name="menu_lock_message">Защитить от удаления</string>
 	<string name="menu_unlock_message">Снять защиту от удаления</string>
 	<string name="confirm_dialog_locked_title">Удалить защищённое сообщение?</string>
@@ -1226,12 +1226,12 @@
 	<string name="delete_unlocked">Удалить защищённые сообщения</string>
 
 	<string name="pref_mms_max_size">Макс. размер MMS</string>
-	<string name="pref_mms_max_size_summary">Задать максимальный размер MMS сообщения.</string>
+	<string name="pref_mms_max_size_summary">Задать максимальный размер MMS сообщения</string>
 
 	<!-- add from version 2.9.31 -->
 	<string name="pref_show_threadmessages_counter">Счётчик сообщений</string>
 	<string name="pref_show_threadmessages_counter_summary_on">Показывать счётчик сообщений в беседе справа от имени контакта</string>
-	<string name="pref_show_threadmessages_counter_summary_off">Не показывать счётчик сообщений в беседе справа от имени контакта.</string>
+	<string name="pref_show_threadmessages_counter_summary_off">Не показывать счётчик сообщений в беседе справа от имени контакта</string>
 	<string name="prompt_fwd">
 		Добавить
 		<xliff:g id="name">%s</xliff:g>
@@ -1273,7 +1273,7 @@
 	<string name="pref_social_network">Социальные сети</string>
 	<string name="pref_social_network_source">Настройки источника</string>
 	<string name="pref_social_network_picture_source">Исходное изображение</string>
-	<string name="pref_social_network_picture_source_summary">Получить актуальное изображение из вашей социальной сети.</string>
+	<string name="pref_social_network_picture_source_summary">Получить актуальное изображение из вашей социальной сети</string>
 
 
 	<!-- add from version 2.9.34 -->
@@ -1316,7 +1316,7 @@
 	<!-- Add from 2.9.38 -->
 	<string name="network_type_gsm">GSM</string>
 	<string name="network_type_cdma">CDMA</string>
-	<string name="network_type_confirm">Задайте предпочитаемый тип сети для отправки сообщений.</string>
+	<string name="network_type_confirm">Задайте предпочитаемый тип сети для отправки сообщений</string>
 	<string name="pref_popup_text_counter">Счётчик текста</string>
 	<string name="pref_popup_text_counter_summary_on">Показывать счётчик текста в окне быстрого ответа</string>
 	<string name="pref_popup_text_counter_summary_off">Не показывать счётчик текста в окне быстрого ответа</string>
@@ -1325,7 +1325,7 @@
 	<string name="pref_scan_fontpackage_title">Поиск пакетов шрифтов</string>
 	<string name="text_scan_package">Просмотр пакета</string>
 	<string name="text_found_package">Найдено %s пакетов со шрифтами</string>
-	<string name="pref_scan_fontpackage_summary">%s внешних пакетов шрифтов.</string>
+	<string name="pref_scan_fontpackage_summary">%s внешних пакетов шрифтов</string>
 	<string name="pref_custom_package">Пакет</string>
 	<string name="pref_custom_font">Шрифт</string>
 	<string name="pref_custom_style">Стиль</string>
@@ -1343,7 +1343,7 @@
 	<string name="lockpattern_need_to_unlock_wrong">Неверно, попробуйте снова:</string>
 	<string name="lockpattern_need_to_unlock_wrong_footer"/>
 	<string name="lockpattern_recording_intro_header">Нарисуйте шаблон разблокировки</string>
-	<string name="lockpattern_recording_intro_footer">Нажмите Меню, чтобы получить справку</string>
+	<string name="lockpattern_recording_intro_footer">Нажмите Меню, чтобы получить справку.</string>
 	<string name="lockpattern_recording_inprogress">Отпустите палец, когда завершите ввод.</string>
 	<string name="lockpattern_recording_incorrect_too_short">
 		Соедините как минимум
@@ -1386,7 +1386,7 @@
 	<string name="pref_custom_date_font">Шрифт даты</string>
 
 	<string name="security_level_setting_title">Уровень защиты</string>
-	<string name="security_level_setting_summary">Определить уровень безопасности.</string>
+	<string name="security_level_setting_summary">Определить уровень безопасности</string>
 	<string name="lockpattern_need_to_unlock_use">Нарисуйте шаблон для разблокировки</string>
 
 	<string name="confirm_save_button_title">Сохранить</string>
@@ -1435,7 +1435,7 @@
 	
 	<string name="test_button_title">Проверка</string>
 	<string name="test_ledcolor_notification_title">Проверка цвета LED</string>
-	<string name="test_ledcolor_alert_user_offscreen_summary">Ваш аппарат может включать LED только когда экран выключен. Чтобы выполнить предпросмотр, выключите экран.</string>
+	<string name="test_ledcolor_alert_user_offscreen_summary">Ваш аппарат может включать LED только когда экран выключен. Чтобы выполнить предпросмотр, выключите экран</string>
 	<string name="menu_quick_menu">Меню</string>
 
 	<!-- add from version 3.1 -->
@@ -1448,7 +1448,7 @@
 	<string name="account_picture_title">Аватар</string>
 
 	<string name="widget_show_name_title">Название виджета</string>
-	<string name="widget_show_name_summary">Показывать название под виджетом.</string>
+	<string name="widget_show_name_summary">Показывать название под виджетом</string>
 
 	<string name="pref_always_backto_mainscreen">Переходить на домашний экран</string>
 	<string name="pref_always_backto_mainscreen_summary">Возвращаться на главный экран приложения при выходе из беседы</string>
@@ -1495,8 +1495,8 @@
 	<string name="widget_lock_title">Тап для разблокировки</string>
 	<string name="widget_lock_menu_title">Блокировать виджет</string>
 	<string name="widget_auto_lock_title">Автоблок</string>
-	<string name="widget_auto_lock_summaryon">Автоматическая блокировка виджета при блокировке телефона.</string>
-	<string name="widget_auto_lock_summaryoff">Блокировать виджет из меню.</string>
+	<string name="widget_auto_lock_summaryon">Автоматическая блокировка виджета при блокировке телефона</string>
+	<string name="widget_auto_lock_summaryoff">Блокировать виджет из меню</string>
 
 	<string name="widget_show_mode_title">Режим показа</string>
 
@@ -1581,7 +1581,7 @@
 	<string name="status_bar_sms_restore_restoring_message">Восстановление</string>
 	<string name="status_bar_canceled_message">Отменено пользователем.</string>
 	<string name="status_bar_auth_message">Неверный пользователь или пароль.</string>
-	<string name="status_bar_general_error_message">Произошла общая ошибка</string>
+	<string name="status_bar_general_error_message">Произошла общая ошибка.</string>
 	<string name="new_backup_dialog_log_name_title">Имя:</string>
 	<string name="new_backup_dialog_log_memo_title">Заметка:</string>
 
@@ -1624,7 +1624,7 @@
 	<string name="max_number_reached_message">Достигнуто максимальное число записей.</string>
 	<string name="service_update_dialog_message_notactived">Ваш Handcent аккаунт не активен!</string>
 	<string name="pref_recv_message_timestamp_drift_title">Смещение времени входящих</string>
-	<string name="pref_recv_message_timestamp_drift_summary">Отрегулируйте смещение времени для входящих сообщений, если используете Droid X с обновлением до Froyo.</string>
+	<string name="pref_recv_message_timestamp_drift_summary">Отрегулируйте смещение времени для входящих сообщений, если используете Droid X с обновлением до Froyo</string>
 
 
 	<string name="pref_quick_attach_button">Кнопка вложений</string>
@@ -1657,15 +1657,15 @@
 	<string name="menu_add_to_myText">В Мой текст (онлайн)</string>
 	<string name="pfre_filter_cat">Фильтр</string>
 	<string name="pref_advance_filter">Настройки фильтрации</string>
-	<string name="pref_advance_filter_summary">Фильтрация по группе, ключевому слову, префиксу номера.</string>
+	<string name="pref_advance_filter_summary">Фильтрация по группе, ключевому слову, префиксу номера</string>
 	<string name="pref_filter_unknown">Неизвестные номера</string>
-	<string name="pref_filter_unkonwn_summary">Фильтрация номеров, не находящихся в контактах.</string>
+	<string name="pref_filter_unkonwn_summary">Фильтрация номеров, не находящихся в контактах</string>
 	<string name="pref_filter_keyword">Ключевые слова</string>
-	<string name="pref_filter_keyword_summary">Фильтрация по ключевым словам в тексте сообщений.</string>
+	<string name="pref_filter_keyword_summary">Фильтрация по ключевым словам в тексте сообщений</string>
 	<string name="pref_filter_status">Текущий режим</string>
 	<string name="pref_filter_status_summary">Установка текущего режима фильтрации</string>
 	<string name="pref_filter_tag_as_read">Отметить как прочитанное</string>
-	<string name="pref_filter_tag_as_read_summary">Автоматически отмечать отфильтрованные сообщения как прочитанные.</string>
+	<string name="pref_filter_tag_as_read_summary">Автоматически отмечать отфильтрованные сообщения как прочитанные</string>
 	<string name="pref_filter_items_cat">Элементы фильтра</string>
 	<string name="pref_filter_setttings_cat">Настройки фильтрации</string>
 
@@ -1675,7 +1675,7 @@
 	<string name="filter_keyword_item_title">Изменение ключевого слова</string>
 	<string name="filter_keyword">Ключевое слово</string>
 	<string name="pref_filter_by_prefiex">Префикс номера</string>
-	<string name="pref_filter_by_prefix_summary">Фильтрация по префиксу номера.</string>
+	<string name="pref_filter_by_prefix_summary">Фильтрация по префиксу номера</string>
 	<string name="filter_prefix_item_title">Изменение префикса</string>
 	<string name="pref_filter_delete_keyword">Удалить ключевое слово?</string>
 	<string name="pref_filter_delete_prefix">Удалить префикс?</string>
@@ -1702,9 +1702,9 @@
 	<string name="save_thumbs_message">Handcent SMS не может найти миниатюры для вашей темы, будет произведена проверка настроек пользовательского вида. Когда операция завершится, вы сможете повторить сохранение.</string>
 	<string name="save_theme_btn_title">Сохранение темы онлайн</string>
 	<string name="no_theme_help_tip">Нет сохраненных тем, вы можете сохранить сейчас!</string>
-	<string name="mytheme_help_tip">Сохраните ваши темы онлайн и импортируйте их в любое время!</string>
+	<string name="mytheme_help_tip">Сохраните ваши темы онлайн и импортируйте их в любое время.</string>
 	<string name="hctheme_help_tip">Бесплатно создайте аккаунт Handcent Online и с лёгкостью устанавливайте новые темы.</string>
-	<string name="mytext_help_tip">Сохраните ваш любимый текст онлайн. Откройте беседу, длинный тап на реплике, \"Сохранить в Мой текст\"</string>
+	<string name="mytext_help_tip">Сохраните ваш любимый текст онлайн. Откройте беседу, длинный тап на реплике, \"В Мой текст (онлайн)\".</string>
 	<string name="hctext_help_tip">Библиотека поздравительных текстов: Смешные, Романтические, Поздравления. Постоянно добавляются новые тексты!</string>
 	<string name="backup_help_tip">Сохраните свои Настройки и сообщения SMS/MMS на защищённом сервере Handcent и восстанавливайте их, когда потребуется.</string>
 
@@ -1721,7 +1721,7 @@
 	<string name="pref_manage_blacklist">Управление чёрным списком</string>
 	<string name="pref_manage_blacklist_delete">Удалить элемент чёрного списка?</string>
 	<string name="pref_special_reminder_sound">Особый звук</string>
-	<string name="pref_special_reminder_sound_summary">Использовать для напоминания особый звуковой сигнал, отличающийся от обычного сигнала уведомления.</string>
+	<string name="pref_special_reminder_sound_summary">Использовать для напоминания особый звуковой сигнал, отличающийся от обычного сигнала уведомления</string>
 	<string name="pref_reminder_sound">Звук напоминания</string>
 	<string name="pref_reminder_sound_summary">Выбрать звук напоминания</string>
 	<string name="pref_sent_show_notif_text">Показывать уведомление</string>
@@ -1758,7 +1758,7 @@
 	<string name="hc_service_list_summary">Просмотреть все услуги My Handcent Online</string>
 
 	<string name="permission_refresh_dialog_message">Вы не авторизовались! Пожалуйста, войдите в свой аккаунт Handcent Online или бесплатно создайте новый.</string>
-	<string name="service_update_dialog_message_nopay">Вы не подписаны ни на одну услугу Handcent Online, либо вы не вошли в аккаунт.</string>
+	<string name="service_update_dialog_message_nopay">Вы не подписаны ни на одну услугу Handcent Online, либо вы не вошли в аккаунт</string>
 
 	<!-- add from 3.4.2 -->
 	<string name="pref_prevent_resend">Блокир. переотправку</string>
@@ -1807,7 +1807,7 @@
 	<string name="pref_popup_edit_box_font_summary_off">Настройки по умолчанию</string>
 	<string name="send_message_confirmation">Отправить это сообщение сейчас?</string>
 	<string name="pref_send_message_confirm">Подтверждать отправку</string>
-	<string name="pref_send_message_confirm_summary">Диалог подтверждения перед отправкой сообщения.</string>
+	<string name="pref_send_message_confirm_summary">Диалог подтверждения перед отправкой сообщения</string>
 
 
 	<!-- add from 3.5.3 -->
@@ -1919,7 +1919,7 @@
 	<string name="privacy_default_notification_title">Личный контакт</string>
 	<string name="privacy_default_notification_message">Личное сообщение.</string>
 	<string name="privacy_copy_stock_message_title">Оставить копию в общих \"Входящих\"</string>
-	<string name="privacy_delete_stock_message_title">Переместить сообщения в личный ящик.</string>
+	<string name="privacy_delete_stock_message_title">Переместить сообщения в личный ящик</string>
 	<string name="privacy_restore_message_tostock_title">Восстановление сообщений</string>
 	<string name="privacy_backup_restore_settings_title">Сохранить/Восстановить</string>
 	<string name="privacy_backup_success_toast">Сохранение успешно!</string>
@@ -2387,7 +2387,7 @@
 	<string name="savechanges">Сохранить изменения?</string>
 	<string name="attach_doodle_title">Рисунок</string>
 	<string name="pref_charm_notification_title">Charm уведомления</string>
-	<string name="pref_charm_notification_summary">Включать charm при новом сообщении (только на некоторых телефонах HTC).</string>
+	<string name="pref_charm_notification_summary">Включать charm при новом сообщении (только на некоторых телефонах HTC)</string>
 
 
 
@@ -2414,7 +2414,7 @@
 	<string name="enumeration_comma">,\u0020</string>
 	<string name="notification_separator">\u0020\u0020</string>
 	<string name="pref_notify_mms_after_download_title">Уведомлять после загрузки</string>
-	<string name="pref_notify_mms_after_download_summary">Уведомлять и показывать всплывающее окно только после того, как MMS будет загружено (только когда Handcent установлен мессенджером по умолчанию).</string>
+	<string name="pref_notify_mms_after_download_summary">Уведомлять и показывать всплывающее окно только после того, как MMS будет загружено (только когда Handcent установлен мессенджером по умолчанию)</string>
 
 
 
@@ -2579,11 +2579,11 @@
 	<string name="copy_email">Копировать адрес email</string>
 	<string name="login_or_register_tip">Войдите или зарегистрируйтесь</string>
 	
-	<string name="talk_ad_title1">Межплатформенные услуги</string>
+	<string name="talk_ad_title1">Услуги для всех платформ</string>
 	<string name="talk_ad_title2">Эксклюзивно бесплатно</string>
 	<string name="talk_ad_title3">Групповой чат</string>
 	<string name="talk_ad_title4">Больше интересностей</string>
-	<string name="talk_ad_title5">Приватность и безопасность</string>
+	<string name="talk_ad_title5">Безопасность</string>
 	<string name="talk_ad_title6">Поделитесь радостью</string>
 
 	<string name="talk_ad_summary1">Теперь доступно для iOS, Android, Windows Phone</string>
