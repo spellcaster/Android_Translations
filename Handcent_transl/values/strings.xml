@@ -901,13 +901,13 @@
 	<string name="pref_app_language_summary">Select the language of this application</string>
 	<string name="pref_app_language_dialog">Select language</string>
 	<string name="menu_delete_search_result">Delete search result</string>
-	<string name="conversation_list_deleting">Deleting...</string>
+	<string name="conversation_list_deleting">Deleting\u2026</string>
 	<string name="confirm_delete_all_search">Delete all search results?</string>
 	<string name="confirm_delete_select">Delete selected items?</string>
 
 	<string name="pref_popup_delete_dialog_title">Delete Message</string>
 	<string name="pref_popup_delete_dialog_text">Are you sure?</string>
-	<string name="setting_all_thread_read">Marking all threads read...</string>
+	<string name="setting_all_thread_read">Marking all threads read\u2026</string>
 
 	<string name="menu_batch_mode">Batch mode</string>
 	<string name="menu_cancel_batch">Cancel batch mode</string>
@@ -1614,7 +1614,7 @@
 	<string name="menu_location">Locate</string>
 	<string name="install_google_map">Please install Google Maps</string>
 	<string name="install_handcent_plugin">Please install the Handcent location plugin from
-		market, first.</string>
+		Google Play, first.</string>
 	<string name="handcent_service">Handcent Services</string>
 	<string name="handcent_backup">Backup</string>
 
@@ -1646,22 +1646,22 @@
 	<string name="status_bar_auth_title">Authentication failed</string>
 	<string name="status_bar_general_error_title">General error</string>
 
-	<string name="status_bar_setting_backup_init_message">Prepare settings data...</string>
-	<string name="status_bar_setting_backup_start_message">Backup settings data...</string>
+	<string name="status_bar_setting_backup_init_message">Prepare settings data\u2026</string>
+	<string name="status_bar_setting_backup_start_message">Backup settings data\u2026</string>
 	<string name="status_bar_setting_backup_done_message">Settings backup done!</string>
-	<string name="status_bar_setting_restore_init_message">Download settings data...</string>
-	<string name="status_bar_setting_restore_download_message">Download settings file...</string>
+	<string name="status_bar_setting_restore_init_message">Download settings data\u2026</string>
+	<string name="status_bar_setting_restore_download_message">Download settings file\u2026</string>
 	<string name="status_bar_setting_restore_done_message">Settings restore done!</string>
-	<string name="status_bar_setting_delete_start_message">Settings delete...</string>
+	<string name="status_bar_setting_delete_start_message">Settings delete\u2026</string>
 	<string name="status_bar_setting_delete_done_message">Settings deleted</string>
-	<string name="status_bar_sms_backup_init_message">SMS backup starting...</string>
-	<string name="status_bar_sms_backup_clearcache_message">Clear cache data...</string>
-	<string name="status_bar_sms_backup_upload_message">Upload backup file...</string>
+	<string name="status_bar_sms_backup_init_message">SMS backup starting\u2026</string>
+	<string name="status_bar_sms_backup_clearcache_message">Clear cache data\u2026</string>
+	<string name="status_bar_sms_backup_upload_message">Upload backup file\u2026</string>
 	<string name="status_bar_sms_backup_done_message">SMS backup done!</string>
-	<string name="status_bar_sms_delete_start_message">SMS backup delete...</string>
+	<string name="status_bar_sms_delete_start_message">SMS backup delete\u2026</string>
 	<string name="status_bar_sms_delete_done_message">SMS backup deleted</string>
-	<string name="status_bar_sms_restore_init_message">SMS restore starting...</string>
-	<string name="status_bar_sms_restore_download_message">SMS backup file download...</string>
+	<string name="status_bar_sms_restore_init_message">SMS restore starting\u2026</string>
+	<string name="status_bar_sms_restore_download_message">SMS backup file download\u2026</string>
 	<string name="status_bar_sms_restore_done_message">SMS restore done</string>
 	<string name="status_bar_sms_restore_merging_message">Merging</string>
 	<string name="status_bar_sms_restore_deleting_message">Deleting</string>
@@ -1778,15 +1778,15 @@
 	<string name="new_mms_backup_button_title">MMS backup</string>
 
 	<string name="status_bar_mms_backup_title">MMS backup</string>
-	<string name="status_bar_mms_backup_init_message">MMS backup starting...</string>
+	<string name="status_bar_mms_backup_init_message">MMS backup starting\u2026</string>
 	<string name="status_bar_mms_backup_done_message">MMS backup done!</string>
 	<string name="status_bar_mms_restore_title">MMS restore</string>
-	<string name="status_bar_mms_restore_init_message">MMS restore starting...</string>
-	<string name="status_bar_mms_restore_download_message">MMS backup file download...</string>
+	<string name="status_bar_mms_restore_init_message">MMS restore starting\u2026</string>
+	<string name="status_bar_mms_restore_download_message">MMS backup file download\u2026</string>
 	<string name="status_bar_mms_restore_done_message">MMS restore done!</string>
 
 	<string name="status_bar_mms_delete_title">MMS deletion</string>
-	<string name="status_bar_mms_delete_start_message">MMS backup delete...</string>
+	<string name="status_bar_mms_delete_start_message">MMS backup delete\u2026</string>
 	<string name="status_bar_mms_delete_done_message">MMS backup deleted</string>
 	<string name="mms_backup_name_template">MMS-%s</string>
 	<string name="mms_backup_memo_template">MMS data backup at %d</string>
@@ -2422,7 +2422,7 @@
 	<string name="key_changesign">Change signature</string>
 	<string name="key_msgchangesign">Please input your new signature</string>
 	<string name="key_comfirm">Confirm</string>
-	<string name="key_waiting">Processing request...</string>
+	<string name="key_waiting">Processing request\u2026</string>
 	<string name="key_bind">Link</string>
 	<string name="key_authcode_error">The Authorization code error,please input again</string>
 	<string name="key_request_error">Request error,please check the input</string>
@@ -2685,7 +2685,7 @@
 
 	<string name="admin_signature">This is handcent app assistant.</string>
 	<string name="hctalkstartequalend">Enable time can not equal with disable time!</string>
-	<string name="waitingloadinfo">Please wait...</string>
+	<string name="waitingloadinfo">Please wait\u2026</string>
 	<string name="button_agree">Agree</string>
 	<string name="button_block">Block</string>
 	<string name="button_deline">Decline</string>
@@ -2746,7 +2746,7 @@
 	<string name="agreement" formatted="false">
 		<a href="http://my.handcent.com/dir/info/regLicense">User Agreeement</a>
 	</string>
-	<string name="login_wait">Login now...</string>
+	<string name="login_wait">Login now\u2026</string>
 	<string name="agreement_first">Please checked the agreement first</string>
 
 	<string name="input_null">Field can\'t be empty, Please check</string>
@@ -2779,7 +2779,7 @@
 	<string name="modifysign">Modify Signature</string>
 	<string name="modifybkg">Modify Background</string>
 	<string name="modifyallwofind">will you allow other talk users to find you?</string>
-	<string name="error_info">Error Info...</string>
+	<string name="error_info">Error Info\u2026</string>
 
 	<string name="waiting_agree">Your request has been sent, wait agree</string>
 	<string name="slide_title">Slide %s/%s</string>
@@ -2895,7 +2895,7 @@
 	<string name="online_text_favor_limit">Reach max limit!</string>
 	<string name="online_text_favor_removefav">UnFavoriters</string>
 	
-	<string name="online_text_beload">Loose to load more......</string>
+	<string name="online_text_beload">Loose to load more\u2026\u2026</string>
 	<string name="online_text_changearea">Switch language</string>
 	<string name="online_text_detailinformation">Detail</string>
 
