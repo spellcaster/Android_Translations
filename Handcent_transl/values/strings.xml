@@ -1125,8 +1125,8 @@
 	<string name="pref_socialnetwork_show_contact_summary">Show social network contacts when adding or
 		choosing recipients</string>
 	<string name="pref_save_directory">Save directory</string>
-	<string name="pref_save_directory_summary">Set the directory name of save attachments,for
-		example:MMS</string>
+	<string name="pref_save_directory_summary">Set the directory name of save attachments ,for
+		example: MMS</string>
 	<string name="pref_save_directory_title">Set the sub directory name at \"Handcent\" folder </string>
 	<string name="pref_save_directory_invlidate">Invalid directory name, please check your input and
 		try again</string>
@@ -1888,7 +1888,7 @@
 	<string name="my_gallery_stat_message">You have %s picture(s).</string>
 	<string name="add_to_my_gallery_title">Add to My gallery</string>
 	<string name="add_to_my_gallery_toast_message">Added to My gallery successful!</string>
-	<string name="toast_picture_downloaded">The picture has been downloaded,save to %s!</string>
+	<string name="toast_picture_downloaded">The picture has been downloaded, save to %s!</string>
 	<string name="pictures_submit_message">Your picture has been successfully submitted to the
 		Handcent team. We will review your picture and it will be released and
 		available in Handcent Greeting upon approval!</string>
