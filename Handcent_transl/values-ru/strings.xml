@@ -1491,7 +1491,7 @@
 	<string name="widget_action_menu_title">Действия</string>
 	<string name="icon_widget_title">Handcent SMS (иконка)</string>
 	<string name="medium_widget_title">Handcent SMS (средний)</string>
-	<string name="menu_item_handcent_quick_compose">Быстрое сообщение</string>
+	<string name="menu_item_handcent_quick_compose">Быстрое написание</string>
 	<string name="widget_lock_title">Тап для разблокировки</string>
 	<string name="widget_lock_menu_title">Блокировать виджет</string>
 	<string name="widget_auto_lock_title">Автоблок</string>
@@ -1537,7 +1537,7 @@
 
 	<string name="no_auth_dialog_title">Авторизация</string>
 	<string name="no_auth_dialog_message">Неверный пользователь или пароль!\nЗадать информацию об учётной записи?</string>
-	<string name="setting_backup_name_template">Настройки-%s</string>
+	<string name="setting_backup_name_template">Setting-%s</string>
 	<string name="sms_backup_name_template">SMS-%s</string>
 	<string name="sms_backup_memo_template">База SMS от %d</string>
 	<string name="setting_backup_memo_template">Настройки программы от %d</string>
@@ -2579,7 +2579,7 @@
 	<string name="copy_email">Копировать адрес email</string>
 	<string name="login_or_register_tip">Войдите или зарегистрируйтесь</string>
 	
-	<string name="talk_ad_title1">Услуги для всех платформ</string>
+	<string name="talk_ad_title1">Для всех платформ</string>
 	<string name="talk_ad_title2">Эксклюзивно бесплатно</string>
 	<string name="talk_ad_title3">Групповой чат</string>
 	<string name="talk_ad_title4">Больше интересностей</string>
