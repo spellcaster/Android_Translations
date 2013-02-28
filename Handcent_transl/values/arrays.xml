@@ -367,7 +367,7 @@
     </string-array>
   
   <string-array name="pref_max_mms_size_new_entries">
-       <item>default</item>
+       <item>Default</item>
        <item>100K</item>
        <item>200K</item>
        <item>300K</item>
@@ -422,8 +422,9 @@
    </string-array>
    
    <!-- add by version 3.1 -->
+   <!-- Don't Translate! -->
    <string-array name="pref_max_mms_size_new_values">
-   	   <item>Default</item>
+   	   <item>default</item>
    	   <item>100</item>
        <item>200</item>
        <item>300</item>
@@ -435,6 +436,7 @@
        <item>5000</item>
    </string-array> 
    
+   <!-- Translate from here -->
    
    
    <string-array name="pref_security_lock_type_entries">
@@ -762,11 +764,14 @@
 		<item>Only Top Closed Menu</item>
 		<item>Only Button Cancel Menu</item>
 	</string-array>
+    <!-- Don't Translate! -->
 	<string-array name="pref_close_dialog_entries_values">
 		<item>both</item>
 		<item>close</item>
 		<item>cancel</item>
 	</string-array>
+
+   <!-- Translate from here -->
 
 	<string-array name="pref_switch_effect_entries">
       <item>Classic</item>
