@@ -2948,4 +2948,9 @@
 
 	<string name="global_release_note">Release Notes Handcent SMS Pro (Beta 0.9.2) \\n\\nOptimized for android 4.2.x\\n\\nNew version of handcent text and gallery\\n\\nFix issue that sending gif and improved photo editor\\n\\nFix smileys panel at privacy box\\n\\n</string>
 
+	<string name="bubble_preview_text">Do you like this?\n www.handcent.com</string>
+	<string name="custom_popup_content_hint">You have to believe in yourself. That\'s the secret of success.</string>
+	<string name="custom_popup_reply_hint">Yes, I think so!</string>
+	<string name="custom_convlist_message_hint1">Let's talk about it later</string>
+	<string name="custom_convlist_message_hint2">Do you mind if I ask you a favor?</string>
 </resources>

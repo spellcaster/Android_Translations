@@ -748,7 +748,7 @@
 
 
 	<string name="pref_notif_repeat_interval_title">Частота напоминаний</string>
-	<string name="pref_notif_repeat_interval_summary">Время между напоминаниями (сек.)</string>
+	<string name="pref_notif_repeat_interval_summary">Время между напоминаниями (мин.)</string>
 	<string name="pref_notif_repeat_interval_dialogTitle">Интервал (минуты)</string>
 
 	<string name="pref_notif_repeat_times_title">Количество напоминаний</string>
@@ -1298,7 +1298,7 @@
 		<xliff:g id="format">%2$d:%5$02d</xliff:g>
 	</string>
 
-	<string name="menu_force_delete">Стереть</string>
+	<string name="menu_force_delete">Удалить принудительно</string>
 	<string name="title_default_size">Размер по умолчанию</string>
 
 	
@@ -1378,7 +1378,7 @@
 
 	<string name="ui_sync_button_label_syncing">Остановить</string>
 	<string name="ui_sync_button_label_canceling">Остановка…</string>
-	<string name="resend">Переотправить</string>
+	<string name="resend">Отправить заново</string>
 	<string name="faq">FAQ</string>
 	<string name="help">Помощь</string>
 	<string name="pref_custom_contact_font">Шрифт контакта</string>
@@ -2383,7 +2383,7 @@
 
 	<string name="insertTemp">Шаблоны</string>
 	<string name="usestorage">Галерея</string>
-	<string name="stamptool">Печать</string>
+	<string name="stamptool">Штамп</string>
 	<string name="savechanges">Сохранить изменения?</string>
 	<string name="attach_doodle_title">Рисунок</string>
 	<string name="pref_charm_notification_title">Charm уведомления</string>
@@ -2589,7 +2589,7 @@
 	<string name="talk_ad_summary1">Теперь доступно для iOS, Android, Windows Phone</string>
 	<string name="talk_ad_summary2">Отправлять сообщения через 3G и Wi-Fi, не требует SMS</string>
 	<string name="talk_ad_summary3">Создавайте группу, добавляйте собеседников - общение ещё никогда не было столь простым</string>
-	<string name="talk_ad_summary4">Отправляйте Emoji, анимированные картинки и смайлики. Ваши сообщения станут более веселенькими.</string>
+	<string name="talk_ad_summary4">Отправляйте Emoji, анимированные картинки и смайлики. Ваши сообщения станут более весёленькими.</string>
 	<string name="talk_ad_summary5">Чёрный список помогает избавиться от лишних контактов, подтверждение приглашения даёт защиту от спамеров.</string>
 	<string name="talk_ad_summary6">Делитесь изображениями и фотографиями в высоком разрешении без сжатия</string>
 	
@@ -2612,7 +2612,7 @@
 	<string name="backup_service_detail_backup_capacity">Размер</string>
 	<string name="backup_service_detail_backup_type">Тип</string>
 	<string name="backup_service_detail_backup_os">OS</string>
-	<string name="backup_service_detail_backup_memo">Memo</string>
+	<string name="backup_service_detail_backup_memo">Текст</string>
 	<string name="backup_service_detail_backup_sms_count">Количество SMS</string>
 	<string name="backup_service_detail_backup_mms_count">Счётчик MMS</string>
 	<string name="backup_service_detail_upload_parts_title">Загрузка вложений MMS</string>
@@ -2631,7 +2631,7 @@
 	<string name="backup_service_new_memo_template">Резервная копия данных в %d</string>
 	<string name="backup_service_form_backup_type">Тип</string>
 	<string name="backup_service_form_backup_name">Имя</string>
-	<string name="backup_service_form_backup_memo">Memo</string>
+	<string name="backup_service_form_backup_memo">Текст</string>
 	<string name="backup_service_restore_title">Восстановить сохранение</string>
 	<string name="backup_service_btn_status_complete">Завершено</string>
 	<string name="backup_service_btn_status_error">Ошибка</string>
@@ -2670,7 +2670,7 @@
 	<string name="image_filter_text_oil">Рисование</string>
 	<string name="image_filter_text_neon">Неон</string>
 
-	<string name="image_filter_text_pixelate">пикселизовать</string>
+	<string name="image_filter_text_pixelate">Пикселизовать</string>
 	<string name="image_filter_text_tv">TV</string>
 	<string name="image_filter_text_invert">Инвертировать</string>
 	<string name="image_filter_text_block">Заблокировать</string>
@@ -2710,5 +2710,12 @@
 	<string name="hcbox_send_message_title">Отправлено в</string>
 
 	<string name="global_release_note">Release Notes Handcent SMS Pro (Beta 0.9.2) \\n\\nОптимизировано для Android 4.2.x\\n\\nНовая версия Текстов и Галереи\\n\\nИсправлена ошибка с отправкой gif, улучшен графический редактор\\n\\nИсправлена панель смайликов в личном ящике\\n\\n</string>
+
+	<string name="bubble_preview_text">Как тебе?\nwww.handcent.com</string>
+	<string name="custom_popup_content_hint">Ты должен поверить в себя. Именно в этом секрет успеха.</string>
+	<string name="custom_popup_reply_hint">Да, пожалуй!</string>
+	<string name="custom_convlist_message_hint1">Обсудим это позже</string>
+	<string name="custom_convlist_message_hint2">Можно попросить тебя об услуге?</string>				
+
 
 </resources>
