@@ -35,15 +35,21 @@
     <!--
     Conversation List screen - Options menu
     -->
+    <string name="delete_uppercase">УДАЛИТЬ</string>
     <string name="delete_all">Удалить все</string>
+    <string name="delete_messages">Удалить сообщения</string>
     <string name="settings">Настройки</string>
     <string name="all_conversations_will_be_deleted">Все переписки будут удалены.</string>
+    <string name="the_selected_conversations_will_be_deleted">Выбранные переписки будут удалены.</string>
     <string name="compose_new_message">Написать новое сообщение</string>
     <string name="mark_all_as_read">Все как прочитанные</string>
     <string name="speak_unread">Сказать непрочитанные</string>
     <string name="unread_message_speech">Сообщение от %1$s получено %2$s: %3$s</string>
     <string name="mms_message">MMS сообщение</string>
     <string name="messages_all_marked_as_read">Все сообщения помечены как прочитанные.</string>
+
+    <string name="checkout_chompsms">Посмотри отличную программу chompSMS. Скачать здесь: %1$s</string>
+    <string name="spread_the_word_about_chompsms">Расскажите миру о chompSMS</string>
 
     <!--
     Conversation List screen - Context menu
@@ -102,6 +108,7 @@
     <string name="forward_prefix">Fwd:</string>
     <string name="cannot_save_message">Не могу сохранить сообщение</string>
     <string name="message_size_label">Размер сообщения: </string>
+    <string name="incoming_mms_message_text">Мультимедийное сообщение\nРазмер: %1$s</string>
     <string name="kilobyte">Kб</string>
     <string name="download">Загрузка</string>
     <string name="downloading">Загружается…</string>
@@ -250,6 +257,7 @@
     -->
     <string name="email_support">Поддержка по Email</string>
     <string name="change_log">Изменения</string>
+    <string name="change_log_title">Изменения</string>
     <string name="features_help">Помощь</string>
     <string name="textfreek_terms_of_service">Условия использования TextFreek</string>
     <string name="website">Сайт</string>
@@ -259,6 +267,7 @@
     <string name="sms_messages">SMS сообщений</string>
     <string name="mms_messages">MMS сообщений</string>
     <string name="total_messages">Всего сообщений</string>
+    <string name="attaching_logs">Присоединяю логи…</string>
 
     <!--
     Settings screen - SMS Network
@@ -300,7 +309,17 @@
     <string name="on">Включено</string>
     <string name="off">Отключено</string>
     <string name="preserve_image_size_title">Сохранять разрешение</string>
-    <string name="preserve_image_size_summary">Обычно мы изменяем размер изображения до 640 x 480 в целях совместимости. Если выбрана эта опция, мы пытаемся сохранить оригинальный размер в пределах \"Лимита размера\".</string>
+    <string name="preserve_image_size_summary2">Если отмечено, <b>при отправке</b> программа старается сохранить исходный размер изображения (с учетом опции <b>Лимита размера MMS</b>). В противном случае размер изображения меняется до 640x480 в целях совместимости.</string>
+
+    <string name="apn_settings">Настройки APN</string>
+	<string name="mmsc">MMSC</string>
+	<string name="mms_proxy">MMS Прокси</string>
+	<string name="mms_port">MMS Порт</string>
+    <string name="apn_settings_summary">Если отправка MMS не работает, скопируйте настройки APN из пункта Настройки системы > Беспроводные сети > Мобильная сеть > Точки доступа (APN).</string>
+    <string name="long_hold_to_check_apn_settings">Долгий тап, чтобы проверить настройки APN</string>
+    <string name="failed_long_hold_to_check_apn_settings">Ошибка! Долгий тап, чтобы проверить настройки APN</string>
+    <string name="auto_retrieve_hint"><b>Не скачивается?</b> Поставьте опцию Автополучение в системном мессенджере.</string>
+    <string name="check_apn_settings">Проверить настройки APN</string>
 
     <!--
     Settings screen - Credits
@@ -740,18 +759,20 @@
     <string name="incoming_bubble_style">Стиль пузырька входящих</string>
     <string name="incoming_bubble_color">Цвет пузырька входящих</string>
     <string name="incoming_font_color">Цвет текста входящих</string>
+    <string name="incoming_hyperlink_color">Цвет гиперссылки во входящих</string>
     <string name="incoming_font">Шрифт входящих</string>
     <string name="outgoing_bubble_style">Стиль пузырька исходящих</string>
     <string name="outgoing_bubble_color">Цвет пузырька исходящих</string>
     <string name="outgoing_font_color">Цвет текста исходящих</string>
+    <string name="outgoing_hyperlink_color">Цвет гиперссылки в исходящих</string>
     <string name="outgoing_font">Шрифт исходящих</string>
     <string name="background">Фон</string>
     <string name="date_color">Цвет даты</string>
     <string name="date_font">Шрифт даты</string>
     <string name="conversation_background_images">Картинки</string>
     <string name="conversation_background_colour">Цвет</string>
-    <string name="have_you_checked_out_the_customizations_in_chomp">Ты видел настройки внешнего вида в chomp?</string>
-    <string name="ill_have_a_look_now">Сейчас гляну.</string>
+    <string name="have_you_checked_out_the_customizations_in_chomp2">Ты видел настройки внешнего вида в chomp https://play.google.com/store/apps/details?id=com.p1.chompsms ?</string>
+    <string name="ill_have_a_look_now2">Сейчас гляну. У них ещё есть сайт: http://chompsms.com</string>
     <string name="i_love_customizing_the_look_and_feel_of_everything">Мне нравится настраивать внешний вид.</string>
     <string name="the_best_part_about_it_is_that_you_can_now_share_themes_with_all_of_your_friends">Классно, теперь можно делиться своими темами с друзьями. Говорят, скоро будет ещё больше настроек!</string>
     <string name="check_out_my_theme">Посмотри мою тему!</string>
@@ -817,6 +838,10 @@
     <string name="favourites">Избранные</string>
     <string name="number_of_contacts">Количество контактов: %1$d</string>
     <string name="number_of_contacts_empty">Количество контактов:</string>
+    <string name="pick_contacts_title">Выберите контакты</string>
+    <string name="conversation_pickcontacts_1_contact">1 контакт</string>
+    <string name="conversation_pickcontacts_n_contacts">%1$d контактов</string>
+    <string name="pick_contacts_merging_progress">Обработка групп…</string>
 
     <!--
     Notifications
@@ -923,6 +948,7 @@
     -->
     <string name="ok">OK</string>
     <string name="cancel">Отмена</string>
+    <string name="cancel_uppercase">ОТМЕНА</string>
     <string name="more_link">Больше…</string>
     <string name="less_link">Меньше…</string>
 
@@ -944,8 +970,12 @@
     <string name="rate_chomp_summary">Может быть, вы могли бы оставить нам отзыв на Google Play?</string>
     <string name="sure">Конечно!</string>
     <string name="google_play">Google Play</string>
-    <string name="pocket_change">Pocket Change</string>
-    <string name="pocket_change_intro">Pocket Change (частично финансируется Google) — это универсальная виртуальная валюта.\n\nМы ежедневно дарим пользователям chompSMS несколько Pocket Change, чтобы доставить вам радость.\n\nВы можете потратить их в магазине Pocket Change на предметы вроде подарочных карт Amazon.</string>
-    <string name="yes_give_me_pocket_change">Да! Дайте мне Pocket Change!</string>
-    <string name="visit_pocket_change_shop">Посетить магазин Pocket Change</string>
+    <string name="invalid_destination">Неверный адрес.</string>
+    <string name="service_not_activated">Сервис не активирован.</string>
+    <string name="service_message_not_found">Сообщение недоступно либо срок хранения истек.</string>
+    <string name="service_network_problem">Невозможно отправить, проблема в сети MMS.</string>
+    <string name="messagelist_sender_self">Я</string>
+    <string name="sent_on">Отправлено: %s</string>
+	<string name="broadcast_from_to">От %1$s к %2$s</string>
+    <string name="cannot_forward_drm_obj">Включенный в сообщение объект DRM нельзя переслать.</string>
 </resources>
