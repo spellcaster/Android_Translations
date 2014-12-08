@@ -2953,4 +2953,11 @@
 	<string name="custom_popup_reply_hint">Yes, I think so!</string>
 	<string name="custom_convlist_message_hint1">Let's talk about it later</string>
 	<string name="custom_convlist_message_hint2">Do you mind if I ask you a favor?</string>
+	<string name="custom_conversation_edittext_preview_text">Hey, how is it going?</string>					
+
+	<string name="string_emotion_smileys">Emotion smileys</string>
+	<string name="pull_to_refresh_pull_label">Pull to refresh</string>
+	<string name="pull_to_refresh_release_label">Loose to refresh</string>
+	<string name="pull_to_refresh_footer_release_label">Loose to load</string>
+	<string name="pull_to_refresh_footer_pull_label">Pull to load more</string>
 </resources>

@@ -2716,6 +2716,14 @@
 	<string name="custom_popup_reply_hint">Да, пожалуй!</string>
 	<string name="custom_convlist_message_hint1">Обсудим это позже</string>
 	<string name="custom_convlist_message_hint2">Можно попросить тебя об услуге?</string>				
+	<string name="custom_conversation_edittext_preview_text">Привет, как дела?</string>					
+	<string name="string_emotion_smileys">Смайлики</string>
+
+<!-- left for the future -->
+	<string name="pull_to_refresh_pull_label">Pull to refresh</string>
+	<string name="pull_to_refresh_release_label">Loose to refresh</string>
+	<string name="pull_to_refresh_footer_release_label">Loose to load</string>
+	<string name="pull_to_refresh_footer_pull_label">Pull to load more</string>
 
 
 </resources>
